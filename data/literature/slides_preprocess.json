@@ -1,0 +1,36 @@
+{
+ "format": "scs-instance/1",
+ "id": "slides_preprocess",
+ "family": "literature",
+ "strings": [
+  "ATT",
+  "TT",
+  "TTA",
+  "ATT",
+  "TAC"
+ ],
+ "params": {},
+ "seed": null,
+ "citation": "Project proposal slides",
+ "known": {
+  "opt": 5,
+  "greedy_bad": 5
+ },
+ "tie_priority": [],
+ "notes": "",
+ "symbols": {},
+ "verified": {
+  "n": 3,
+  "total_length": 9,
+  "opt": 5,
+  "opt_method": "certificate",
+  "opt_superstring": "ATTAC",
+  "opt_matches_reported": true,
+  "greedy_first": 5,
+  "greedy_all_lengths": [
+   5
+  ],
+  "greedy_states": 4,
+  "greedy_worst_superstring": "ATTAC"
+ }
+}

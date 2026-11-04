@@ -1,0 +1,42 @@
+{
+ "format": "scs-instance/1",
+ "id": "slides_greedy_fail",
+ "family": "literature",
+ "strings": [
+  "AABA",
+  "ABAA",
+  "BAB"
+ ],
+ "params": {},
+ "seed": null,
+ "citation": "Project proposal slides",
+ "known": {
+  "opt": 7,
+  "greedy_bad": 8
+ },
+ "tie_priority": [
+  [
+   "AABA",
+   "ABAA"
+  ]
+ ],
+ "notes": "",
+ "symbols": {},
+ "verified": {
+  "n": 3,
+  "total_length": 11,
+  "opt": 7,
+  "opt_method": "dp",
+  "opt_superstring": "BABAABA",
+  "opt_matches_reported": true,
+  "greedy_paper": 8,
+  "greedy_paper_superstring": "AABAABAB",
+  "greedy_matches_reported": true,
+  "greedy_first": 8,
+  "greedy_all_lengths": [
+   8
+  ],
+  "greedy_states": 2,
+  "greedy_worst_superstring": "AABAABAB"
+ }
+}

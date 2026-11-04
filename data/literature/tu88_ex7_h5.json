@@ -1,0 +1,45 @@
+{
+ "format": "scs-instance/1",
+ "id": "tu88_ex7_h5",
+ "family": "literature",
+ "strings": [
+  "abbbbb",
+  "bbbbbb",
+  "bbbbba"
+ ],
+ "params": {
+  "h": 5
+ },
+ "seed": null,
+ "citation": "Tarhio & Ukkonen, A greedy approximation algorithm for constructing shortest common superstrings, TCS 57 (1988) 131-145, Example 7",
+ "known": {
+  "opt": 8,
+  "greedy_bad": 13
+ },
+ "tie_priority": [
+  [
+   "abbbbb",
+   "bbbbba"
+  ]
+ ],
+ "notes": "Greedy ratio (2h+3)/(h+3) -> 2; the classic tight-2 family.",
+ "symbols": {},
+ "verified": {
+  "n": 3,
+  "total_length": 18,
+  "opt": 8,
+  "opt_method": "certificate",
+  "opt_superstring": "abbbbbba",
+  "opt_matches_reported": true,
+  "greedy_paper": 13,
+  "greedy_paper_superstring": "bbbbbbabbbbba",
+  "greedy_matches_reported": true,
+  "greedy_first": 8,
+  "greedy_all_lengths": [
+   8,
+   13
+  ],
+  "greedy_states": 5,
+  "greedy_worst_superstring": "abbbbbabbbbbb"
+ }
+}

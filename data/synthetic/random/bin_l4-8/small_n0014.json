@@ -1,0 +1,744 @@
+{
+ "format": "scs-batch/1",
+ "name": "random/bin_l4-8@small/n=14",
+ "family": "random",
+ "params": {
+  "length": [
+   4,
+   8
+  ],
+  "alphabet": "AB",
+  "n": 14
+ },
+ "master_seed": 20261105,
+ "python": "3.14.5",
+ "implementation": "CPython",
+ "platform": "Linux-7.0.6-arch1-1-x86_64-with-glibc2.43",
+ "created": "2026-11-04T17:52:48+00:00",
+ "command": "generate_instances.py --tier tiny --tier small --tier large",
+ "tier": "small",
+ "variant": "random/bin_l4-8",
+ "seed_scheme": "derive_seed(master_seed, variant, n, index)",
+ "instances": [
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 14,
+    "length": [
+     4,
+     8
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 7837968389775086442,
+   "strings": [
+    "BBBABAAA",
+    "AAABAA",
+    "BAABABA",
+    "BBAAA",
+    "BBBABABB",
+    "ABAAAAA",
+    "AAABBB",
+    "BABAABB",
+    "AAAAAB",
+    "AABAAA",
+    "BAABABB",
+    "BBBBBB",
+    "ABAABAB",
+    "ABBABAA"
+   ],
+   "raw_draws": 24,
+   "id": "random_bin_l4-8_n0014_000",
+   "index": 0,
+   "n_reduced": 14,
+   "total_length": 93
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 14,
+    "length": [
+     4,
+     8
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 8225753088464651739,
+   "strings": [
+    "AAABAA",
+    "BAABB",
+    "BABBBA",
+    "AABBB",
+    "AABAAAA",
+    "AAAAAABB",
+    "BAAAABB",
+    "ABBBAA",
+    "ABBABBBB",
+    "BABABAA",
+    "ABABABAB",
+    "ABBBBABA",
+    "BBAAA",
+    "ABBBABBB"
+   ],
+   "raw_draws": 19,
+   "id": "random_bin_l4-8_n0014_001",
+   "index": 1,
+   "n_reduced": 14,
+   "total_length": 94
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 14,
+    "length": [
+     4,
+     8
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 7117321915670322257,
+   "strings": [
+    "BBABAAB",
+    "BBBBBABA",
+    "AABBBA",
+    "AABBBB",
+    "ABBAABBB",
+    "BBBABB",
+    "AABABAA",
+    "AAABAAB",
+    "BBAAAAA",
+    "BBBAA",
+    "BAABABBA",
+    "BABAABB",
+    "AAAAB",
+    "BABBBB"
+   ],
+   "raw_draws": 30,
+   "id": "random_bin_l4-8_n0014_002",
+   "index": 2,
+   "n_reduced": 14,
+   "total_length": 93
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 14,
+    "length": [
+     4,
+     8
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 2686940722698694628,
+   "strings": [
+    "BBBBAAAB",
+    "ABBBABB",
+    "AABABBBB",
+    "ABBA",
+    "BBBBAB",
+    "BABAAAAA",
+    "BAABBBAA",
+    "BBBBB",
+    "ABAAAABB",
+    "ABBBAAAA",
+    "BBABA",
+    "ABABABB",
+    "AABAAAB",
+    "ABAABAAB"
+   ],
+   "raw_draws": 28,
+   "id": "random_bin_l4-8_n0014_003",
+   "index": 3,
+   "n_reduced": 14,
+   "total_length": 97
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 14,
+    "length": [
+     4,
+     8
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 6574914742594072022,
+   "strings": [
+    "AABBAB",
+    "BAABABBA",
+    "ABBBB",
+    "BBBBABAA",
+    "BBABBB",
+    "BABBBA",
+    "AAAAAAA",
+    "BABABAAB",
+    "ABAAAAB",
+    "BBABBAA",
+    "AABAAABB",
+    "ABAABA",
+    "ABBBABA",
+    "BBBBABAB"
+   ],
+   "raw_draws": 20,
+   "id": "random_bin_l4-8_n0014_004",
+   "index": 4,
+   "n_reduced": 14,
+   "total_length": 97
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 14,
+    "length": [
+     4,
+     8
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 7311668199378933117,
+   "strings": [
+    "BABABA",
+    "ABAABB",
+    "BBBBBA",
+    "BABBABAB",
+    "ABAAABA",
+    "AAAAAB",
+    "ABABAAA",
+    "AAAABB",
+    "AABBABB",
+    "BBABBAB",
+    "AAABBA",
+    "ABBABAA",
+    "BAABBB",
+    "ABABB"
+   ],
+   "raw_draws": 27,
+   "id": "random_bin_l4-8_n0014_005",
+   "index": 5,
+   "n_reduced": 14,
+   "total_length": 90
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 14,
+    "length": [
+     4,
+     8
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 5495081116898734694,
+   "strings": [
+    "BBAAA",
+    "ABBABA",
+    "BBBBBAAB",
+    "AAAABAA",
+    "BBAABAA",
+    "BABABB",
+    "AAABBB",
+    "BBBBBBA",
+    "BABBBAA",
+    "BBBBABA",
+    "BABABAAB",
+    "BAABAAAA",
+    "ABABBBB",
+    "BAAAB"
+   ],
+   "raw_draws": 20,
+   "id": "random_bin_l4-8_n0014_006",
+   "index": 6,
+   "n_reduced": 14,
+   "total_length": 94
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 14,
+    "length": [
+     4,
+     8
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 804472792963763976,
+   "strings": [
+    "ABABAAAB",
+    "BBBBAAA",
+    "BAAAABAA",
+    "ABABBBB",
+    "AABABAA",
+    "ABBBBABA",
+    "BBAAB",
+    "AABAABA",
+    "AAABBABA",
+    "AABAABB",
+    "BABBAA",
+    "BAABAAA",
+    "BBBABBBA",
+    "ABBAAABB"
+   ],
+   "raw_draws": 29,
+   "id": "random_bin_l4-8_n0014_007",
+   "index": 7,
+   "n_reduced": 14,
+   "total_length": 101
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 14,
+    "length": [
+     4,
+     8
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 7011676044292986037,
+   "strings": [
+    "BAABBBBB",
+    "AABBAABA",
+    "AABBAAAA",
+    "ABAABA",
+    "AAABBABB",
+    "AABBBA",
+    "ABAAAB",
+    "BBABBBBA",
+    "ABBABAAA",
+    "ABAAAABB",
+    "ABBBAA",
+    "BAAAABAB",
+    "BBABBAAA",
+    "AAABBAA"
+   ],
+   "raw_draws": 22,
+   "id": "random_bin_l4-8_n0014_008",
+   "index": 8,
+   "n_reduced": 14,
+   "total_length": 103
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 14,
+    "length": [
+     4,
+     8
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 400899265703616163,
+   "strings": [
+    "ABBAAA",
+    "AAAABBA",
+    "BBBBBAA",
+    "BABABAB",
+    "BAABBBBA",
+    "BBBBABB",
+    "BBBABA",
+    "BBBAAABB",
+    "BBAABBB",
+    "BBABAA",
+    "AAAABA",
+    "AAABAABB",
+    "AAAAAAA",
+    "BABABB"
+   ],
+   "raw_draws": 23,
+   "id": "random_bin_l4-8_n0014_009",
+   "index": 9,
+   "n_reduced": 14,
+   "total_length": 96
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 14,
+    "length": [
+     4,
+     8
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 6941262038592450536,
+   "strings": [
+    "BAAAABB",
+    "ABAAAABA",
+    "AABBBB",
+    "BBAAAB",
+    "ABBBABBB",
+    "BAABB",
+    "AABABBAA",
+    "AABAAAB",
+    "BBBABABA",
+    "BAAAAAA",
+    "ABBBAABA",
+    "BABABABA",
+    "BBBBBBA",
+    "BABAABA"
+   ],
+   "raw_draws": 29,
+   "id": "random_bin_l4-8_n0014_010",
+   "index": 10,
+   "n_reduced": 14,
+   "total_length": 100
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 14,
+    "length": [
+     4,
+     8
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 4439846338108906442,
+   "strings": [
+    "BBAABB",
+    "BAABBBAA",
+    "BABBBAB",
+    "BABBBB",
+    "BAABBABB",
+    "BABBABBB",
+    "BABABA",
+    "BAAAABA",
+    "ABABB",
+    "BAAABB",
+    "BBAAAAB",
+    "BABAAB",
+    "BBBAAAAA",
+    "BBAABABA"
+   ],
+   "raw_draws": 19,
+   "id": "random_bin_l4-8_n0014_011",
+   "index": 11,
+   "n_reduced": 14,
+   "total_length": 96
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 14,
+    "length": [
+     4,
+     8
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 7195691672972109440,
+   "strings": [
+    "BBABB",
+    "BAAAABB",
+    "ABABAB",
+    "BABAAA",
+    "BABBA",
+    "BBBAAABA",
+    "BABABAA",
+    "ABBBA",
+    "ABAAABB",
+    "AABAAABA",
+    "AAABAAB",
+    "BAABABBB",
+    "AAAAABBA",
+    "AABBAAB"
+   ],
+   "raw_draws": 20,
+   "id": "random_bin_l4-8_n0014_012",
+   "index": 12,
+   "n_reduced": 14,
+   "total_length": 94
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 14,
+    "length": [
+     4,
+     8
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 1359819879292388704,
+   "strings": [
+    "ABBBBAB",
+    "ABBAABB",
+    "BBBAAAA",
+    "ABBAAAB",
+    "ABABABAB",
+    "BBABBB",
+    "AABABAA",
+    "BBABABB",
+    "AAAABAB",
+    "BAABBAA",
+    "ABBBBBB",
+    "BBBBBAAB",
+    "ABAABAB",
+    "AAAAA"
+   ],
+   "raw_draws": 34,
+   "id": "random_bin_l4-8_n0014_013",
+   "index": 13,
+   "n_reduced": 14,
+   "total_length": 97
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 14,
+    "length": [
+     4,
+     8
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 7069244845486347652,
+   "strings": [
+    "AAAAABA",
+    "BABABB",
+    "BABBA",
+    "BAAAABA",
+    "ABBAA",
+    "BBABAAA",
+    "ABBBAB",
+    "AABBABA",
+    "BBAAAB",
+    "ABAAABA",
+    "ABAAB",
+    "AAAABB",
+    "ABBBAA",
+    "AAABBA"
+   ],
+   "raw_draws": 22,
+   "id": "random_bin_l4-8_n0014_014",
+   "index": 14,
+   "n_reduced": 14,
+   "total_length": 86
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 14,
+    "length": [
+     4,
+     8
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 6976375337515377695,
+   "strings": [
+    "AABAAAAA",
+    "ABABBAAB",
+    "BABBAAAA",
+    "ABBABAA",
+    "BABBAB",
+    "BBBABAA",
+    "BBABABB",
+    "BBABBB",
+    "ABABAABB",
+    "BABBAABB",
+    "BAABBBA",
+    "AAAABB",
+    "BBBBAAB",
+    "ABBBABBA"
+   ],
+   "raw_draws": 21,
+   "id": "random_bin_l4-8_n0014_015",
+   "index": 15,
+   "n_reduced": 14,
+   "total_length": 101
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 14,
+    "length": [
+     4,
+     8
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 9160107582960116745,
+   "strings": [
+    "ABBAAAAB",
+    "AABAABBA",
+    "BABAAA",
+    "BBBBBBB",
+    "BBAABA",
+    "ABAAABB",
+    "ABAABABA",
+    "BABBBBBB",
+    "BBBBAB",
+    "ABAAAABB",
+    "ABBABAB",
+    "BABAAB",
+    "BAAAAAA",
+    "BBBAABB"
+   ],
+   "raw_draws": 25,
+   "id": "random_bin_l4-8_n0014_016",
+   "index": 16,
+   "n_reduced": 14,
+   "total_length": 99
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 14,
+    "length": [
+     4,
+     8
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 9094932067195890542,
+   "strings": [
+    "ABAAAA",
+    "AAABAA",
+    "AABAB",
+    "ABBABAB",
+    "BBBABAA",
+    "BABAABB",
+    "ABBBAABA",
+    "AAAAAABB",
+    "ABBABAA",
+    "ABBABBBB",
+    "BAABBBAA",
+    "BABBA",
+    "ABAABA",
+    "AABBA"
+   ],
+   "raw_draws": 19,
+   "id": "random_bin_l4-8_n0014_017",
+   "index": 17,
+   "n_reduced": 14,
+   "total_length": 93
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 14,
+    "length": [
+     4,
+     8
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 6378527233103782267,
+   "strings": [
+    "BABBA",
+    "BAABBBB",
+    "BABABABB",
+    "BAAABA",
+    "BBBBBAB",
+    "AAAABAB",
+    "BAABABAA",
+    "AABABAB",
+    "BBABBBAA",
+    "BBAABABB",
+    "BBAAABB",
+    "BABAAAB",
+    "BBBBBAAB",
+    "ABBABAA"
+   ],
+   "raw_draws": 18,
+   "id": "random_bin_l4-8_n0014_018",
+   "index": 18,
+   "n_reduced": 14,
+   "total_length": 100
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 14,
+    "length": [
+     4,
+     8
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 8153746231615897281,
+   "strings": [
+    "BABABAB",
+    "BBABAABA",
+    "AAABBA",
+    "ABABBBBA",
+    "BAABAAA",
+    "BAABBBB",
+    "ABAAAB",
+    "AABBABB",
+    "BAABBBA",
+    "ABABAAB",
+    "BBAAABB",
+    "ABABABB",
+    "ABBAABAA",
+    "BBBBBABA"
+   ],
+   "raw_draws": 22,
+   "id": "random_bin_l4-8_n0014_019",
+   "index": 19,
+   "n_reduced": 14,
+   "total_length": 100
+  }
+ ]
+}

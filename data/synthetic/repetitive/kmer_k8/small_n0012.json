@@ -1,0 +1,807 @@
+{
+ "format": "scs-batch/1",
+ "name": "repetitive/kmer_k8@small/n=12",
+ "family": "repetitive",
+ "params": {
+  "mode": "kmer",
+  "k": 8,
+  "motif_length": [
+   3,
+   5
+  ],
+  "mutation_rate": 0.1,
+  "alphabet": "ACGT",
+  "n": 12
+ },
+ "master_seed": 20261105,
+ "python": "3.14.5",
+ "implementation": "CPython",
+ "platform": "Linux-7.0.6-arch1-1-x86_64-with-glibc2.43",
+ "created": "2026-11-04T17:52:48+00:00",
+ "command": "generate_instances.py --tier tiny --tier small --tier large",
+ "tier": "small",
+ "variant": "repetitive/kmer_k8",
+ "seed_scheme": "derive_seed(master_seed, variant, n, index)",
+ "instances": [
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "mode": "kmer",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "k": 8,
+    "motif_length": [
+     3,
+     5
+    ],
+    "mutation_rate": 0.1
+   },
+   "seed": 7596683857764213888,
+   "strings": [
+    "TATGTTAG",
+    "TCTATGTA",
+    "TATGTATG",
+    "ATGTTAGT",
+    "ATGTATGT",
+    "TGTTAGTA",
+    "GTATGTTA",
+    "CTATGTAT",
+    "TTAGTATG",
+    "ATCTATGT",
+    "GTTAGTAT",
+    "TGTATGTT"
+   ],
+   "source": "ATCTATGTATGTTAGTATG",
+   "motif": "ATGT",
+   "repeated_kmers": 0,
+   "id": "repetitive_kmer_k8_n0012_000",
+   "index": 0,
+   "n_reduced": 12,
+   "total_length": 96
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "mode": "kmer",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "k": 8,
+    "motif_length": [
+     3,
+     5
+    ],
+    "mutation_rate": 0.1
+   },
+   "seed": 3220629055518455292,
+   "strings": [
+    "ACAATAAT",
+    "CAATAATA",
+    "TAATAATA",
+    "AACAATAA",
+    "ATAATAAC",
+    "TAACAATA",
+    "AATAATAA",
+    "AATAACAA",
+    "ATAACAAT",
+    "TAATAACA",
+    "ATAATAAT",
+    "AATAATAT"
+   ],
+   "source": "ATAATAATAACAATAATAT",
+   "motif": "ATA",
+   "repeated_kmers": 0,
+   "id": "repetitive_kmer_k8_n0012_001",
+   "index": 1,
+   "n_reduced": 12,
+   "total_length": 96
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "mode": "kmer",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "k": 8,
+    "motif_length": [
+     3,
+     5
+    ],
+    "mutation_rate": 0.1
+   },
+   "seed": 8321607771449035938,
+   "strings": [
+    "CCTGGCTA",
+    "TGGCTACC",
+    "CCTACCTA",
+    "CTACCTAC",
+    "GGCTACCT",
+    "CTACCTGG",
+    "CTGGCTAC",
+    "ACCTGGCT",
+    "TACCTACC",
+    "ACCTACCT",
+    "CCTACCTG",
+    "TACCTGGC"
+   ],
+   "source": "CCTACCTACCTGGCTACCT",
+   "motif": "CCTA",
+   "repeated_kmers": 0,
+   "id": "repetitive_kmer_k8_n0012_002",
+   "index": 2,
+   "n_reduced": 12,
+   "total_length": 96
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "mode": "kmer",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "k": 8,
+    "motif_length": [
+     3,
+     5
+    ],
+    "mutation_rate": 0.1
+   },
+   "seed": 8499173614932418095,
+   "strings": [
+    "GGCAGGGC",
+    "GCAGGGCA",
+    "GGGCAGAG",
+    "GCAGGGCC",
+    "AGCAGGGC",
+    "AGGGCAGA",
+    "AGAGCAGG",
+    "CAGGGCAG",
+    "CAGAGCAG",
+    "GAGCAGGG",
+    "GGCAGAGC",
+    "GCAGAGCA"
+   ],
+   "source": "GGCAGGGCAGAGCAGGGCC",
+   "motif": "GGCAG",
+   "repeated_kmers": 0,
+   "id": "repetitive_kmer_k8_n0012_003",
+   "index": 3,
+   "n_reduced": 12,
+   "total_length": 96
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "mode": "kmer",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "k": 8,
+    "motif_length": [
+     3,
+     5
+    ],
+    "mutation_rate": 0.1
+   },
+   "seed": 1914961981184180941,
+   "strings": [
+    "GTAACGAA",
+    "TAACGAAC",
+    "AGTAACGA",
+    "AAGTAACG",
+    "AAATAAGT",
+    "ATAAGTAA",
+    "GAACTACT",
+    "AACGAACT",
+    "TAAGTAAC",
+    "CGAACTAC",
+    "ACGAACTA",
+    "AATAAGTA"
+   ],
+   "source": "AAATAAGTAACGAACTACT",
+   "motif": "AACT",
+   "repeated_kmers": 0,
+   "id": "repetitive_kmer_k8_n0012_004",
+   "index": 4,
+   "n_reduced": 12,
+   "total_length": 96
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "mode": "kmer",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "k": 8,
+    "motif_length": [
+     3,
+     5
+    ],
+    "mutation_rate": 0.1
+   },
+   "seed": 6100407665704309105,
+   "strings": [
+    "TACTAATA",
+    "AATCATAA",
+    "ATAATCAT",
+    "TAATCATA",
+    "ACTAATAA",
+    "AATAATCA",
+    "CTAATAAT",
+    "ATACTAAT",
+    "TAATAATA",
+    "AATAATAA",
+    "TAATAATC",
+    "ATAATAAT"
+   ],
+   "source": "ATACTAATAATAATCATAA",
+   "motif": "ATA",
+   "repeated_kmers": 0,
+   "id": "repetitive_kmer_k8_n0012_005",
+   "index": 5,
+   "n_reduced": 12,
+   "total_length": 96
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "mode": "kmer",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "k": 8,
+    "motif_length": [
+     3,
+     5
+    ],
+    "mutation_rate": 0.1
+   },
+   "seed": 3947412177370375913,
+   "strings": [
+    "GTACGAAC",
+    "GGACGTAC",
+    "CGGACGTA",
+    "GACGTACG",
+    "ACGGACGT",
+    "CGTACGAA",
+    "ACGTACGA",
+    "ACGAACGG",
+    "GACGGACG",
+    "TACGAACG",
+    "CGAACGGA",
+    "GAACGGAC"
+   ],
+   "source": "GACGGACGTACGAACGGAC",
+   "motif": "GACG",
+   "repeated_kmers": 0,
+   "id": "repetitive_kmer_k8_n0012_006",
+   "index": 6,
+   "n_reduced": 12,
+   "total_length": 96
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "mode": "kmer",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "k": 8,
+    "motif_length": [
+     3,
+     5
+    ],
+    "mutation_rate": 0.1
+   },
+   "seed": 6663302132222939758,
+   "strings": [
+    "GGAGAGGA",
+    "AGGACAGG",
+    "CAGGACAG",
+    "GACAGGAC",
+    "GAGGACAG",
+    "GGACAGAA",
+    "ACAGGACA",
+    "AGGACAGA",
+    "GAGAGGAC",
+    "GGACAGGA",
+    "AGAGGACA",
+    "GACAGAAT"
+   ],
+   "source": "GGAGAGGACAGGACAGAAT",
+   "motif": "GGACA",
+   "repeated_kmers": 0,
+   "id": "repetitive_kmer_k8_n0012_007",
+   "index": 7,
+   "n_reduced": 12,
+   "total_length": 96
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "mode": "kmer",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "k": 8,
+    "motif_length": [
+     3,
+     5
+    ],
+    "mutation_rate": 0.1
+   },
+   "seed": 7937611322415548465,
+   "strings": [
+    "TGCTCTGC",
+    "CTTTGCTC",
+    "TTTGCTCT",
+    "GCTCTGTT",
+    "GCTTTGCT",
+    "TCTGCTTT",
+    "GCTCTGCT",
+    "CTGCTTTG",
+    "TGCTCTGT",
+    "TTGCTCTG",
+    "CTCTGCTT",
+    "TGCTTTGC"
+   ],
+   "source": "TGCTCTGCTTTGCTCTGTT",
+   "motif": "TGCTC",
+   "repeated_kmers": 0,
+   "id": "repetitive_kmer_k8_n0012_008",
+   "index": 8,
+   "n_reduced": 12,
+   "total_length": 96
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "mode": "kmer",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "k": 8,
+    "motif_length": [
+     3,
+     5
+    ],
+    "mutation_rate": 0.1
+   },
+   "seed": 4858091892762682981,
+   "strings": [
+    "GTGCCGTT",
+    "CGTGCCGT",
+    "GTTACGTT",
+    "ACGTGCCG",
+    "TACGTTAC",
+    "GCCGTTAC",
+    "TTACGTTA",
+    "TTACGTGC",
+    "TACGTGCC",
+    "CCGTTACG",
+    "TGCCGTTA",
+    "CGTTACGT"
+   ],
+   "source": "TTACGTGCCGTTACGTTAC",
+   "motif": "TTACG",
+   "repeated_kmers": 0,
+   "id": "repetitive_kmer_k8_n0012_009",
+   "index": 9,
+   "n_reduced": 12,
+   "total_length": 96
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "mode": "kmer",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "k": 8,
+    "motif_length": [
+     3,
+     5
+    ],
+    "mutation_rate": 0.1
+   },
+   "seed": 6110403356425093720,
+   "strings": [
+    "AGAGCAGA",
+    "AACAGAAC",
+    "CAGAACAG",
+    "CAGAGCAG",
+    "AACAGAGC",
+    "CCGAACAG",
+    "ACAGAGCA",
+    "AGAACAGA",
+    "GAACAGAG",
+    "ACAGAACA",
+    "CGAACAGA",
+    "GAACAGAA"
+   ],
+   "source": "CCGAACAGAACAGAGCAGA",
+   "motif": "CAGAG",
+   "repeated_kmers": 0,
+   "id": "repetitive_kmer_k8_n0012_010",
+   "index": 10,
+   "n_reduced": 12,
+   "total_length": 96
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "mode": "kmer",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "k": 8,
+    "motif_length": [
+     3,
+     5
+    ],
+    "mutation_rate": 0.1
+   },
+   "seed": 3594062654765262804,
+   "strings": [
+    "GAGTCAGT",
+    "CAGTCACT",
+    "CTGAGTCA",
+    "GTCAGTCA",
+    "TCACTGAG",
+    "ACTGAGTC",
+    "AGTCAGTC",
+    "TGAGTCAG",
+    "CACTGAGT",
+    "AGTCACTG",
+    "GTCACTGA",
+    "TCAGTCAC"
+   ],
+   "source": "TCAGTCACTGAGTCAGTCA",
+   "motif": "TCAG",
+   "repeated_kmers": 0,
+   "id": "repetitive_kmer_k8_n0012_011",
+   "index": 11,
+   "n_reduced": 12,
+   "total_length": 96
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "mode": "kmer",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "k": 8,
+    "motif_length": [
+     3,
+     5
+    ],
+    "mutation_rate": 0.1
+   },
+   "seed": 7532222790208717726,
+   "strings": [
+    "CAGCCGCC",
+    "CGCAGCCG",
+    "GCCGCCGG",
+    "CGCCGCAG",
+    "GCAGCCGC",
+    "CCGCAGCC",
+    "CCGCCGGC",
+    "CGCCGGCG",
+    "GCCGCAGC",
+    "CCGCCGCA",
+    "GCCGCCGC",
+    "AGCCGCCG"
+   ],
+   "source": "GCCGCCGCAGCCGCCGGCG",
+   "motif": "GCC",
+   "repeated_kmers": 0,
+   "id": "repetitive_kmer_k8_n0012_012",
+   "index": 12,
+   "n_reduced": 12,
+   "total_length": 96
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "mode": "kmer",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "k": 8,
+    "motif_length": [
+     3,
+     5
+    ],
+    "mutation_rate": 0.1
+   },
+   "seed": 4416618728023102599,
+   "strings": [
+    "CAACTAAC",
+    "AACCAACT",
+    "TAACTAAC",
+    "AACTAACC",
+    "ACTAACTA",
+    "CCAACTAA",
+    "ACTAACCA",
+    "TAACCAAC",
+    "CTAACCAA",
+    "AACTAACT",
+    "CTAACTAA",
+    "ACCAACTA"
+   ],
+   "source": "AACTAACCAACTAACTAAC",
+   "motif": "AACT",
+   "repeated_kmers": 0,
+   "id": "repetitive_kmer_k8_n0012_013",
+   "index": 13,
+   "n_reduced": 12,
+   "total_length": 96
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "mode": "kmer",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "k": 8,
+    "motif_length": [
+     3,
+     5
+    ],
+    "mutation_rate": 0.1
+   },
+   "seed": 1514749803752081370,
+   "strings": [
+    "TTGCTTCA",
+    "GGTTGATT",
+    "GATTGATT",
+    "ATTGATTG",
+    "ATTGCTTC",
+    "TTGATTGC",
+    "GTTGATTG",
+    "GATTGCTT",
+    "TTGATTGA",
+    "TGATTGAT",
+    "TGGTTGAT",
+    "TGATTGCT"
+   ],
+   "source": "TGGTTGATTGATTGCTTCA",
+   "motif": "TGAT",
+   "repeated_kmers": 0,
+   "id": "repetitive_kmer_k8_n0012_014",
+   "index": 14,
+   "n_reduced": 12,
+   "total_length": 96
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "mode": "kmer",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "k": 8,
+    "motif_length": [
+     3,
+     5
+    ],
+    "mutation_rate": 0.1
+   },
+   "seed": 6804820389585725426,
+   "strings": [
+    "CTCACCTC",
+    "CTCACCCC",
+    "CACCTCGC",
+    "CCTCGCCT",
+    "TCACCTCG",
+    "CTCGCCTC",
+    "CGCCTCAC",
+    "GCCTCACC",
+    "CCTCACCC",
+    "CCTCACCT",
+    "TCGCCTCA",
+    "ACCTCGCC"
+   ],
+   "source": "CCTCACCTCGCCTCACCCC",
+   "motif": "CCTCA",
+   "repeated_kmers": 0,
+   "id": "repetitive_kmer_k8_n0012_015",
+   "index": 15,
+   "n_reduced": 12,
+   "total_length": 96
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "mode": "kmer",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "k": 8,
+    "motif_length": [
+     3,
+     5
+    ],
+    "mutation_rate": 0.1
+   },
+   "seed": 5122797090587849867,
+   "strings": [
+    "GAGGACAA",
+    "GGCGAGGA",
+    "AACGACGA",
+    "GACAACGA",
+    "CGGCGAGG",
+    "CAACGACG",
+    "ACGGCGAG",
+    "AGGACAAC",
+    "GCGAGGAC",
+    "GGACAACG",
+    "CGAGGACA",
+    "ACAACGAC"
+   ],
+   "source": "ACGGCGAGGACAACGACGA",
+   "motif": "ACG",
+   "repeated_kmers": 0,
+   "id": "repetitive_kmer_k8_n0012_016",
+   "index": 16,
+   "n_reduced": 12,
+   "total_length": 96
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "mode": "kmer",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "k": 8,
+    "motif_length": [
+     3,
+     5
+    ],
+    "mutation_rate": 0.1
+   },
+   "seed": 2682490068909939041,
+   "strings": [
+    "TCCGACCG",
+    "CGACCGTC",
+    "GTCCTTCC",
+    "CCTTCCGT",
+    "TCCTTCCG",
+    "CTTCCGTC",
+    "CCGTCCTT",
+    "CCGACCGT",
+    "ACCGTCCT",
+    "CGTCCTTC",
+    "GACCGTCC",
+    "GTCCGACC"
+   ],
+   "source": "GTCCGACCGTCCTTCCGTC",
+   "motif": "GTCC",
+   "repeated_kmers": 0,
+   "id": "repetitive_kmer_k8_n0012_017",
+   "index": 17,
+   "n_reduced": 12,
+   "total_length": 96
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "mode": "kmer",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "k": 8,
+    "motif_length": [
+     3,
+     5
+    ],
+    "mutation_rate": 0.1
+   },
+   "seed": 8743466293791915429,
+   "strings": [
+    "GCAGGCAG",
+    "GCAGGCGG",
+    "AGGCAGGC",
+    "AGGCGGGC",
+    "GGCAGGCG",
+    "CGGGCAGG",
+    "GCGGGCAG",
+    "CAGGCAGG",
+    "GGCGGGCA",
+    "CAGGCGGG",
+    "GGCAGGCA",
+    "GGGCAGGC"
+   ],
+   "source": "CAGGCAGGCGGGCAGGCAG",
+   "motif": "CAGG",
+   "repeated_kmers": 0,
+   "id": "repetitive_kmer_k8_n0012_018",
+   "index": 18,
+   "n_reduced": 12,
+   "total_length": 96
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "mode": "kmer",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "k": 8,
+    "motif_length": [
+     3,
+     5
+    ],
+    "mutation_rate": 0.1
+   },
+   "seed": 8918152924788175824,
+   "strings": [
+    "GTTTAGTT",
+    "TTAATTTA",
+    "TAGTTTAG",
+    "AGTTTAAT",
+    "AGTTTAGT",
+    "TTTAATTT",
+    "TAATTTAG",
+    "AATTTAGT",
+    "GTTTAATT",
+    "TTAGTTTA",
+    "TTTAGTTT",
+    "TAGTTTAA"
+   ],
+   "source": "TAGTTTAGTTTAATTTAGT",
+   "motif": "TAGTT",
+   "repeated_kmers": 0,
+   "id": "repetitive_kmer_k8_n0012_019",
+   "index": 19,
+   "n_reduced": 12,
+   "total_length": 96
+  }
+ ]
+}

@@ -1,0 +1,243 @@
+{
+ "format": "scs-instance/1",
+ "id": "shibata_k20_t1",
+ "family": "literature",
+ "strings": [
+  "xaxyxyxyx0xaxyxyxyxy",
+  "axyxyxyx0xaxyxyxyxyx",
+  "xyxyxyx0xaxyxyxyxyxa",
+  "yxyxyx0xaxyxyxyxyxax",
+  "xyxyx0xaxyxyxyxyxaxy",
+  "yxyx0xaxyxyxyxyxaxyx",
+  "xyx0xaxyxyxyxyxaxyxy",
+  "yx0xaxyxyxyxyxaxyxyx",
+  "x0xaxyxyxyxyxaxyxyxy",
+  "0xaxyxyxyxyxaxyxyxyx",
+  "xaxyxyxyxyxaxyxyxyx0",
+  "axyxyxyxyxaxyxyxyx0x",
+  "xyxyxyxyxaxyxyxyx0xa",
+  "yxyxyxyxaxyxyxyx0xax",
+  "xyxyxyxaxyxyxyx0xaxy",
+  "yxyxyxaxyxyxyx0xaxyx",
+  "xyxyxaxyxyxyx0xaxyxy",
+  "yxyxaxyxyxyx0xaxyxyx",
+  "xyxaxyxyxyx0xaxyxyxy",
+  "yxaxyxyxyx0xaxyxyxyx",
+  "xaxyxyxyx0xaxyxyxyx0",
+  "axyxyxyx0xaxyxyxyx0x",
+  "xyxyxyx0xaxyxyxyx0xa",
+  "yxyxyx0xaxyxyxyx0xax",
+  "xyxyx0xaxyxyxyx0xaxy",
+  "yxyx0xaxyxyxyx0xaxyx",
+  "xyx0xaxyxyxyx0xaxyxy",
+  "yx0xaxyxyxyx0xaxyxyx",
+  "x0xaxyxyxyx0xaxyxyxy",
+  "0xaxyxyxyx0xaxyxyxyx",
+  "xaxyxyxyxyx0xaxyxyxy",
+  "axyxyxyxyx0xaxyxyxyx",
+  "xyxyxyxyx0xaxyxyxyxy",
+  "yxyxyxyx0xaxyxyxyxyx",
+  "xyxyxyx0xaxyxyxyxyx0",
+  "yxyxyx0xaxyxyxyxyx0x",
+  "xyxyx0xaxyxyxyxyx0xa",
+  "yxyx0xaxyxyxyxyx0xax",
+  "xyx0xaxyxyxyxyx0xaxy",
+  "yx0xaxyxyxyxyx0xaxyx",
+  "x0xaxyxyxyxyx0xaxyxy",
+  "0xaxyxyxyxyx0xaxyxyx"
+ ],
+ "params": {
+  "k": 20,
+  "t": 1
+ },
+ "seed": null,
+ "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026)",
+ "known": {
+  "opt": 61,
+  "greedy_bad": 92
+ },
+ "tie_priority": [
+  [
+   "yxyxyx0xaxyxyxyxyxax",
+   "xyxyx0xaxyxyxyxyxaxy"
+  ],
+  [
+   "xyxyx0xaxyxyxyxyxaxy",
+   "yxyx0xaxyxyxyxyxaxyx"
+  ],
+  [
+   "yxyx0xaxyxyxyxyxaxyx",
+   "xyx0xaxyxyxyxyxaxyxy"
+  ],
+  [
+   "xyx0xaxyxyxyxyxaxyxy",
+   "yx0xaxyxyxyxyxaxyxyx"
+  ],
+  [
+   "yx0xaxyxyxyxyxaxyxyx",
+   "x0xaxyxyxyxyxaxyxyxy"
+  ],
+  [
+   "x0xaxyxyxyxyxaxyxyxy",
+   "0xaxyxyxyxyxaxyxyxyx"
+  ],
+  [
+   "0xaxyxyxyxyxaxyxyxyx",
+   "xaxyxyxyxyxaxyxyxyx0"
+  ],
+  [
+   "xaxyxyxyxyxaxyxyxyx0",
+   "axyxyxyxyxaxyxyxyx0x"
+  ],
+  [
+   "axyxyxyxyxaxyxyxyx0x",
+   "xyxyxyxyxaxyxyxyx0xa"
+  ],
+  [
+   "xyxyxyxyxaxyxyxyx0xa",
+   "yxyxyxyxaxyxyxyx0xax"
+  ],
+  [
+   "yxyxyxyxaxyxyxyx0xax",
+   "xyxyxyxaxyxyxyx0xaxy"
+  ],
+  [
+   "xyxyxyxaxyxyxyx0xaxy",
+   "yxyxyxaxyxyxyx0xaxyx"
+  ],
+  [
+   "yxyxyxaxyxyxyx0xaxyx",
+   "xyxyxaxyxyxyx0xaxyxy"
+  ],
+  [
+   "xyxyxaxyxyxyx0xaxyxy",
+   "yxyxaxyxyxyx0xaxyxyx"
+  ],
+  [
+   "yxyxaxyxyxyx0xaxyxyx",
+   "xyxaxyxyxyx0xaxyxyxy"
+  ],
+  [
+   "xyxaxyxyxyx0xaxyxyxy",
+   "yxaxyxyxyx0xaxyxyxyx"
+  ],
+  [
+   "yxaxyxyxyx0xaxyxyxyx",
+   "xaxyxyxyx0xaxyxyxyxy"
+  ],
+  [
+   "xaxyxyxyx0xaxyxyxyxy",
+   "axyxyxyx0xaxyxyxyxyx"
+  ],
+  [
+   "axyxyxyx0xaxyxyxyxyx",
+   "xyxyxyx0xaxyxyxyxyxa"
+  ],
+  [
+   "axyxyxyx0xaxyxyxyx0x",
+   "xyxyxyx0xaxyxyxyx0xa"
+  ],
+  [
+   "xyxyxyx0xaxyxyxyx0xa",
+   "yxyxyx0xaxyxyxyx0xax"
+  ],
+  [
+   "yxyxyx0xaxyxyxyx0xax",
+   "xyxyx0xaxyxyxyx0xaxy"
+  ],
+  [
+   "xyxyx0xaxyxyxyx0xaxy",
+   "yxyx0xaxyxyxyx0xaxyx"
+  ],
+  [
+   "yxyx0xaxyxyxyx0xaxyx",
+   "xyx0xaxyxyxyx0xaxyxy"
+  ],
+  [
+   "xyx0xaxyxyxyx0xaxyxy",
+   "yx0xaxyxyxyx0xaxyxyx"
+  ],
+  [
+   "yx0xaxyxyxyx0xaxyxyx",
+   "x0xaxyxyxyx0xaxyxyxy"
+  ],
+  [
+   "x0xaxyxyxyx0xaxyxyxy",
+   "0xaxyxyxyx0xaxyxyxyx"
+  ],
+  [
+   "0xaxyxyxyx0xaxyxyxyx",
+   "xaxyxyxyx0xaxyxyxyx0"
+  ],
+  [
+   "yxyxyx0xaxyxyxyxyx0x",
+   "xyxyx0xaxyxyxyxyx0xa"
+  ],
+  [
+   "xyxyx0xaxyxyxyxyx0xa",
+   "yxyx0xaxyxyxyxyx0xax"
+  ],
+  [
+   "yxyx0xaxyxyxyxyx0xax",
+   "xyx0xaxyxyxyxyx0xaxy"
+  ],
+  [
+   "xyx0xaxyxyxyxyx0xaxy",
+   "yx0xaxyxyxyxyx0xaxyx"
+  ],
+  [
+   "yx0xaxyxyxyxyx0xaxyx",
+   "x0xaxyxyxyxyx0xaxyxy"
+  ],
+  [
+   "x0xaxyxyxyxyx0xaxyxy",
+   "0xaxyxyxyxyx0xaxyxyx"
+  ],
+  [
+   "0xaxyxyxyxyx0xaxyxyx",
+   "xaxyxyxyxyx0xaxyxyxy"
+  ],
+  [
+   "xaxyxyxyxyx0xaxyxyxy",
+   "axyxyxyxyx0xaxyxyxyx"
+  ],
+  [
+   "axyxyxyxyx0xaxyxyxyx",
+   "xyxyxyxyx0xaxyxyxyxy"
+  ],
+  [
+   "xyxyxyxyx0xaxyxyxyxy",
+   "yxyxyxyx0xaxyxyxyxyx"
+  ],
+  [
+   "yxyxyxyx0xaxyxyxyxyx",
+   "xyxyxyx0xaxyxyxyxyx0"
+  ],
+  [
+   "xaxyxyxyx0xaxyxyxyx0",
+   "yxyxyx0xaxyxyxyxyxax"
+  ],
+  [
+   "xyxyxyx0xaxyxyxyxyxa",
+   "yxyxyx0xaxyxyxyxyx0x"
+  ]
+ ],
+ "notes": "Ratio (t(9s+1)+1)/(t(4s+2)+k-1) -> (9k+2)/(4k+4) as t -> inf; -> 9/4 as k -> inf.",
+ "symbols": {
+  "b_i": [
+   "0"
+  ]
+ },
+ "verified": {
+  "n": 42,
+  "total_length": 840,
+  "opt": 61,
+  "opt_method": "certificate",
+  "opt_superstring": "xaxyxyxyx0xaxyxyxyxyx0xaxyxyxyxyxaxyxyxyx0xaxyxyxyx0xaxyxyxyx",
+  "opt_matches_reported": true,
+  "greedy_paper": 92,
+  "greedy_paper_superstring": "axyxyxyx0xaxyxyxyx0xaxyxyxyx0xaxyxyxyxyxaxyxyxyx0xaxyxyxyxyxayxyxyx0xaxyxyxyxyx0xaxyxyxyxyx0",
+  "greedy_matches_reported": true,
+  "greedy_first": 71
+ }
+}

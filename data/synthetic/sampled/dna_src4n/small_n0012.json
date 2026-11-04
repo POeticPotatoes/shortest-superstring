@@ -1,0 +1,745 @@
+{
+ "format": "scs-batch/1",
+ "name": "sampled/dna_src4n@small/n=12",
+ "family": "sampled",
+ "params": {
+  "source_length": 48,
+  "fragment_length": [
+   8,
+   15
+  ],
+  "alphabet": "ACGT",
+  "n": 12
+ },
+ "master_seed": 20261105,
+ "python": "3.14.5",
+ "implementation": "CPython",
+ "platform": "Linux-7.0.6-arch1-1-x86_64-with-glibc2.43",
+ "created": "2026-11-04T17:52:48+00:00",
+ "command": "generate_instances.py --tier tiny --tier small --tier large",
+ "tier": "small",
+ "variant": "sampled/dna_src4n",
+ "seed_scheme": "derive_seed(master_seed, variant, n, index)",
+ "instances": [
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "source_length": 48,
+    "fragment_length": [
+     8,
+     15
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 4378730533196109204,
+   "strings": [
+    "CAATAACACCACTGT",
+    "GAGTTCAATAA",
+    "CACAGCATGGCGAAG",
+    "AGTTCAATAACACCA",
+    "ACTGTCTCGGCA",
+    "CGAAGAGTTCAA",
+    "ACACCACTGTCTCGG",
+    "GGCGAAGAG",
+    "CATGGCGAAGA",
+    "TGTCTCGGCAGCAC",
+    "CGGCAGCACGCT",
+    "AACACCACTGTCTC"
+   ],
+   "source": "CACAGCATGGCGAAGAGTTCAATAACACCACTGTCTCGGCAGCACGCT",
+   "raw_draws": 27,
+   "id": "sampled_dna_src4n_n0012_000",
+   "index": 0,
+   "n_reduced": 12,
+   "total_length": 155
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "source_length": 48,
+    "fragment_length": [
+     8,
+     15
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 7792672084525182211,
+   "strings": [
+    "CCGGTTCTTGTGGTA",
+    "CAGCTACACCTCTGC",
+    "TCTGCATTCTCCTC",
+    "CTCTGCATTCTCC",
+    "TGGTAGGCTGC",
+    "CAACAGCTACACCT",
+    "TTCTTGTGGTAGGCT",
+    "CCTCCGGTTCTTGT",
+    "CCTCTGCATTCTC",
+    "ACCTCTGCATT",
+    "CTCCTCCGGTTCTTG",
+    "GCATTCTCCTCCGG"
+   ],
+   "source": "CCAACAGCTACACCTCTGCATTCTCCTCCGGTTCTTGTGGTAGGCTGC",
+   "raw_draws": 31,
+   "id": "sampled_dna_src4n_n0012_001",
+   "index": 1,
+   "n_reduced": 12,
+   "total_length": 164
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "source_length": 48,
+    "fragment_length": [
+     8,
+     15
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 3730723551730778831,
+   "strings": [
+    "TTTAACTTAAATCT",
+    "TAACTTAAATCTATA",
+    "CCATTGCGTGGAGG",
+    "ATTCGGTTTAACTT",
+    "GTTTAACTTAA",
+    "TGGAGGGATTCGGT",
+    "CTTAAATCTATACCA",
+    "GAGGGATTCGGTT",
+    "GCGTGGAGGG",
+    "ATCTATACCAACAG",
+    "CAACAGAA",
+    "GGGATTCGGTTTAAC"
+   ],
+   "source": "TCCATTGCGTGGAGGGATTCGGTTTAACTTAAATCTATACCAACAGAA",
+   "raw_draws": 21,
+   "id": "sampled_dna_src4n_n0012_002",
+   "index": 2,
+   "n_reduced": 12,
+   "total_length": 157
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "source_length": 48,
+    "fragment_length": [
+     8,
+     15
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 1135288094987965570,
+   "strings": [
+    "CACAGTTACACAAA",
+    "TGGGAAGCCTATCTA",
+    "TCTAATCGGGATA",
+    "AAAATACATGGGA",
+    "GAAGCCTATCTAA",
+    "AATACATGGGAAGCC",
+    "GGCACAGTTACACA",
+    "ACATGGGAAGCCT",
+    "CAGTTACACAAAAT",
+    "ATCTAATCGGGA",
+    "ACAAAATACATGGG",
+    "AAGCCTATCTAATCG"
+   ],
+   "source": "ATCGGCACAGTTACACAAAATACATGGGAAGCCTATCTAATCGGGATA",
+   "raw_draws": 27,
+   "id": "sampled_dna_src4n_n0012_003",
+   "index": 3,
+   "n_reduced": 12,
+   "total_length": 165
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "source_length": 48,
+    "fragment_length": [
+     8,
+     15
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 585197612107769553,
+   "strings": [
+    "AGCGAGATT",
+    "CAGTTAGAG",
+    "AGTTAGAGTGGAG",
+    "GTTAGAGTGGAGG",
+    "AGATTCAGT",
+    "GCGAACCCGGTTGA",
+    "AGAGTGGAGGCGA",
+    "AGTGGAGGCGAAC",
+    "CGGTTGAT",
+    "TAAGCGAGA",
+    "TGGAGGCGAACCCGG",
+    "CAGGCAATAAGCG"
+   ],
+   "source": "CAGGCAATAAGCGAGATTCAGTTAGAGTGGAGGCGAACCCGGTTGATG",
+   "raw_draws": 18,
+   "id": "sampled_dna_src4n_n0012_004",
+   "index": 4,
+   "n_reduced": 12,
+   "total_length": 138
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "source_length": 48,
+    "fragment_length": [
+     8,
+     15
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 5089196382124763496,
+   "strings": [
+    "AACACTTTATTC",
+    "ACCAAACACTT",
+    "GCTCATCGTGTCTT",
+    "TGTTTGGAACCA",
+    "ATTCGCTCATCGTGT",
+    "GTGGTGTTTGGAACC",
+    "GTGTCTTTTG",
+    "ACTTTATTCGC",
+    "TTCGCTCATCGTGTC",
+    "TTATTCGCTCATCGT",
+    "GAACCAAACA",
+    "CATCGTGTCTTTT"
+   ],
+   "source": "AGTGTGGTGTTTGGAACCAAACACTTTATTCGCTCATCGTGTCTTTTG",
+   "raw_draws": 17,
+   "id": "sampled_dna_src4n_n0012_005",
+   "index": 5,
+   "n_reduced": 12,
+   "total_length": 153
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "source_length": 48,
+    "fragment_length": [
+     8,
+     15
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 4268509213780313754,
+   "strings": [
+    "TCTACTCTATAAC",
+    "AACTGCTAGGCCACT",
+    "ACTCTATAACTGC",
+    "CTAGGCCACTCTCC",
+    "ATTGCTCTACTCTAT",
+    "GGCCACTCTCCTGG",
+    "CTCCTGGCC",
+    "GCTATTGCTCTACT",
+    "ATAACTGCTAGGC",
+    "AGGCTATTGCTCTA",
+    "ACTCTCCTGGC",
+    "ACTGCTAGGCCACTC"
+   ],
+   "source": "ACAGGCTATTGCTCTACTCTATAACTGCTAGGCCACTCTCCTGGCCCT",
+   "raw_draws": 30,
+   "id": "sampled_dna_src4n_n0012_006",
+   "index": 6,
+   "n_reduced": 12,
+   "total_length": 160
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "source_length": 48,
+    "fragment_length": [
+     8,
+     15
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 5179864685527931622,
+   "strings": [
+    "AACATGAGACT",
+    "GAGACTGTATACGA",
+    "CATGAGACTGTATA",
+    "GAACACTCGGG",
+    "CGCACGGACAGA",
+    "GACAGAATGTGCAA",
+    "CTGTATACGAACAC",
+    "TGTGCAACATGAGAC",
+    "CACGGACAGAATGT",
+    "AACACTCGGGT",
+    "CGGACAGAATGTGCA",
+    "ATGTGCAACAT"
+   ],
+   "source": "CGCACGGACAGAATGTGCAACATGAGACTGTATACGAACACTCGGGTA",
+   "raw_draws": 29,
+   "id": "sampled_dna_src4n_n0012_007",
+   "index": 7,
+   "n_reduced": 12,
+   "total_length": 156
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "source_length": 48,
+    "fragment_length": [
+     8,
+     15
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 1935212037133642678,
+   "strings": [
+    "TGGGCCCGGCCTAC",
+    "AGCATGGCT",
+    "TCATGGGCCCGGC",
+    "TAGATGATGACGC",
+    "CGGTCATGGGCCC",
+    "TGACGCAGCATGG",
+    "GTTAGATGATG",
+    "GACGCAGCATGGC",
+    "ATGATGACGCAGC",
+    "TGTTAGATGAT",
+    "GCTGTTAGATG",
+    "TACAGCTGTTAG"
+   ],
+   "source": "CGGTCATGGGCCCGGCCTACAGCTGTTAGATGATGACGCAGCATGGCT",
+   "raw_draws": 22,
+   "id": "sampled_dna_src4n_n0012_008",
+   "index": 8,
+   "n_reduced": 12,
+   "total_length": 146
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "source_length": 48,
+    "fragment_length": [
+     8,
+     15
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 1472208896401696152,
+   "strings": [
+    "GCGGACAGGGGATTA",
+    "TACGCTGCCACC",
+    "CACCTTGTTGGATCG",
+    "ACAGGGGATTAATA",
+    "TGCGCCGCGGACAGG",
+    "ATACGCTGC",
+    "CGCTGCCACCTTGT",
+    "TTGTTGGATCGGC",
+    "CTTGTTGGATCGG",
+    "CCACCTTGTTGGA",
+    "GGATTAATACGCT",
+    "CGGACAGGGGATTAA"
+   ],
+   "source": "TGCGCCGCGGACAGGGGATTAATACGCTGCCACCTTGTTGGATCGGCA",
+   "raw_draws": 30,
+   "id": "sampled_dna_src4n_n0012_009",
+   "index": 9,
+   "n_reduced": 12,
+   "total_length": 161
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "source_length": 48,
+    "fragment_length": [
+     8,
+     15
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 2546570392758984184,
+   "strings": [
+    "CTAATATCTGCTAG",
+    "TAGCCATGAC",
+    "TATCTGCTAGCCATG",
+    "CTCCCCTGCTAATAT",
+    "TTTACTCCCCTGCT",
+    "ATATCGATTTACTCC",
+    "TACTCCCCTGCTAA",
+    "CGATATCGATTTAC",
+    "ATTTACTCCCC",
+    "GCTAATATC",
+    "ATGCGATATCGATTT",
+    "AATATCTGCTAGCCA"
+   ],
+   "source": "TGTATGCGATATCGATTTACTCCCCTGCTAATATCTGCTAGCCATGAC",
+   "raw_draws": 37,
+   "id": "sampled_dna_src4n_n0012_010",
+   "index": 10,
+   "n_reduced": 12,
+   "total_length": 161
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "source_length": 48,
+    "fragment_length": [
+     8,
+     15
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 1148217340978284737,
+   "strings": [
+    "GAGTAGCGCCTCTCG",
+    "CCAAAGGAGTAGCGC",
+    "CAGTAGGGGTCAGCA",
+    "CGTCTTTTCCAAAG",
+    "CAGCAAGAGCGTCT",
+    "GGTCAGCAAGAG",
+    "AGAGCGTCTTTT",
+    "CTTTTCCAAAGGAG",
+    "TTTCCAAAGGAGTA",
+    "AAAGGAGTAGCGCCT",
+    "TTCCAAAGGAGTAG",
+    "TCCAAAGGAGTAGCG"
+   ],
+   "source": "CAGTAGGGGTCAGCAAGAGCGTCTTTTCCAAAGGAGTAGCGCCTCTCG",
+   "raw_draws": 41,
+   "id": "sampled_dna_src4n_n0012_011",
+   "index": 11,
+   "n_reduced": 12,
+   "total_length": 169
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "source_length": 48,
+    "fragment_length": [
+     8,
+     15
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 6135968396499484171,
+   "strings": [
+    "GTGGGTATCTCGCG",
+    "GTTAATCTCTACGGA",
+    "TGGTTAATCTCT",
+    "AATCTCTACGGAGGA",
+    "GGAGGAATGAA",
+    "CGCGTCACATTGGT",
+    "TGGGTATCTCGCGTC",
+    "TCTCGCGTCAC",
+    "GCGTCACATTGGTTA",
+    "GTCACATTGGTTAAT",
+    "TCGCGTCACAT",
+    "GGTGGGTAT"
+   ],
+   "source": "GAGGTGGGTATCTCGCGTCACATTGGTTAATCTCTACGGAGGAATGAA",
+   "raw_draws": 30,
+   "id": "sampled_dna_src4n_n0012_012",
+   "index": 12,
+   "n_reduced": 12,
+   "total_length": 157
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "source_length": 48,
+    "fragment_length": [
+     8,
+     15
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 2572562134140432858,
+   "strings": [
+    "CACTCCCGAGACTT",
+    "ACTCCCGAGACTTG",
+    "CCGAGACTTGCC",
+    "CGCGGAAG",
+    "AGACTTGCCGACCT",
+    "ACTTGCCGACCTGTG",
+    "CTTGCCGACCTGTGA",
+    "CCGACGCCACTCCCG",
+    "GACTTGCCGACCTG",
+    "AAGCCGACGCCACTC",
+    "GCGGAAGCCGACG",
+    "GTGACGCGGA"
+   ],
+   "source": "GTGACGCGGAAGCCGACGCCACTCCCGAGACTTGCCGACCTGTGAGAG",
+   "raw_draws": 26,
+   "id": "sampled_dna_src4n_n0012_013",
+   "index": 13,
+   "n_reduced": 12,
+   "total_length": 159
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "source_length": 48,
+    "fragment_length": [
+     8,
+     15
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 8713796613407500140,
+   "strings": [
+    "TTAGCAGAGTAAGCT",
+    "GTAGGCTGTAGGAGA",
+    "CTGTAGGAGAAAT",
+    "TGCTTCTTAGCAGA",
+    "AGTAGGCTGTAGGAG",
+    "CCAGCAGTA",
+    "GCAGTAGGCTGTAGG",
+    "GTAGGAGAAATGCTT",
+    "CTTCTTAGCAGAG",
+    "AAATGCTTCTTAGCA",
+    "CAGCAGTAGG",
+    "GAGAAATGCTTCTT"
+   ],
+   "source": "GAACCAGCAGTAGGCTGTAGGAGAAATGCTTCTTAGCAGAGTAAGCTG",
+   "raw_draws": 38,
+   "id": "sampled_dna_src4n_n0012_014",
+   "index": 14,
+   "n_reduced": 12,
+   "total_length": 163
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "source_length": 48,
+    "fragment_length": [
+     8,
+     15
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 3080322822068441477,
+   "strings": [
+    "TGAGACAA",
+    "ACACTCTGGTCCTGA",
+    "GGATATGAGTGTCA",
+    "ATGCGATACAC",
+    "TTTGGATATGAGTG",
+    "GGTCCTGAGACA",
+    "CATGCGATACA",
+    "TGGATATGAGTGT",
+    "GATACACT",
+    "ATACACTCTGG",
+    "CAAGGCATG",
+    "AAGGCATGCGA"
+   ],
+   "source": "TTTGGATATGAGTGTCAAGGCATGCGATACACTCTGGTCCTGAGACAA",
+   "raw_draws": 21,
+   "id": "sampled_dna_src4n_n0012_015",
+   "index": 15,
+   "n_reduced": 12,
+   "total_length": 137
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "source_length": 48,
+    "fragment_length": [
+     8,
+     15
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 1874776491985919585,
+   "strings": [
+    "TAATAACCCTAAAT",
+    "CGAGATTAATAA",
+    "TGTCGACTCCGA",
+    "TTACTGTCGACTCCG",
+    "TGCGTCCGTTACTGT",
+    "TCCGTTACTGTCGAC",
+    "ACTCCGAGATTAATA",
+    "TTTGCGTCCGTTA",
+    "GTCGACTCCGAGATT",
+    "GTCCGTTACTGTCG",
+    "TAACCCTAAATAC",
+    "ATTAATAACCCTA"
+   ],
+   "source": "GGTTTGCGTCCGTTACTGTCGACTCCGAGATTAATAACCCTAAATACT",
+   "raw_draws": 42,
+   "id": "sampled_dna_src4n_n0012_016",
+   "index": 16,
+   "n_reduced": 12,
+   "total_length": 166
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "source_length": 48,
+    "fragment_length": [
+     8,
+     15
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 449678768677281924,
+   "strings": [
+    "ATGAAAGATGCGCT",
+    "GAAAGATGCGCTGG",
+    "AAGATGCGCTGGGAA",
+    "ATGCGAGTTCTTCTT",
+    "TATGAAAGATG",
+    "TTCTTCTTGTACGAA",
+    "GATGCGAGTTCTTCT",
+    "TTCTTGTACGAACCT",
+    "AGTTCTTCTTGTACG",
+    "TGTACGAACCTATGA",
+    "TGCGCTGGGAAATA",
+    "TGCGAGTTCTTCTTG"
+   ],
+   "source": "GATGCGAGTTCTTCTTGTACGAACCTATGAAAGATGCGCTGGGAAATA",
+   "raw_draws": 48,
+   "id": "sampled_dna_src4n_n0012_017",
+   "index": 17,
+   "n_reduced": 12,
+   "total_length": 173
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "source_length": 48,
+    "fragment_length": [
+     8,
+     15
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 1553160014668120755,
+   "strings": [
+    "GGCGACAGAAAGC",
+    "CTCTAGGCGACAGAA",
+    "GCGACAGAAAGCC",
+    "CCTCCCCAA",
+    "ACAGAAAGCCA",
+    "CAAAAAGTCGA",
+    "AGTCGAAGGAG",
+    "TCGAAGGAGTTTGCT",
+    "CTCCCCAAA",
+    "GAGTTTGCTCTA",
+    "CCCAAAAAG",
+    "GCTCTAGG"
+   ],
+   "source": "ACCCTCCCCAAAAAGTCGAAGGAGTTTGCTCTAGGCGACAGAAAGCCA",
+   "raw_draws": 16,
+   "id": "sampled_dna_src4n_n0012_018",
+   "index": 18,
+   "n_reduced": 12,
+   "total_length": 136
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 12,
+    "source_length": 48,
+    "fragment_length": [
+     8,
+     15
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 5479842580687752702,
+   "strings": [
+    "AATGTCTGTTGACT",
+    "GAAATTCGTTCACTA",
+    "ATGTCTGTTGACTG",
+    "TGTTGACTGAATTA",
+    "CTGTTGACTGAAT",
+    "ACTATAATGTCTGTT",
+    "GACTGAATTATATT",
+    "CGTTCACTATAATG",
+    "ATTATATTTCG",
+    "CACTATAATGTC",
+    "ATTCGTTCACTATAA",
+    "ACACGAAA"
+   ],
+   "source": "CACACGAAATTCGTTCACTATAATGTCTGTTGACTGAATTATATTTCG",
+   "raw_draws": 43,
+   "id": "sampled_dna_src4n_n0012_019",
+   "index": 19,
+   "n_reduced": 12,
+   "total_length": 159
+  }
+ ]
+}

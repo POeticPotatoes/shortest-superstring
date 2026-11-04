@@ -1,0 +1,88 @@
+{
+ "format": "scs-instance/1",
+ "id": "chukhin_k6_t1",
+ "family": "literature",
+ "strings": [
+  "ABAABX",
+  "BAABXA",
+  "AABXAB",
+  "ABXABA",
+  "BXABAA",
+  "XABAAB",
+  "ABXABX",
+  "BXABXA",
+  "XABXAB"
+ ],
+ "params": {
+  "k": 6,
+  "t": 1
+ },
+ "seed": null,
+ "citation": "Chukhin, Kulikov, Mihajlin, Smal, The Greedy Superstring Algorithm Achieves Ratio 2 for Strings of Length 6 Already, arXiv:2608.20018 (2026), Section 3",
+ "known": {
+  "opt": 14,
+  "greedy_bad": 18
+ },
+ "tie_priority": [
+  [
+   "XABAAB",
+   "ABAABX"
+  ],
+  [
+   "ABAABX",
+   "BAABXA"
+  ],
+  [
+   "BAABXA",
+   "AABXAB"
+  ],
+  [
+   "AABXAB",
+   "ABXABA"
+  ],
+  [
+   "ABXABA",
+   "BXABAA"
+  ],
+  [
+   "BXABXA",
+   "XABXAB"
+  ],
+  [
+   "XABXAB",
+   "ABXABX"
+  ],
+  [
+   "ABXABX",
+   "XABAAB"
+  ]
+ ],
+ "notes": "Shows rho_k >= 2 for k >= 6; ratio (4k-6)t/((2k-3)t+k-1).",
+ "symbols": {
+  "X_i": [
+   "X"
+  ],
+  "y": ""
+ },
+ "verified": {
+  "n": 9,
+  "total_length": 54,
+  "opt": 14,
+  "opt_method": "certificate",
+  "opt_superstring": "ABAABXABXABAAB",
+  "opt_matches_reported": true,
+  "greedy_paper": 18,
+  "greedy_paper_superstring": "BXABXABXABAABXABAA",
+  "greedy_matches_reported": true,
+  "greedy_first": 17,
+  "greedy_all_lengths": [
+   14,
+   15,
+   16,
+   17,
+   18
+  ],
+  "greedy_states": 842,
+  "greedy_worst_superstring": "XABXABXABAABXABAAB"
+ }
+}

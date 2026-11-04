@@ -1,0 +1,36 @@
+{
+ "python": "3.14.5",
+ "implementation": "CPython",
+ "platform": "Linux-7.0.6-arch1-1-x86_64-with-glibc2.43",
+ "created": "2026-11-04T17:53:00+00:00",
+ "command": "run_benchmark.py data/synthetic --tier small --out results/small --random-ties 20 --explore-max-n 10",
+ "args": {
+  "inputs": [
+   "data/synthetic"
+  ],
+  "out": "results/small",
+  "tier": [
+   "small"
+  ],
+  "family": null,
+  "max_n": null,
+  "limit": null,
+  "rules": [
+   "first",
+   "last",
+   "lex",
+   "revlex"
+  ],
+  "random_ties": 20,
+  "tie_seed": 0,
+  "dp_max_n": 16,
+  "bf_check_max_n": 7,
+  "explore_max_n": 10,
+  "explore_max_states": 50000,
+  "trace_max_n": 300,
+  "timing_repeats": 1
+ },
+ "random_tie_seed_scheme": "derive_seed(tie_seed, instance_id, r)",
+ "instances": 980,
+ "elapsed_s": 52.30404551100219
+}

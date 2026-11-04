@@ -1,0 +1,35 @@
+{
+ "format": "scs-instance/1",
+ "id": "kulikov_collapsing_cex",
+ "family": "literature",
+ "strings": [
+  "accaccaccaccaccb",
+  "accaccaccbccaccac",
+  "accaccbccaccaccbccac",
+  "bccaccaccbccaccacc",
+  "accbccaccaccaccacc"
+ ],
+ "params": {},
+ "seed": null,
+ "citation": "github.com/alexanderskulikov/greedy-superstring-conjecture (README, counterexample added 2025-07-08)",
+ "known": {
+  "opt": null,
+  "greedy_bad": null
+ },
+ "tie_priority": [],
+ "notes": "Counterexample to the collapsing superstring conjecture, not to the greedy conjecture.",
+ "symbols": {},
+ "verified": {
+  "n": 5,
+  "total_length": 89,
+  "opt": 37,
+  "opt_method": "dp",
+  "opt_superstring": "accaccaccbccaccaccbccaccaccaccaccaccb",
+  "greedy_first": 49,
+  "greedy_all_lengths": [
+   49
+  ],
+  "greedy_states": 5,
+  "greedy_worst_superstring": "bccaccaccbccaccaccbccaccaccaccbccaccaccaccaccaccb"
+ }
+}

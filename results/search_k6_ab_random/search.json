@@ -1,0 +1,555 @@
+{
+ "python": "3.14.5",
+ "implementation": "CPython",
+ "platform": "Linux-7.0.6-arch1-1-x86_64-with-glibc2.43",
+ "created": "2026-11-04T17:58:23+00:00",
+ "command": "search_worst_case.py --k 6 --alphabet AB --mode random --samples 3000 --min-size 6 --max-size 12 --seed 1 --out results/search_k6_ab_random",
+ "args": {
+  "k": 6,
+  "alphabet": "AB",
+  "min_size": 6,
+  "max_size": 12,
+  "mode": "random",
+  "samples": 3000,
+  "seed": 1,
+  "top": 20,
+  "max_states": 100000,
+  "max_instances": 2000000,
+  "out": "results/search_k6_ab_random"
+ },
+ "stats": {
+  "evaluated": 3000,
+  "duplicates": 0,
+  "budget_exceeded": 0,
+  "greedy_suboptimal": 1931,
+  "tie_sensitive": 1828,
+  "compression_bound_violations": 0,
+  "factor3_violations": 0
+ },
+ "worst_ratio": 1.3157894736842106,
+ "worst_ratio_exact": "25/19",
+ "elapsed_s": 10.632004132006841,
+ "top": [
+  {
+   "strings": [
+    "AAAAAA",
+    "AAAABA",
+    "ABABBB",
+    "BBAAAA",
+    "BBABBB",
+    "BBBBBA"
+   ],
+   "opt": 19,
+   "greedy_worst": 25,
+   "greedy_best": 19,
+   "greedy_lengths": [
+    19,
+    22,
+    23,
+    25
+   ],
+   "ratio": 1.3157894736842106,
+   "ratio_exact": "25/19",
+   "worst_superstring": "AAAAAABABBBBBAAAABABBABBB"
+  },
+  {
+   "strings": [
+    "AAAAAA",
+    "AAAAAB",
+    "AABBAA",
+    "ABAAAA",
+    "ABBBBB",
+    "BAAAAA",
+    "BAAABB",
+    "BABBAB",
+    "BBAABB",
+    "BBBBAA",
+    "BBBBAB"
+   ],
+   "opt": 28,
+   "greedy_worst": 36,
+   "greedy_best": 28,
+   "greedy_lengths": [
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36
+   ],
+   "ratio": 1.2857142857142858,
+   "ratio_exact": "9/7",
+   "worst_superstring": "ABAAAAABAAABBAAAAAABBBBABBABBBBBAABB"
+  },
+  {
+   "strings": [
+    "AAAAAA",
+    "AAAAAB",
+    "AAABBA",
+    "AABAAB",
+    "ABABBB",
+    "ABBABA",
+    "ABBBAB",
+    "BAAAAA",
+    "BAAABB",
+    "BABAAA",
+    "BBBABA",
+    "BBBABB"
+   ],
+   "opt": 28,
+   "greedy_worst": 36,
+   "greedy_best": 28,
+   "greedy_lengths": [
+    28,
+    29,
+    30,
+    31,
+    33,
+    34,
+    35,
+    36
+   ],
+   "ratio": 1.2857142857142858,
+   "ratio_exact": "9/7",
+   "worst_superstring": "AAAAAABBBABBABAAABBABABBBABAAAAABAAB"
+  },
+  {
+   "strings": [
+    "AAAAAA",
+    "AAAAAB",
+    "AABABB",
+    "ABAABA",
+    "ABBAAA",
+    "BAAAAA",
+    "BABBAA",
+    "BABBBB"
+   ],
+   "opt": 19,
+   "greedy_worst": 24,
+   "greedy_best": 19,
+   "greedy_lengths": [
+    19,
+    20,
+    24
+   ],
+   "ratio": 1.263157894736842,
+   "ratio_exact": "24/19",
+   "worst_superstring": "AAAAAABAABABBAAAAABABBBB"
+  },
+  {
+   "strings": [
+    "AAABAB",
+    "AABBAA",
+    "ABAAAA",
+    "ABAABA",
+    "ABABAA",
+    "ABABAB",
+    "BABABA",
+    "BABABB",
+    "BBABAB"
+   ],
+   "opt": 24,
+   "greedy_worst": 30,
+   "greedy_best": 25,
+   "greedy_lengths": [
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+   ],
+   "ratio": 1.25,
+   "ratio_exact": "5/4",
+   "worst_superstring": "AABBAAABABAAAABAABABABABBABABB"
+  },
+  {
+   "strings": [
+    "AAAAAA",
+    "AAAABB",
+    "AABAAB",
+    "ABAAAA",
+    "ABABAA",
+    "ABBABB",
+    "ABBBAB",
+    "BBAABA",
+    "BBBABA"
+   ],
+   "opt": 25,
+   "greedy_worst": 31,
+   "greedy_best": 25,
+   "greedy_lengths": [
+    25,
+    26,
+    28,
+    29,
+    31
+   ],
+   "ratio": 1.24,
+   "ratio_exact": "31/25",
+   "worst_superstring": "AAAAAABABAAAABBBABABBAABAABBABB"
+  },
+  {
+   "strings": [
+    "AAABBA",
+    "AABBBB",
+    "ABAABA",
+    "ABABAA",
+    "ABABBA",
+    "ABBBAB",
+    "BAABBB",
+    "BABABA",
+    "BBABAB",
+    "BBABBB"
+   ],
+   "opt": 25,
+   "greedy_worst": 31,
+   "greedy_best": 25,
+   "greedy_lengths": [
+    25,
+    27,
+    29,
+    31
+   ],
+   "ratio": 1.24,
+   "ratio_exact": "31/25",
+   "worst_superstring": "ABABBABABAABAAABBAABBBBABBBABBB"
+  },
+  {
+   "strings": [
+    "AAABAA",
+    "ABAAAB",
+    "ABAABB",
+    "ABBBBA",
+    "ABBBBB",
+    "BBAABB",
+    "BBBABA"
+   ],
+   "opt": 21,
+   "greedy_worst": 26,
+   "greedy_best": 21,
+   "greedy_lengths": [
+    21,
+    22,
+    24,
+    26
+   ],
+   "ratio": 1.2380952380952381,
+   "ratio_exact": "26/21",
+   "worst_superstring": "AAABAAABAABBBBABABBAABBBBB"
+  },
+  {
+   "strings": [
+    "AAAAAA",
+    "AAAAAB",
+    "AAABAB",
+    "ABBBAA",
+    "BAAAAA",
+    "BABAAB",
+    "BBAAAA",
+    "BBABBA"
+   ],
+   "opt": 21,
+   "greedy_worst": 26,
+   "greedy_best": 21,
+   "greedy_lengths": [
+    21,
+    25,
+    26
+   ],
+   "ratio": 1.2380952380952381,
+   "ratio_exact": "26/21",
+   "worst_superstring": "AAAAAABBABBABBBAAAAABABAAB"
+  },
+  {
+   "strings": [
+    "AAAABB",
+    "AAABAA",
+    "AAABBA",
+    "AABAAA",
+    "AABABA",
+    "ABAAAA",
+    "BAAAAA",
+    "BAAAAB",
+    "BAAABA",
+    "BAABAB",
+    "BABAAA",
+    "BBAAAA"
+   ],
+   "opt": 21,
+   "greedy_worst": 26,
+   "greedy_best": 21,
+   "greedy_lengths": [
+    21,
+    22,
+    25,
+    26
+   ],
+   "ratio": 1.2380952380952381,
+   "ratio_exact": "26/21",
+   "worst_superstring": "BAABABAAAAABBAAAABBAAABAAA"
+  },
+  {
+   "strings": [
+    "AAAAAA",
+    "AABABA",
+    "AABBAB",
+    "ABABBA",
+    "ABBAAB",
+    "ABBBAB",
+    "BAABAA",
+    "BAABAB",
+    "BBABAB",
+    "BBABBB"
+   ],
+   "opt": 26,
+   "greedy_worst": 32,
+   "greedy_best": 26,
+   "greedy_lengths": [
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+   ],
+   "ratio": 1.2307692307692308,
+   "ratio_exact": "16/13",
+   "worst_superstring": "AAAAAABAABAABBABABBAABABABBBABBB"
+  },
+  {
+   "strings": [
+    "AAAAAB",
+    "AAAABA",
+    "AAABAB",
+    "ABAAAA",
+    "ABABAA",
+    "ABABBA",
+    "ABBBBA",
+    "BAABBA",
+    "BAABBB",
+    "BABBAB",
+    "BBBAAB"
+   ],
+   "opt": 26,
+   "greedy_worst": 32,
+   "greedy_best": 26,
+   "greedy_lengths": [
+    26,
+    28,
+    29,
+    30,
+    31,
+    32
+   ],
+   "ratio": 1.2307692307692308,
+   "ratio_exact": "16/13",
+   "worst_superstring": "AAAAABABAAAABAABBABABBABBBBAABBB"
+  },
+  {
+   "strings": [
+    "AAAABB",
+    "AAABBA",
+    "AAABBB",
+    "ABAAAB",
+    "ABABAA",
+    "ABBBAA",
+    "ABBBAB",
+    "BAABAB",
+    "BABBBA",
+    "BBBAAB"
+   ],
+   "opt": 22,
+   "greedy_worst": 27,
+   "greedy_best": 22,
+   "greedy_lengths": [
+    22,
+    23,
+    25,
+    26,
+    27
+   ],
+   "ratio": 1.2272727272727273,
+   "ratio_exact": "27/22",
+   "worst_superstring": "AAAABBABBBABAAABBBAABABAAAB"
+  },
+  {
+   "strings": [
+    "AAABBB",
+    "AABBBA",
+    "ABABBA",
+    "BAABAB",
+    "BBAAAA",
+    "BBABAB"
+   ],
+   "opt": 18,
+   "greedy_worst": 22,
+   "greedy_best": 18,
+   "greedy_lengths": [
+    18,
+    19,
+    21,
+    22
+   ],
+   "ratio": 1.2222222222222223,
+   "ratio_exact": "11/9",
+   "worst_superstring": "AAABBBAAAABBABABBAABAB"
+  },
+  {
+   "strings": [
+    "AAAAAB",
+    "AABAAA",
+    "AABABA",
+    "ABBABA",
+    "BAABBA",
+    "BABAAB"
+   ],
+   "opt": 18,
+   "greedy_worst": 22,
+   "greedy_best": 18,
+   "greedy_lengths": [
+    18,
+    19,
+    21,
+    22
+   ],
+   "ratio": 1.2222222222222223,
+   "ratio_exact": "11/9",
+   "worst_superstring": "AAAAABAAABABABBABAABBA"
+  },
+  {
+   "strings": [
+    "AABAAB",
+    "ABAABB",
+    "ABABAA",
+    "ABABAB",
+    "ABBBBB",
+    "BAABBB",
+    "BABAAB",
+    "BBABAB"
+   ],
+   "opt": 18,
+   "greedy_worst": 22,
+   "greedy_best": 18,
+   "greedy_lengths": [
+    18,
+    20,
+    21,
+    22
+   ],
+   "ratio": 1.2222222222222223,
+   "ratio_exact": "11/9",
+   "worst_superstring": "AABAABABABBABABAABBBBB"
+  },
+  {
+   "strings": [
+    "AAAAAB",
+    "AABABA",
+    "AABBAA",
+    "ABABAA",
+    "ABBBAB",
+    "ABBBBB",
+    "BAAABA",
+    "BABAAA",
+    "BABABA",
+    "BBAABB",
+    "BBABBB"
+   ],
+   "opt": 27,
+   "greedy_worst": 33,
+   "greedy_best": 27,
+   "greedy_lengths": [
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33
+   ],
+   "ratio": 1.2222222222222223,
+   "ratio_exact": "11/9",
+   "worst_superstring": "BBABBBABABABBBBBAABBAAAAABABAAABA"
+  },
+  {
+   "strings": [
+    "AAABBA",
+    "ABAAAB",
+    "ABAABA",
+    "ABBBAA",
+    "BAAAAB",
+    "BAAABA",
+    "BBAAAB",
+    "BBAABB"
+   ],
+   "opt": 23,
+   "greedy_worst": 28,
+   "greedy_best": 23,
+   "greedy_lengths": [
+    23,
+    24,
+    25,
+    26,
+    28
+   ],
+   "ratio": 1.2173913043478262,
+   "ratio_exact": "28/23",
+   "worst_superstring": "ABAABAAABABBAAABBAAAABBBAABB"
+  },
+  {
+   "strings": [
+    "AAAAAB",
+    "AABABA",
+    "AABBAB",
+    "AABBBB",
+    "ABABAB",
+    "ABBABA",
+    "ABBBBB",
+    "BABAAB",
+    "BBBAAB"
+   ],
+   "opt": 23,
+   "greedy_worst": 28,
+   "greedy_best": 23,
+   "greedy_lengths": [
+    23,
+    25,
+    26,
+    28
+   ],
+   "ratio": 1.2173913043478262,
+   "ratio_exact": "28/23",
+   "worst_superstring": "AAAAABABABBBAABBBBBAABBABAAB"
+  },
+  {
+   "strings": [
+    "AAAAAB",
+    "AAAABA",
+    "AAABAA",
+    "ABABBA",
+    "ABBBBB",
+    "BAAABA",
+    "BABBAB",
+    "BBAAAB",
+    "BBABBA"
+   ],
+   "opt": 23,
+   "greedy_worst": 28,
+   "greedy_best": 23,
+   "greedy_lengths": [
+    23,
+    24,
+    25,
+    26,
+    28
+   ],
+   "ratio": 1.2173913043478262,
+   "ratio_exact": "28/23",
+   "worst_superstring": "AAAAABAABABBAAABABBABBABBBBB"
+  }
+ ]
+}

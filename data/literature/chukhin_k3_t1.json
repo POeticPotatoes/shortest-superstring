@@ -1,0 +1,61 @@
+{
+ "format": "scs-instance/1",
+ "id": "chukhin_k3_t1",
+ "family": "literature",
+ "strings": [
+  "ABX",
+  "BXA",
+  "XAX",
+  "AXA",
+  "XAB"
+ ],
+ "params": {
+  "k": 3,
+  "t": 1
+ },
+ "seed": null,
+ "citation": "Chukhin, Kulikov, Mihajlin, Smal, The Greedy Superstring Algorithm Achieves Ratio 2 for Strings of Length 6 Already, arXiv:2608.20018 (2026), Theorem 4.1",
+ "known": {
+  "opt": 7,
+  "greedy_bad": 9
+ },
+ "tie_priority": [
+  [
+   "AXA",
+   "XAX"
+  ],
+  [
+   "BXA",
+   "XAB"
+  ],
+  [
+   "XAB",
+   "ABX"
+  ]
+ ],
+ "notes": "rho_3 = 9/5 exactly; ratio 9t/(5t+2).",
+ "symbols": {
+  "X_i": [
+   "X"
+  ]
+ },
+ "verified": {
+  "n": 5,
+  "total_length": 15,
+  "opt": 7,
+  "opt_method": "certificate",
+  "opt_superstring": "ABXAXAB",
+  "opt_matches_reported": true,
+  "greedy_paper": 9,
+  "greedy_paper_superstring": "BXABXAXAX",
+  "greedy_matches_reported": true,
+  "greedy_first": 7,
+  "greedy_all_lengths": [
+   7,
+   8,
+   9
+  ],
+  "greedy_states": 48,
+  "greedy_worst_superstring": "ABXABAXAX"
+ }
+}

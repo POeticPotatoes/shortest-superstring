@@ -1,0 +1,39 @@
+{
+ "format": "scs-instance/1",
+ "id": "kulikov_readme_example",
+ "family": "literature",
+ "strings": [
+  "abba",
+  "abca",
+  "aac",
+  "cab",
+  "bab",
+  "dbb"
+ ],
+ "params": {},
+ "seed": null,
+ "citation": "github.com/alexanderskulikov/greedy-superstring-conjecture (README, counterexample added 2025-07-08)",
+ "known": {
+  "opt": null,
+  "greedy_bad": null
+ },
+ "tie_priority": [],
+ "notes": "",
+ "symbols": {},
+ "verified": {
+  "n": 6,
+  "total_length": 20,
+  "opt": 12,
+  "opt_method": "dp",
+  "opt_superstring": "dbbabcabbaac",
+  "greedy_first": 14,
+  "greedy_all_lengths": [
+   12,
+   13,
+   14,
+   15
+  ],
+  "greedy_states": 45,
+  "greedy_worst_superstring": "abbabcabcaacdbb"
+ }
+}

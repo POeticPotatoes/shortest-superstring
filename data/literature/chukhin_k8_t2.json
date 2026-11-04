@@ -1,0 +1,161 @@
+{
+ "format": "scs-instance/1",
+ "id": "chukhin_k8_t2",
+ "family": "literature",
+ "strings": [
+  "ABAAB201",
+  "BAAB201A",
+  "AAB201AB",
+  "AB201ABA",
+  "B201ABAA",
+  "201ABAAB",
+  "01ABAAB2",
+  "1ABAAB20",
+  "AB201AB2",
+  "B201AB20",
+  "201AB201",
+  "01AB201A",
+  "1AB201AB",
+  "ABAAB301",
+  "BAAB301A",
+  "AAB301AB",
+  "AB301ABA",
+  "B301ABAA",
+  "301ABAAB",
+  "01ABAAB3",
+  "1ABAAB30",
+  "AB301AB3",
+  "B301AB30",
+  "301AB301",
+  "01AB301A",
+  "1AB301AB"
+ ],
+ "params": {
+  "k": 8,
+  "t": 2
+ },
+ "seed": null,
+ "citation": "Chukhin, Kulikov, Mihajlin, Smal, The Greedy Superstring Algorithm Achieves Ratio 2 for Strings of Length 6 Already, arXiv:2608.20018 (2026), Section 3",
+ "known": {
+  "opt": 33,
+  "greedy_bad": 52
+ },
+ "tie_priority": [
+  [
+   "201ABAAB",
+   "01ABAAB2"
+  ],
+  [
+   "01ABAAB2",
+   "1ABAAB20"
+  ],
+  [
+   "1ABAAB20",
+   "ABAAB201"
+  ],
+  [
+   "ABAAB201",
+   "BAAB201A"
+  ],
+  [
+   "BAAB201A",
+   "AAB201AB"
+  ],
+  [
+   "AAB201AB",
+   "AB201ABA"
+  ],
+  [
+   "AB201ABA",
+   "B201ABAA"
+  ],
+  [
+   "B201AB20",
+   "201AB201"
+  ],
+  [
+   "201AB201",
+   "01AB201A"
+  ],
+  [
+   "01AB201A",
+   "1AB201AB"
+  ],
+  [
+   "1AB201AB",
+   "AB201AB2"
+  ],
+  [
+   "AB201AB2",
+   "201ABAAB"
+  ],
+  [
+   "301ABAAB",
+   "01ABAAB3"
+  ],
+  [
+   "01ABAAB3",
+   "1ABAAB30"
+  ],
+  [
+   "1ABAAB30",
+   "ABAAB301"
+  ],
+  [
+   "ABAAB301",
+   "BAAB301A"
+  ],
+  [
+   "BAAB301A",
+   "AAB301AB"
+  ],
+  [
+   "AAB301AB",
+   "AB301ABA"
+  ],
+  [
+   "AB301ABA",
+   "B301ABAA"
+  ],
+  [
+   "B301AB30",
+   "301AB301"
+  ],
+  [
+   "301AB301",
+   "01AB301A"
+  ],
+  [
+   "01AB301A",
+   "1AB301AB"
+  ],
+  [
+   "1AB301AB",
+   "AB301AB3"
+  ],
+  [
+   "AB301AB3",
+   "301ABAAB"
+  ]
+ ],
+ "notes": "Shows rho_k >= 2 for k >= 6; ratio (4k-6)t/((2k-3)t+k-1).",
+ "symbols": {
+  "X_i": [
+   "2",
+   "3"
+  ],
+  "y": "01"
+ },
+ "verified": {
+  "n": 26,
+  "total_length": 208,
+  "opt": 33,
+  "opt_method": "certificate",
+  "opt_superstring": "ABAAB201AB201ABAAB301AB301ABAAB20",
+  "opt_matches_reported": true,
+  "greedy_paper": 52,
+  "greedy_paper_superstring": "B201AB201AB201ABAAB201ABAAB301AB301AB301ABAAB301ABAA",
+  "greedy_matches_reported": true,
+  "greedy_first": 44
+ }
+}

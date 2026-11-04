@@ -1,0 +1,895 @@
+{
+ "format": "scs-batch/1",
+ "name": "sampled/bin_src3n@tiny/n=5",
+ "family": "sampled",
+ "params": {
+  "source_length": 30,
+  "fragment_length": [
+   6,
+   12
+  ],
+  "alphabet": "AB",
+  "n": 5
+ },
+ "master_seed": 20261105,
+ "python": "3.14.5",
+ "implementation": "CPython",
+ "platform": "Linux-7.0.6-arch1-1-x86_64-with-glibc2.43",
+ "created": "2026-11-04T17:52:48+00:00",
+ "command": "generate_instances.py --tier tiny --tier small --tier large",
+ "tier": "tiny",
+ "variant": "sampled/bin_src3n",
+ "seed_scheme": "derive_seed(master_seed, variant, n, index)",
+ "instances": [
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 5,
+    "source_length": 30,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 6696487914690967036,
+   "strings": [
+    "BABBAAAABABB",
+    "BABBABABBAA",
+    "ABBBBABBABAB",
+    "AABABBAAABAA",
+    "ABBAAAABABBA"
+   ],
+   "source": "BBABBBBABBABABBAAAABABBAAABAAB",
+   "raw_draws": 11,
+   "id": "sampled_bin_src3n_n0005_000",
+   "index": 0,
+   "n_reduced": 5,
+   "total_length": 59
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 5,
+    "source_length": 30,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 4353634702922599444,
+   "strings": [
+    "BBABBABBA",
+    "BBBABBBAB",
+    "BABBABBABA",
+    "BBAAAABBBB",
+    "AABBBBBABBB"
+   ],
+   "source": "BAABABBBAAAABBBBBABBBABBABBABA",
+   "raw_draws": 5,
+   "id": "sampled_bin_src3n_n0005_001",
+   "index": 1,
+   "n_reduced": 5,
+   "total_length": 49
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 5,
+    "source_length": 30,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 466555454931030615,
+   "strings": [
+    "AABBBABBBAA",
+    "AABBBAAABA",
+    "AAABAABBBAB",
+    "ABABAAA",
+    "BBAAABAAB"
+   ],
+   "source": "AABBBAAABAABBBABBBAAABABAAAAAA",
+   "raw_draws": 9,
+   "id": "sampled_bin_src3n_n0005_002",
+   "index": 2,
+   "n_reduced": 5,
+   "total_length": 48
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 5,
+    "source_length": 30,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 8265958001782442274,
+   "strings": [
+    "BBBBBABA",
+    "ABBAABB",
+    "BBAABBBA",
+    "BBBAABBAABAB",
+    "BABABBAAB"
+   ],
+   "source": "ABBABABBAABBBAABBAABABBBBBBABA",
+   "raw_draws": 6,
+   "id": "sampled_bin_src3n_n0005_003",
+   "index": 3,
+   "n_reduced": 5,
+   "total_length": 44
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 5,
+    "source_length": 30,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 2973244586942052628,
+   "strings": [
+    "ABBBABA",
+    "BABAAAAAB",
+    "BABAABABAA",
+    "ABABABBB",
+    "BBABAABABA"
+   ],
+   "source": "AAABBABAABABAABABABBBABAAAAABB",
+   "raw_draws": 9,
+   "id": "sampled_bin_src3n_n0005_004",
+   "index": 4,
+   "n_reduced": 5,
+   "total_length": 44
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 5,
+    "source_length": 30,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 4313076502458966138,
+   "strings": [
+    "ABAAABAB",
+    "AABABAA",
+    "ABABABBBAAAB",
+    "BABBBAAABAB",
+    "AAABABBABAAB"
+   ],
+   "source": "ABABABBBAAABABBABAABABAAABABAA",
+   "raw_draws": 8,
+   "id": "sampled_bin_src3n_n0005_005",
+   "index": 5,
+   "n_reduced": 5,
+   "total_length": 50
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 5,
+    "source_length": 30,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 7304080516737591950,
+   "strings": [
+    "BABBBABAB",
+    "AABBBAABABAA",
+    "ABBAAABBBA",
+    "ABAAABABBBA",
+    "BAAABABBBAB"
+   ],
+   "source": "BBBBABBAAABBBAABABAAABABBBABAB",
+   "raw_draws": 6,
+   "id": "sampled_bin_src3n_n0005_006",
+   "index": 6,
+   "n_reduced": 5,
+   "total_length": 53
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 5,
+    "source_length": 30,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 1113817669912441615,
+   "strings": [
+    "BBBBAAABB",
+    "ABBBABABABB",
+    "ABABABBAABBA",
+    "BAABBBBBAA",
+    "BAABAABBBBB"
+   ],
+   "source": "ABBBABABABBAABBAABAABBBBBAAABB",
+   "raw_draws": 8,
+   "id": "sampled_bin_src3n_n0005_007",
+   "index": 7,
+   "n_reduced": 5,
+   "total_length": 53
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 5,
+    "source_length": 30,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 8301071166330789597,
+   "strings": [
+    "BAABBB",
+    "AAAABBBBAB",
+    "BAAAAAAAAABB",
+    "BBBAAABA",
+    "AAABAAAAAAAA"
+   ],
+   "source": "BAABBBAAABAAAAAAAAABBBBABAABAB",
+   "raw_draws": 6,
+   "id": "sampled_bin_src3n_n0005_008",
+   "index": 8,
+   "n_reduced": 5,
+   "total_length": 48
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 5,
+    "source_length": 30,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 7618402465664710037,
+   "strings": [
+    "BAABAAABBB",
+    "BBAABA",
+    "ABBBBAABBB",
+    "BBAAABBB",
+    "BBBBAABBBB"
+   ],
+   "source": "ABAABBBAABAAABBBBAABBBBAAABBBB",
+   "raw_draws": 5,
+   "id": "sampled_bin_src3n_n0005_009",
+   "index": 9,
+   "n_reduced": 5,
+   "total_length": 44
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 5,
+    "source_length": 30,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 8101436510298304653,
+   "strings": [
+    "BAAABB",
+    "BAABBBBBAA",
+    "BBAABBBBB",
+    "ABAABBBBB",
+    "BBABAB"
+   ],
+   "source": "BBBBAABBBBBBABABAABBBBBAAABBBB",
+   "raw_draws": 7,
+   "id": "sampled_bin_src3n_n0005_010",
+   "index": 10,
+   "n_reduced": 5,
+   "total_length": 40
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 5,
+    "source_length": 30,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 6689948856879909835,
+   "strings": [
+    "AABBBBAABAB",
+    "BAABBBBBAAB",
+    "AABAABBBBB",
+    "BBAABB",
+    "ABAABAABB"
+   ],
+   "source": "BBAABABAABAABBBBBAABBBBAABABAA",
+   "raw_draws": 10,
+   "id": "sampled_bin_src3n_n0005_011",
+   "index": 11,
+   "n_reduced": 5,
+   "total_length": 47
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 5,
+    "source_length": 30,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 4243580655329695054,
+   "strings": [
+    "AABBBAA",
+    "BBAAABAAABBB",
+    "ABAAABBBA",
+    "ABAABAAAAABB",
+    "AAABBBBAB"
+   ],
+   "source": "ABAABAAAAABBBBABBAAABAAABBBAAB",
+   "raw_draws": 6,
+   "id": "sampled_bin_src3n_n0005_012",
+   "index": 12,
+   "n_reduced": 5,
+   "total_length": 49
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 5,
+    "source_length": 30,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 8668083308815013454,
+   "strings": [
+    "BAAABB",
+    "AAAAABBA",
+    "BBAAAAA",
+    "BAAAAAABA",
+    "AAABBAAAB"
+   ],
+   "source": "AAABBAAABBAAAAAABABAAAAABBAAAB",
+   "raw_draws": 6,
+   "id": "sampled_bin_src3n_n0005_013",
+   "index": 13,
+   "n_reduced": 5,
+   "total_length": 39
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 5,
+    "source_length": 30,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 6440647899620018794,
+   "strings": [
+    "AABBABABBB",
+    "ABBBBA",
+    "ABBBABBB",
+    "BBBAAB",
+    "BBAABBABABB"
+   ],
+   "source": "ABAAABBAABBABABBBABBBBAABABBAA",
+   "raw_draws": 5,
+   "id": "sampled_bin_src3n_n0005_014",
+   "index": 14,
+   "n_reduced": 5,
+   "total_length": 41
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 5,
+    "source_length": 30,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 9068102269458394130,
+   "strings": [
+    "ABABABAABBB",
+    "AAABABABA",
+    "ABAABBBBB",
+    "BAAABABA",
+    "BBBBBAAAAB"
+   ],
+   "source": "ABBBBAAABABABABAABBBBBBAAAABBB",
+   "raw_draws": 7,
+   "id": "sampled_bin_src3n_n0005_015",
+   "index": 15,
+   "n_reduced": 5,
+   "total_length": 47
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 5,
+    "source_length": 30,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 3100510222847859185,
+   "strings": [
+    "ABABBAAAB",
+    "BBBAAAAABAAA",
+    "AAABAB",
+    "ABAAAB",
+    "ABBAAABA"
+   ],
+   "source": "BAAABAABABBBAAAAABAAABABBAAABA",
+   "raw_draws": 7,
+   "id": "sampled_bin_src3n_n0005_016",
+   "index": 16,
+   "n_reduced": 5,
+   "total_length": 41
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 5,
+    "source_length": 30,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 601267200232447480,
+   "strings": [
+    "BAABABB",
+    "BBBBBBBBBBB",
+    "BBBBBBAABBBA",
+    "ABBBAABAB",
+    "AABABBBAB"
+   ],
+   "source": "BBBBBBBBBBBBBBBAABBBAABABBBABB",
+   "raw_draws": 6,
+   "id": "sampled_bin_src3n_n0005_017",
+   "index": 17,
+   "n_reduced": 5,
+   "total_length": 48
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 5,
+    "source_length": 30,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 8444248019162330786,
+   "strings": [
+    "BBABABABBAAA",
+    "BABBBBABAB",
+    "BBBABABABBAA",
+    "BBABBBABBBB",
+    "BABBBABBBBA"
+   ],
+   "source": "BBABBBABBBBABABABBAAAAABBBBBAA",
+   "raw_draws": 11,
+   "id": "sampled_bin_src3n_n0005_018",
+   "index": 18,
+   "n_reduced": 5,
+   "total_length": 56
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 5,
+    "source_length": 30,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 4008687663998803031,
+   "strings": [
+    "BABBABBBAAA",
+    "BBABBBAAAA",
+    "BAABABBA",
+    "ABBAABABB",
+    "AABABBABBBA"
+   ],
+   "source": "BABBAABABBABBBAAAAAABBABABBBBB",
+   "raw_draws": 6,
+   "id": "sampled_bin_src3n_n0005_019",
+   "index": 19,
+   "n_reduced": 5,
+   "total_length": 49
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 5,
+    "source_length": 30,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 7248436163377947969,
+   "strings": [
+    "BAAABABAAABA",
+    "AABAAAABABBA",
+    "AAABAAAAB",
+    "BABAAABAB",
+    "BBAAAB"
+   ],
+   "source": "ABABAAABABAAABABBAAABAAAABABBA",
+   "raw_draws": 10,
+   "id": "sampled_bin_src3n_n0005_020",
+   "index": 20,
+   "n_reduced": 5,
+   "total_length": 48
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 5,
+    "source_length": 30,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 7043381492994109627,
+   "strings": [
+    "ABAAAA",
+    "AABAABBBBA",
+    "ABAABBBBAAB",
+    "BAABAAB",
+    "BABBAABBBBBA"
+   ],
+   "source": "BBABBAABBBBBAABAABBBBAABABAAAA",
+   "raw_draws": 5,
+   "id": "sampled_bin_src3n_n0005_021",
+   "index": 21,
+   "n_reduced": 5,
+   "total_length": 46
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 5,
+    "source_length": 30,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 3728151432065455314,
+   "strings": [
+    "BAABABBBAAB",
+    "ABABBBAABBB",
+    "BAABBBABABAA",
+    "ABAAABABBAA",
+    "ABABAAAB"
+   ],
+   "source": "AABAAABABBAABABBBAABBBABABAAAB",
+   "raw_draws": 13,
+   "id": "sampled_bin_src3n_n0005_022",
+   "index": 22,
+   "n_reduced": 5,
+   "total_length": 53
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 5,
+    "source_length": 30,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 687639981073125166,
+   "strings": [
+    "AAABBBAAB",
+    "BBAABAABAB",
+    "ABABBBAABBBA",
+    "ABAABAAAAAB",
+    "BBBAABAAB"
+   ],
+   "source": "ABAABAAAAABBBAABAABABBBAABBBAA",
+   "raw_draws": 7,
+   "id": "sampled_bin_src3n_n0005_023",
+   "index": 23,
+   "n_reduced": 5,
+   "total_length": 51
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 5,
+    "source_length": 30,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 5164233727376689768,
+   "strings": [
+    "AAABAABBAAA",
+    "BBABABBABA",
+    "BABBABAAAAAB",
+    "ABABBABAA",
+    "BABAABBBABA"
+   ],
+   "source": "BABABAABBBABABBABAAAAABAABBAAA",
+   "raw_draws": 12,
+   "id": "sampled_bin_src3n_n0005_024",
+   "index": 24,
+   "n_reduced": 5,
+   "total_length": 53
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 5,
+    "source_length": 30,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 4313600000404164246,
+   "strings": [
+    "AAABBAAABBBB",
+    "BBBBBA",
+    "AAAAAABBA",
+    "BBBAABA",
+    "AAAABBAAA"
+   ],
+   "source": "ABBBBAAAAAAAAAABBAAABBBBBAABAA",
+   "raw_draws": 5,
+   "id": "sampled_bin_src3n_n0005_025",
+   "index": 25,
+   "n_reduced": 5,
+   "total_length": 43
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 5,
+    "source_length": 30,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 4182569625815983087,
+   "strings": [
+    "ABABABAA",
+    "ABAAABABABB",
+    "ABABAAABABAB",
+    "BABABABA",
+    "ABBAAABABB"
+   ],
+   "source": "ABBBBABABABAAABABABBAAABABBBBB",
+   "raw_draws": 6,
+   "id": "sampled_bin_src3n_n0005_026",
+   "index": 26,
+   "n_reduced": 5,
+   "total_length": 49
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 5,
+    "source_length": 30,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 712132535198670539,
+   "strings": [
+    "BAAABBBAAA",
+    "BABAABAAAA",
+    "AABAAAAABAAB",
+    "ABBBBABAABAA",
+    "AABBBBABA"
+   ],
+   "source": "BBAAABBBAAAABBBBABAABAAAAABAAB",
+   "raw_draws": 8,
+   "id": "sampled_bin_src3n_n0005_027",
+   "index": 27,
+   "n_reduced": 5,
+   "total_length": 53
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 5,
+    "source_length": 30,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 3513640942410134243,
+   "strings": [
+    "BBABBAAABA",
+    "AAABBB",
+    "ABBBBBAAA",
+    "BBBBBAAABAAA",
+    "AABAABBBB"
+   ],
+   "source": "BABBABBAAABAABBBBBAAABAAABBBBB",
+   "raw_draws": 8,
+   "id": "sampled_bin_src3n_n0005_028",
+   "index": 28,
+   "n_reduced": 5,
+   "total_length": 46
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 5,
+    "source_length": 30,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 6441738145342195544,
+   "strings": [
+    "BBBAAABA",
+    "BBAABAABBBAB",
+    "BABABBAABA",
+    "AABAABABABBA",
+    "BBAAABAABABA"
+   ],
+   "source": "ABBBAAABAABABABBAABAABBBABBBBA",
+   "raw_draws": 6,
+   "id": "sampled_bin_src3n_n0005_029",
+   "index": 29,
+   "n_reduced": 5,
+   "total_length": 54
+  }
+ ]
+}

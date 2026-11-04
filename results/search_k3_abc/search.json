@@ -1,0 +1,455 @@
+{
+ "python": "3.14.5",
+ "implementation": "CPython",
+ "platform": "Linux-7.0.6-arch1-1-x86_64-with-glibc2.43",
+ "created": "2026-11-04T17:58:02+00:00",
+ "command": "search_worst_case.py --k 3 --alphabet ABC --max-size 6 --out results/search_k3_abc",
+ "args": {
+  "k": 3,
+  "alphabet": "ABC",
+  "min_size": 2,
+  "max_size": 6,
+  "mode": "exhaustive",
+  "samples": 1000,
+  "seed": 0,
+  "top": 20,
+  "max_states": 100000,
+  "max_instances": 2000000,
+  "out": "results/search_k3_abc"
+ },
+ "stats": {
+  "evaluated": 66510,
+  "duplicates": 331056,
+  "budget_exceeded": 0,
+  "greedy_suboptimal": 34026,
+  "tie_sensitive": 33977,
+  "compression_bound_violations": 0,
+  "factor3_violations": 0
+ },
+ "worst_ratio": 1.5,
+ "worst_ratio_exact": "3/2",
+ "elapsed_s": 14.816236434999155,
+ "top": [
+  {
+   "strings": [
+    "AAA",
+    "AAB",
+    "ABB",
+    "BBB",
+    "BBC",
+    "CAA"
+   ],
+   "opt": 8,
+   "greedy_worst": 12,
+   "greedy_best": 8,
+   "greedy_lengths": [
+    8,
+    10,
+    12
+   ],
+   "ratio": 1.5,
+   "ratio_exact": "3/2",
+   "worst_superstring": "AAABBBCAABBC"
+  },
+  {
+   "strings": [
+    "AAA",
+    "AAB",
+    "BAA",
+    "BCC",
+    "CCB",
+    "CCC"
+   ],
+   "opt": 9,
+   "greedy_worst": 13,
+   "greedy_best": 9,
+   "greedy_lengths": [
+    9,
+    11,
+    13
+   ],
+   "ratio": 1.4444444444444444,
+   "ratio_exact": "13/9",
+   "worst_superstring": "AAABAABCCBCCC"
+  },
+  {
+   "strings": [
+    "AAA",
+    "AAB",
+    "BAA",
+    "BCB",
+    "CBC",
+    "CCB"
+   ],
+   "opt": 9,
+   "greedy_worst": 13,
+   "greedy_best": 9,
+   "greedy_lengths": [
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "ratio": 1.4444444444444444,
+   "ratio_exact": "13/9",
+   "worst_superstring": "AAABAABCCBCBC"
+  },
+  {
+   "strings": [
+    "AAA",
+    "AAB",
+    "BAA",
+    "BCB",
+    "CBB",
+    "CBC"
+   ],
+   "opt": 9,
+   "greedy_worst": 13,
+   "greedy_best": 9,
+   "greedy_lengths": [
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "ratio": 1.4444444444444444,
+   "ratio_exact": "13/9",
+   "worst_superstring": "AAABAABCBBCBC"
+  },
+  {
+   "strings": [
+    "AAA",
+    "AAB",
+    "BAA",
+    "BCB",
+    "BCC",
+    "CBC"
+   ],
+   "opt": 9,
+   "greedy_worst": 13,
+   "greedy_best": 9,
+   "greedy_lengths": [
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "ratio": 1.4444444444444444,
+   "ratio_exact": "13/9",
+   "worst_superstring": "AAABAABCBCBCC"
+  },
+  {
+   "strings": [
+    "AAA",
+    "AAB",
+    "BAA",
+    "BBC",
+    "BCB",
+    "CBC"
+   ],
+   "opt": 9,
+   "greedy_worst": 13,
+   "greedy_best": 9,
+   "greedy_lengths": [
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "ratio": 1.4444444444444444,
+   "ratio_exact": "13/9",
+   "worst_superstring": "AAABAABCBCBBC"
+  },
+  {
+   "strings": [
+    "AAA",
+    "AAB",
+    "ABA",
+    "BAA",
+    "CBA"
+   ],
+   "opt": 7,
+   "greedy_worst": 10,
+   "greedy_best": 7,
+   "greedy_lengths": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "ratio": 1.4285714285714286,
+   "ratio_exact": "10/7",
+   "worst_superstring": "AAACBABAAB"
+  },
+  {
+   "strings": [
+    "AAA",
+    "AAB",
+    "ABA",
+    "BAA",
+    "BBA"
+   ],
+   "opt": 7,
+   "greedy_worst": 10,
+   "greedy_best": 7,
+   "greedy_lengths": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "ratio": 1.4285714285714286,
+   "ratio_exact": "10/7",
+   "worst_superstring": "AAABBABAAB"
+  },
+  {
+   "strings": [
+    "AAA",
+    "AAB",
+    "ABA",
+    "ABC",
+    "BAA"
+   ],
+   "opt": 7,
+   "greedy_worst": 10,
+   "greedy_best": 7,
+   "greedy_lengths": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "ratio": 1.4285714285714286,
+   "ratio_exact": "10/7",
+   "worst_superstring": "AAABAABABC"
+  },
+  {
+   "strings": [
+    "AAA",
+    "AAB",
+    "ABA",
+    "ABB",
+    "BAA"
+   ],
+   "opt": 7,
+   "greedy_worst": 10,
+   "greedy_best": 7,
+   "greedy_lengths": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "ratio": 1.4285714285714286,
+   "ratio_exact": "10/7",
+   "worst_superstring": "AAABAABABB"
+  },
+  {
+   "strings": [
+    "AAA",
+    "AAB",
+    "CAA"
+   ],
+   "opt": 5,
+   "greedy_worst": 7,
+   "greedy_best": 5,
+   "greedy_lengths": [
+    5,
+    7
+   ],
+   "ratio": 1.4,
+   "ratio_exact": "7/5",
+   "worst_superstring": "AAACAAB"
+  },
+  {
+   "strings": [
+    "AAA",
+    "AAB",
+    "BAA"
+   ],
+   "opt": 5,
+   "greedy_worst": 7,
+   "greedy_best": 5,
+   "greedy_lengths": [
+    5,
+    7
+   ],
+   "ratio": 1.4,
+   "ratio_exact": "7/5",
+   "worst_superstring": "AAABAAB"
+  },
+  {
+   "strings": [
+    "AAA",
+    "AAB",
+    "BCB",
+    "CAA",
+    "CAB",
+    "CBC"
+   ],
+   "opt": 10,
+   "greedy_worst": 14,
+   "greedy_best": 10,
+   "greedy_lengths": [
+    10,
+    12,
+    14
+   ],
+   "ratio": 1.4,
+   "ratio_exact": "7/5",
+   "worst_superstring": "AAACAABCABCBCB"
+  },
+  {
+   "strings": [
+    "AAA",
+    "AAB",
+    "BCB",
+    "CAA",
+    "CBC"
+   ],
+   "opt": 8,
+   "greedy_worst": 11,
+   "greedy_best": 8,
+   "greedy_lengths": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "ratio": 1.375,
+   "ratio_exact": "11/8",
+   "worst_superstring": "AAACAABCBCB"
+  },
+  {
+   "strings": [
+    "AAA",
+    "AAB",
+    "BCA",
+    "CAA",
+    "CAC"
+   ],
+   "opt": 8,
+   "greedy_worst": 11,
+   "greedy_best": 8,
+   "greedy_lengths": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "ratio": 1.375,
+   "ratio_exact": "11/8",
+   "worst_superstring": "AAABCAABCAC"
+  },
+  {
+   "strings": [
+    "AAA",
+    "AAB",
+    "BAA",
+    "BAC",
+    "CBA"
+   ],
+   "opt": 8,
+   "greedy_worst": 11,
+   "greedy_best": 8,
+   "greedy_lengths": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "ratio": 1.375,
+   "ratio_exact": "11/8",
+   "worst_superstring": "AAABAABCBAC"
+  },
+  {
+   "strings": [
+    "AAA",
+    "AAB",
+    "ABC",
+    "BAB",
+    "CAA"
+   ],
+   "opt": 8,
+   "greedy_worst": 11,
+   "greedy_best": 8,
+   "greedy_lengths": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "ratio": 1.375,
+   "ratio_exact": "11/8",
+   "worst_superstring": "AAABABCAABC"
+  },
+  {
+   "strings": [
+    "AAA",
+    "AAB",
+    "ABC",
+    "BAA",
+    "CAB"
+   ],
+   "opt": 8,
+   "greedy_worst": 11,
+   "greedy_best": 8,
+   "greedy_lengths": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "ratio": 1.375,
+   "ratio_exact": "11/8",
+   "worst_superstring": "AAABAABCABC"
+  },
+  {
+   "strings": [
+    "AAA",
+    "AAB",
+    "AAC",
+    "BAA",
+    "CAA"
+   ],
+   "opt": 8,
+   "greedy_worst": 11,
+   "greedy_best": 8,
+   "greedy_lengths": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "ratio": 1.375,
+   "ratio_exact": "11/8",
+   "worst_superstring": "AAABAABCAAC"
+  },
+  {
+   "strings": [
+    "ABA",
+    "ABC",
+    "BAB",
+    "BCB",
+    "CAB",
+    "CBC"
+   ],
+   "opt": 8,
+   "greedy_worst": 11,
+   "greedy_best": 8,
+   "greedy_lengths": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "ratio": 1.375,
+   "ratio_exact": "11/8",
+   "worst_superstring": "ABABCABCBCB"
+  }
+ ]
+}

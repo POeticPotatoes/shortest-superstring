@@ -1,0 +1,991 @@
+{
+ "format": "scs-batch/1",
+ "name": "repetitive/periodic@small/n=16",
+ "family": "repetitive",
+ "params": {
+  "mode": "periodic",
+  "motif_length": [
+   2,
+   4
+  ],
+  "mutation_rate": 0.08,
+  "fragment_length": [
+   8,
+   14
+  ],
+  "source_length": 128,
+  "alphabet": "ACGT",
+  "n": 16
+ },
+ "master_seed": 20261105,
+ "python": "3.14.5",
+ "implementation": "CPython",
+ "platform": "Linux-7.0.6-arch1-1-x86_64-with-glibc2.43",
+ "created": "2026-11-04T17:52:48+00:00",
+ "command": "generate_instances.py --tier tiny --tier small --tier large",
+ "tier": "small",
+ "variant": "repetitive/periodic",
+ "seed_scheme": "derive_seed(master_seed, variant, n, index)",
+ "instances": [
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "mode": "periodic",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "motif_length": [
+     2,
+     4
+    ],
+    "mutation_rate": 0.08,
+    "fragment_length": [
+     8,
+     14
+    ],
+    "source_length": 128
+   },
+   "seed": 1513586936533196048,
+   "strings": [
+    "GGCGGGCGGGCGGG",
+    "GGGCGGGCGGGCGG",
+    "CGGGCGGGCGGGCG",
+    "CCGGGCGGGCGG",
+    "GCGGGCTGGCGGG",
+    "GCGGGCGGGCCGG",
+    "GGGCCGGCGGGCGG",
+    "GGCGGCCGG",
+    "GGGGGGCGGGCGGG",
+    "CCGGGGGGCGGG",
+    "GGACGGGCG",
+    "GGCGGGCGGGCA",
+    "CGGGCGGGCAGG",
+    "CGGGCGGGCGGA",
+    "GGGCGGGCGGGCCG",
+    "GGGCGGACGGG"
+   ],
+   "source": "CGGGCGGGCGGACGGGCGGGCGGGCCGGGGGGCGGGCGGGCGGGCGGGCTGGCGGGTGGGCGGGCGGCCGGGCGGGCGGGCGGGCCGGCGGGCGGGCGGGCGGGCGGGCGGGCGGGCGGGCGGGCAGG",
+   "motif": "CGGG",
+   "raw_draws": 39,
+   "attempt": 0,
+   "id": "repetitive_periodic_n0016_000",
+   "index": 0,
+   "n_reduced": 16,
+   "total_length": 199
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "mode": "periodic",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "motif_length": [
+     2,
+     4
+    ],
+    "mutation_rate": 0.08,
+    "fragment_length": [
+     8,
+     14
+    ],
+    "source_length": 128
+   },
+   "seed": 2992440949607735006,
+   "strings": [
+    "AGGGGGGGGGGGG",
+    "GGGGGGCCG",
+    "GGGGGGGGGT",
+    "GGGAGGGGGGGGG",
+    "GGGGGGGGGGGAG",
+    "GGGGGGGGTGG",
+    "GGGGGGGGGGGGGG",
+    "GGGGCGGGGGGGGG",
+    "CGGGGGGGGGAGGG",
+    "GGGGGCGGGG",
+    "GGGGGGCGG",
+    "GGGGGGGAGGGGGG",
+    "GGGGGGGTGGGG",
+    "GTGGGGGGGG",
+    "GGGGGGGGGGGGC",
+    "GGCCGTGGGGGGG"
+   ],
+   "source": "GGGGGGGGGGTGGGGGGGGGGGGGGGGGGGGGGGGAGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGCGGGGGGGGGAGGGGGGGGGGGGGGCCGTGGGGGGGGGGGGGAGGGGGGGGGGGGGAGGGG",
+   "motif": "GGG",
+   "raw_draws": 47,
+   "attempt": 0,
+   "id": "repetitive_periodic_n0016_001",
+   "index": 1,
+   "n_reduced": 16,
+   "total_length": 192
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "mode": "periodic",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "motif_length": [
+     2,
+     4
+    ],
+    "mutation_rate": 0.08,
+    "fragment_length": [
+     8,
+     14
+    ],
+    "source_length": 128
+   },
+   "seed": 53365272550403546,
+   "strings": [
+    "CGGCGTCGGGGGC",
+    "GGCGGCGGCGT",
+    "AGCGGCGGCGGCG",
+    "GGCGGCGACCGC",
+    "GCGGCGGCGGCGGC",
+    "GGCGGCGTCGG",
+    "CGGCGGCGGCGA",
+    "CGGCTGCGGCAGC",
+    "GCGGCGCCGGCAGC",
+    "GGCGGCTGCGGCAG",
+    "TGCGGCAGCGGCGG",
+    "GGCGGCGCCGGC",
+    "CCGGCAGCGGCGG",
+    "GGCAGCGGCGGCGG",
+    "GCAGCGGCGGCGGC",
+    "CGGGGGCGGCGGC"
+   ],
+   "source": "GGCGGCGGCGGCGGCGGCGCCGGCAGCGGCGGCGGCGGCGGCGGCGGCGACCGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCTGCGGCAGCGGCGGCGGCGGCGGCGGCGTCGGGGGCGGCGGCGG",
+   "motif": "GGC",
+   "raw_draws": 54,
+   "attempt": 0,
+   "id": "repetitive_periodic_n0016_002",
+   "index": 2,
+   "n_reduced": 16,
+   "total_length": 207
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "mode": "periodic",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "motif_length": [
+     2,
+     4
+    ],
+    "mutation_rate": 0.08,
+    "fragment_length": [
+     8,
+     14
+    ],
+    "source_length": 128
+   },
+   "seed": 7579160263929753053,
+   "strings": [
+    "AATTAATTAATTAA",
+    "TTAATTAATGAAG",
+    "AAGTAATTAATT",
+    "AGTTAATTAATTAA",
+    "TTAATTAGTTAA",
+    "ATGAAGTAATTA",
+    "ATTAATTAATTAAT",
+    "TAATTAATTAATTA",
+    "TTAATTAATTAATT",
+    "TTTAATTAA",
+    "TAATTAATGAAGTA",
+    "TTAATTAATTAG",
+    "TAGTTAATTA",
+    "AATTAATTAT",
+    "AGTAATTAATTAAT",
+    "TTAGTTAAT"
+   ],
+   "source": "AATTAATTAATGAAGTAATTAATTAATTAATTAATTAATTAATTAATTAATTAATTAATTAATTAATTAATTAGTTAATTAATTAATTAATTAATTAATTAATTAATTATTTAATTAATTAATTAATT",
+   "motif": "AATT",
+   "raw_draws": 76,
+   "attempt": 0,
+   "id": "repetitive_periodic_n0016_003",
+   "index": 3,
+   "n_reduced": 16,
+   "total_length": 197
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "mode": "periodic",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "motif_length": [
+     2,
+     4
+    ],
+    "mutation_rate": 0.08,
+    "fragment_length": [
+     8,
+     14
+    ],
+    "source_length": 128
+   },
+   "seed": 8897371709458782345,
+   "strings": [
+    "ACTTCTTCTTC",
+    "TGTTCTTCTT",
+    "TCTTCTTCTTCTTA",
+    "TTCTACTTCTTCTT",
+    "GTTCTTCTTCT",
+    "TCTCCTTCTTCT",
+    "TCTTCTTCTACTTC",
+    "TTCTTCTTCTTCTT",
+    "CCTTCTTCTT",
+    "TCTTCTTCTTG",
+    "CTTATTCTCCTTC",
+    "TTCTTCTTCTTATT",
+    "TCTTCTTCTTCTTC",
+    "CTTCTTCTTCTTCT",
+    "CTTGTTGTTCTTC",
+    "TCTTGTTG"
+   ],
+   "source": "TCTTCTTCTTCTTCTTCTACTTCTTCTTCTTCTTCTTCTTCTTATTCTCCTTCTTCTTCTTCTTCTTCTTCTTCTTCTTCTTCTTCTTCTTGTTGTTCTTCTTCTTCTTCTTCTTCTTCTTCTTCTTC",
+   "motif": "TCT",
+   "raw_draws": 54,
+   "attempt": 0,
+   "id": "repetitive_periodic_n0016_004",
+   "index": 4,
+   "n_reduced": 16,
+   "total_length": 197
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "mode": "periodic",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "motif_length": [
+     2,
+     4
+    ],
+    "mutation_rate": 0.08,
+    "fragment_length": [
+     8,
+     14
+    ],
+    "source_length": 128
+   },
+   "seed": 1694072202527490496,
+   "strings": [
+    "AGCAGCTGCAGCAG",
+    "GCAGTAGCACCA",
+    "CAGCAGCAGAAGCA",
+    "GCAGCACCAGCA",
+    "CAGCAGCAGCAGCT",
+    "CACCAGCAGCA",
+    "CCAGCAGCAGCAGC",
+    "CGGCAGCAC",
+    "GGCAGCATCAG",
+    "AAGCAGCGGCAGCA",
+    "CATCAGCGGCAGC",
+    "AGCAGCAGAAGCAG",
+    "AGCAGCAGCAGAA",
+    "AGCATCAGCGG",
+    "GCAGCAGCAGCAGC",
+    "GCATCAGCGGC"
+   ],
+   "source": "CAGCAGCAGCAGCAGCAGCAGCAGCAGCAGAAGCAGCGGCAGCATCAGCGGCAGCACCAGCAGCAGCAGCAGCAGCAGCTGCAGCAGCAGCAGCAGCAGCTGCAGTAGCACCAGCAGCAGCAGAAGCA",
+   "motif": "CAG",
+   "raw_draws": 32,
+   "attempt": 0,
+   "id": "repetitive_periodic_n0016_005",
+   "index": 5,
+   "n_reduced": 16,
+   "total_length": 201
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "mode": "periodic",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "motif_length": [
+     2,
+     4
+    ],
+    "mutation_rate": 0.08,
+    "fragment_length": [
+     8,
+     14
+    ],
+    "source_length": 128
+   },
+   "seed": 436044974669998729,
+   "strings": [
+    "TACTACTACTACTA",
+    "CTACCACGACG",
+    "CCTACTACTA",
+    "CTGCTACTACTAC",
+    "TACCACGACGACTA",
+    "ACTACTGCTACTAC",
+    "TACTACTACTGCTA",
+    "ACGACTACATCTAC",
+    "ACATCTACTA",
+    "CTACTACTACTGC",
+    "TACTACGACTACA",
+    "TACTACTACGACTA",
+    "ACGACGACTACTA",
+    "CTACTACTACTACT",
+    "ACTACTACTACTAC",
+    "ACTACCAC"
+   ],
+   "source": "TACTACTACTACTCCTACTACTACTACTACGACTACATCTACTACTACCACGACGACTACTACTACTACTGCTACTACTACTACTACTACTACTACTACTACTACTACTGCTACTACTACTACTACTA",
+   "motif": "TAC",
+   "raw_draws": 32,
+   "attempt": 0,
+   "id": "repetitive_periodic_n0016_006",
+   "index": 6,
+   "n_reduced": 16,
+   "total_length": 203
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "mode": "periodic",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "motif_length": [
+     2,
+     4
+    ],
+    "mutation_rate": 0.08,
+    "fragment_length": [
+     8,
+     14
+    ],
+    "source_length": 128
+   },
+   "seed": 2591565290675027811,
+   "strings": [
+    "GGCACGCACGCA",
+    "GAAGGCACGCAC",
+    "CGCACGAAGGCACG",
+    "CGCATGCCCGCA",
+    "CACGCATGCCC",
+    "CACGCACGCCC",
+    "CCCGCACGCACGCA",
+    "GCACGCACGGAC",
+    "CGCACGCACGCACG",
+    "AGGCACGCACG",
+    "CGCACGCCCGCACG",
+    "CACGCACACAGGC",
+    "CACGCACGCACGC",
+    "ACGCCCGCACGCAC",
+    "CACGCACGAAC",
+    "TGCCCGCACGCACG"
+   ],
+   "source": "CGCACGCACGCACGAACGCACGCACGCACGCCCGCACGCACGCACACAGGCACGCACGCACGCACGCACGCACGCACGCACGCACGAAGGCACGCACGCATGCCCGCACGCACGCACGCACGGACGCA",
+   "motif": "CGCA",
+   "raw_draws": 38,
+   "attempt": 0,
+   "id": "repetitive_periodic_n0016_007",
+   "index": 7,
+   "n_reduced": 16,
+   "total_length": 202
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "mode": "periodic",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "motif_length": [
+     2,
+     4
+    ],
+    "mutation_rate": 0.08,
+    "fragment_length": [
+     8,
+     14
+    ],
+    "source_length": 128
+   },
+   "seed": 8428369976955015636,
+   "strings": [
+    "TGTTGTTGTTGTTG",
+    "TGATGTTGTTGTT",
+    "TTGTTGTTGTTGTT",
+    "TTGTGGTTGTT",
+    "GTTGTGGTTG",
+    "TTGTTGTTGATGTT",
+    "GTGGTTGTTGGTGT",
+    "GTTGTTGTTGTTGT",
+    "TTGTTGTTGTTGAT",
+    "GTGTTGTTGTTGTT",
+    "ATGTTGTTGTTGT",
+    "TTGATGTTGTTGT",
+    "GTTGTTGATGTTGT",
+    "TGGTTGTTGTTGTT",
+    "TTGTTGGTGTTG",
+    "GGTGTTGTTGT"
+   ],
+   "source": "TGGTTGTTGTTGTTGTTGTTGTTGTTGTTGTTGTTGTTGTTGTTGTTGTTGTTGTTGTTGTGGTTGTTGGTGTTGTTGTTGTTGTTGTTGTTGTTGTTGATGTTGTTGTTGTTGTTGTTGTTGTTGTT",
+   "motif": "TTG",
+   "raw_draws": 127,
+   "attempt": 0,
+   "id": "repetitive_periodic_n0016_008",
+   "index": 8,
+   "n_reduced": 16,
+   "total_length": 209
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "mode": "periodic",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "motif_length": [
+     2,
+     4
+    ],
+    "mutation_rate": 0.08,
+    "fragment_length": [
+     8,
+     14
+    ],
+    "source_length": 128
+   },
+   "seed": 8211364979733092125,
+   "strings": [
+    "CTACCAACCAAC",
+    "ACCAACCAACCAA",
+    "ACCAACCAACGAAC",
+    "AACCAACGAACCA",
+    "ACCAACTAACCAA",
+    "CGAACCAA",
+    "CCAACCAACCTAC",
+    "CAACCTACCAACCA",
+    "AACCAACTAACCA",
+    "CCAACCAACCAAC",
+    "AATCTGCCGACCA",
+    "AACCAACCAATC",
+    "CAACCAACCAACC",
+    "AACCAACCAACCA",
+    "ACTAACCAAC",
+    "ACCAACCTACC"
+   ],
+   "source": "AACCAACTAACCAACCAACCAACCAACCAACCAACCAACGAACCAACCTACCAACCAACCTACCAACCAACCTACCAACCAACCAATCTGCCGACCAACCAACCAACCAACCAACTAACCAACCAACC",
+   "motif": "AACC",
+   "raw_draws": 52,
+   "attempt": 0,
+   "id": "repetitive_periodic_n0016_009",
+   "index": 9,
+   "n_reduced": 16,
+   "total_length": 198
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "mode": "periodic",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "motif_length": [
+     2,
+     4
+    ],
+    "mutation_rate": 0.08,
+    "fragment_length": [
+     8,
+     14
+    ],
+    "source_length": 128
+   },
+   "seed": 7721278699827550689,
+   "strings": [
+    "AGAGAGAGAGAGAA",
+    "GAGAGAGAGAGAGA",
+    "GAGAGAGAGAGCGA",
+    "AGAGAGTGAGAGAG",
+    "AGAGAGAGAGAGAG",
+    "GAGAGAGAGTGAGA",
+    "AGAGGGGGAGAGA",
+    "AGCGAGAGAGAGA",
+    "AGAGAGGGGG",
+    "AGAGAAAGAGAGA",
+    "TGAGAGAGAG",
+    "AGAGCGAGAGA",
+    "GGGGAGAGAG",
+    "CAGAGAAAG",
+    "AGAGAGAGAGCGAG",
+    "AGAGAGCGAGAG"
+   ],
+   "source": "AGAGAGAGAGAGAGAGAGACAGAGAAAGAGAGAGAGAGAGAGAGAGAGAGCGAGAGAGAGAGAGAGAGAGAGAGAGAGAGAGTGAGAGAGAGAGAGAGGGGGAGAGAGAGAGAGAGAGAGAGAGAGAA",
+   "motif": "AG",
+   "raw_draws": 51,
+   "attempt": 0,
+   "id": "repetitive_periodic_n0016_010",
+   "index": 10,
+   "n_reduced": 16,
+   "total_length": 199
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "mode": "periodic",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "motif_length": [
+     2,
+     4
+    ],
+    "mutation_rate": 0.08,
+    "fragment_length": [
+     8,
+     14
+    ],
+    "source_length": 128
+   },
+   "seed": 3049530851880014119,
+   "strings": [
+    "CACACACACACACA",
+    "CAAACACCCACAC",
+    "CTCACACACATA",
+    "ACCCACACACAC",
+    "ACACACATACAC",
+    "ATACACACACA",
+    "CACAGACTCACAC",
+    "CACACACAGACTC",
+    "ACACACACACACAC",
+    "ACTCACACA",
+    "CACACACCCACA",
+    "ACAAACACCCAC",
+    "ACACACAGACTCA",
+    "ACACATACACAC",
+    "ACACACAAACACC",
+    "ACACAAACACCCA"
+   ],
+   "source": "GACACACATACACACACACACACACACACACACACACACACACACACACAAACACCCACACACACACACCCACACACACACACACAGACTCACACACATACACACACACACACACACACACACACACA",
+   "motif": "CA",
+   "raw_draws": 60,
+   "attempt": 0,
+   "id": "repetitive_periodic_n0016_011",
+   "index": 11,
+   "n_reduced": 16,
+   "total_length": 198
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "mode": "periodic",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "motif_length": [
+     2,
+     4
+    ],
+    "mutation_rate": 0.08,
+    "fragment_length": [
+     8,
+     14
+    ],
+    "source_length": 128
+   },
+   "seed": 8014699860719413751,
+   "strings": [
+    "CACACACAAACACA",
+    "ACACACACACTCA",
+    "CACCCACTCACAC",
+    "AACATACACACAC",
+    "AACACACACCCAC",
+    "CACTCACCCACAAA",
+    "TACACACACA",
+    "CTCACACACACACA",
+    "ACACACACAAA",
+    "ACACACACACACAC",
+    "CACACACACTCAC",
+    "AAACACACACC",
+    "CAAACATACACA",
+    "CACACACACACACT",
+    "AAACACACACAC",
+    "ACACACTCACACA"
+   ],
+   "source": "CACCCACACACACACACACACAAACACACACACACACACACTCACACACACACACACACACACACACACACAAACATACACACACACACTCACCCACAAACACACACCCACTCACACACACACACACA",
+   "motif": "CA",
+   "raw_draws": 55,
+   "attempt": 0,
+   "id": "repetitive_periodic_n0016_012",
+   "index": 12,
+   "n_reduced": 16,
+   "total_length": 204
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "mode": "periodic",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "motif_length": [
+     2,
+     4
+    ],
+    "mutation_rate": 0.08,
+    "fragment_length": [
+     8,
+     14
+    ],
+    "source_length": 128
+   },
+   "seed": 5427544009942225124,
+   "strings": [
+    "TTTTTTTATTTTT",
+    "TTTTTTTTTTTTTT",
+    "TTTTTTTTTATTTT",
+    "TATTTTTTCTTTTT",
+    "GTATTTTTTTT",
+    "TTTTTCTTTTTTT",
+    "TTTTTTTTTTATTT",
+    "CTTTTTTTTTGTAT",
+    "TTCTTTTTTTTTGT",
+    "TTTCTTTTTTTTT",
+    "TTTTTTGTATTTTT",
+    "TTATTTTTT",
+    "TTTTTGTATTTTTT",
+    "TTTTTTTTTTCTT",
+    "TTTTTTTTCTTTTT",
+    "TTTGTATTTTTTT"
+   ],
+   "source": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTATTTTTTCTTTTTTTTTGTATTTTTTTTTTTTCTTTTTTTTTTT",
+   "motif": "TT",
+   "raw_draws": 141,
+   "attempt": 0,
+   "id": "repetitive_periodic_n0016_013",
+   "index": 13,
+   "n_reduced": 16,
+   "total_length": 211
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "mode": "periodic",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "motif_length": [
+     2,
+     4
+    ],
+    "mutation_rate": 0.08,
+    "fragment_length": [
+     8,
+     14
+    ],
+    "source_length": 128
+   },
+   "seed": 5807456822599296525,
+   "strings": [
+    "TCCACCACCAAC",
+    "CCACCACCAACACC",
+    "CAGCACCACCA",
+    "CGACCACCACTACC",
+    "CCACCACCACGAC",
+    "CACCACCACCAC",
+    "CCCACCACTA",
+    "ACCACCACCACCAG",
+    "CGACCACCTCCACC",
+    "CCACCCCCACCAC",
+    "CCTCCACCA",
+    "CCACCACGACCA",
+    "CCACCACTACCA",
+    "CCACCAGCACCACC",
+    "CACCACCCCC",
+    "ACTACCACCAC"
+   ],
+   "source": "ACCACCACCACCACCACCCCCACCACTACCACCACCACCACCACCAGCACCACCACCACGACCACCACTACCACCACCACCACCACCACCACCACCACGACCACCTCCACCACCAACACCACCACCAC",
+   "motif": "ACC",
+   "raw_draws": 25,
+   "attempt": 0,
+   "id": "repetitive_periodic_n0016_014",
+   "index": 14,
+   "n_reduced": 16,
+   "total_length": 195
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "mode": "periodic",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "motif_length": [
+     2,
+     4
+    ],
+    "mutation_rate": 0.08,
+    "fragment_length": [
+     8,
+     14
+    ],
+    "source_length": 128
+   },
+   "seed": 7049845736469790276,
+   "strings": [
+    "CATCCTCATCGTC",
+    "TCATCATCCTCA",
+    "TCATCATCATCATC",
+    "TCATCCTCATCG",
+    "ATCATCACCAT",
+    "CATCATCATCG",
+    "ATCATCATCCTC",
+    "ATCATCATCATCAT",
+    "CATCATCATCATCA",
+    "ATCGTCATCATCA",
+    "CATCATCGT",
+    "ATCATCGTCATCAT",
+    "CTCATCGTCATCA",
+    "TCATCACCATCA",
+    "GTCATCATCATCA",
+    "CATCATCATCAC"
+   ],
+   "source": "ATCATCATCATCATCATCATCATCGTCATCATCATCATCATCATCCTCATCGTCATCATCATCATCATCACCATCATCATCATCATCATCATCATCATCATCATCATCATCCTCATCATCGTCATCAT",
+   "motif": "ATC",
+   "raw_draws": 63,
+   "attempt": 0,
+   "id": "repetitive_periodic_n0016_015",
+   "index": 15,
+   "n_reduced": 16,
+   "total_length": 199
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "mode": "periodic",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "motif_length": [
+     2,
+     4
+    ],
+    "mutation_rate": 0.08,
+    "fragment_length": [
+     8,
+     14
+    ],
+    "source_length": 128
+   },
+   "seed": 4544691889950203994,
+   "strings": [
+    "TATTATTATTATTA",
+    "AAGTATTATTATTA",
+    "TAATGATT",
+    "ATTATTATTATAA",
+    "TTATTATTATTATT",
+    "GATTAATATTATT",
+    "TTATAATT",
+    "TTATTATAAGTATT",
+    "ATTATTATTATTAT",
+    "TTAATATTATTA",
+    "TTATGATTATTATT",
+    "ATTATTACTAGTA",
+    "TTATTATTATG",
+    "TTATAATGAT",
+    "AATATTATTATTA",
+    "ATATTATTATTAT"
+   ],
+   "source": "ATTATTACTAGTATTATTATTATTATAATTATTATAATGATTAATATTATTATTATTATTATTATTATTATTATAAGTATTATTATTATGATTATTATTATTATTATTATTATTATTATTATTATTAT",
+   "motif": "ATT",
+   "raw_draws": 36,
+   "attempt": 0,
+   "id": "repetitive_periodic_n0016_016",
+   "index": 16,
+   "n_reduced": 16,
+   "total_length": 198
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "mode": "periodic",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "motif_length": [
+     2,
+     4
+    ],
+    "mutation_rate": 0.08,
+    "fragment_length": [
+     8,
+     14
+    ],
+    "source_length": 128
+   },
+   "seed": 4260809709818718516,
+   "strings": [
+    "TCTTCTTCATCTT",
+    "TTCTTCTTTTTCTT",
+    "CTTCTTTTTCTTCT",
+    "TTTCTTCTTC",
+    "TCCTTCTTCTT",
+    "TCTTCTTCTTCTTC",
+    "CTTCATCTTC",
+    "TTCTTCTTCTTCTT",
+    "CTTCTTCTTCTTCT",
+    "ATCTTCTTCTTCT",
+    "TTCTTCTTCTTCAT",
+    "TCTCCTTCTTCT",
+    "CTTCTTCTTTTTCT",
+    "TTCATCTTCTTCT",
+    "TTCTTCTTCATC",
+    "CCTTCTTCTTCTT"
+   ],
+   "source": "TCTCCTTCTTCTTCTTCATCTTCTTCTTCTTCTTCTTCTTCTTCTTCTTCTTCTTCTTCTTCTTCTTCTTCTTCTTCTTCTTCTTCTTCTTCTTTTTCTTCTTCTTCTTCTTCTTCTTCTTCTTCTTC",
+   "motif": "TCT",
+   "raw_draws": 204,
+   "attempt": 0,
+   "id": "repetitive_periodic_n0016_017",
+   "index": 17,
+   "n_reduced": 16,
+   "total_length": 205
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "mode": "periodic",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "motif_length": [
+     2,
+     4
+    ],
+    "mutation_rate": 0.08,
+    "fragment_length": [
+     8,
+     14
+    ],
+    "source_length": 128
+   },
+   "seed": 1958589829651025280,
+   "strings": [
+    "TCGCCCGCTCGCTC",
+    "CGCTCGCTCGCTCG",
+    "TCGCTCGCGCGCT",
+    "CGCTCGCGCGCTCG",
+    "TCGCTCGCCCGC",
+    "CGCTCGCTCGCTGG",
+    "GCTCGCTCGCTCGC",
+    "TCGCTGGCACGCGC",
+    "CTCGCTCGCTCGCT",
+    "CTCGCTCGCGTGCT",
+    "GCGTGCTCGCTCG",
+    "ACGCGCGCTCGCTC",
+    "GCACGCGCGC",
+    "GCTCGCTCGCGC",
+    "CACGCGCGCTCG",
+    "TCGCTCGCTCGCG"
+   ],
+   "source": "CTCGCTCGCTCGCCCGCTCGCTCGCTCGCTCGCTCGCTCGCTCGCTCGCGCGCTCGCTCGCTCGCTCGCTCGCTCGCTCGCTCGCTGGCACGCGCGCTCGCTCGCGTGCTCGCTCGCTCGCTCGCTCG",
+   "motif": "CTCG",
+   "raw_draws": 67,
+   "attempt": 0,
+   "id": "repetitive_periodic_n0016_018",
+   "index": 18,
+   "n_reduced": 16,
+   "total_length": 211
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "mode": "periodic",
+    "alphabet": "ACGT",
+    "exact_n": true,
+    "motif_length": [
+     2,
+     4
+    ],
+    "mutation_rate": 0.08,
+    "fragment_length": [
+     8,
+     14
+    ],
+    "source_length": 128
+   },
+   "seed": 100833796374244212,
+   "strings": [
+    "CATCATCATCATCA",
+    "AGCTTCATCAACAT",
+    "ATCATCAGCTTCAT",
+    "ATGATCATCATC",
+    "ATCATCATATTC",
+    "ATCATGATCATCAT",
+    "CATCATCATCATGA",
+    "ACATCATC",
+    "GATCATCATCATC",
+    "TGATCATCATCAT",
+    "CATCATATTCATCA",
+    "CATCATCATGATCA",
+    "TCATCAACATCAT",
+    "TCATCAGCTTCATC",
+    "CTTCATCAACATC",
+    "TCATCATCAG"
+   ],
+   "source": "TGATCATCATCATCATCATCATCATATTCATCATCATCATCATCATCATCATCATGATCATCATCATCAGCTTCATCAACATCATCATCATCATGATCATCATCATCATCATCATCATCATGATCATC",
+   "motif": "TCA",
+   "raw_draws": 37,
+   "attempt": 0,
+   "id": "repetitive_periodic_n0016_019",
+   "index": 19,
+   "n_reduced": 16,
+   "total_length": 206
+  }
+ ]
+}

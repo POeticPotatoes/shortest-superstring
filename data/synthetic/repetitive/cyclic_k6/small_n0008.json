@@ -1,0 +1,751 @@
+{
+ "format": "scs-batch/1",
+ "name": "repetitive/cyclic_k6@small/n=8",
+ "family": "repetitive",
+ "params": {
+  "mode": "cyclic",
+  "k": 6,
+  "alphabet": "AB",
+  "n": 8
+ },
+ "master_seed": 20261105,
+ "python": "3.14.5",
+ "implementation": "CPython",
+ "platform": "Linux-7.0.6-arch1-1-x86_64-with-glibc2.43",
+ "created": "2026-11-04T17:52:48+00:00",
+ "command": "generate_instances.py --tier tiny --tier small --tier large",
+ "tier": "small",
+ "variant": "repetitive/cyclic_k6",
+ "seed_scheme": "derive_seed(master_seed, variant, n, index)",
+ "instances": [
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 8,
+    "mode": "cyclic",
+    "alphabet": "AB",
+    "exact_n": true,
+    "k": 6,
+    "word_length": [
+     3,
+     6
+    ]
+   },
+   "seed": 7620249411554433703,
+   "strings": [
+    "BAABAA",
+    "AABABB",
+    "BAABAB",
+    "BBBBBB",
+    "ABAABA",
+    "BABBAA",
+    "AABAAB",
+    "ABABBA"
+   ],
+   "words": [
+    "BAA",
+    "AAB",
+    "BBB",
+    "BAA",
+    "BAABAB"
+   ],
+   "raw_draws": 16,
+   "id": "repetitive_cyclic_k6_n0008_000",
+   "index": 0,
+   "n_reduced": 8,
+   "total_length": 48
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 8,
+    "mode": "cyclic",
+    "alphabet": "AB",
+    "exact_n": true,
+    "k": 6,
+    "word_length": [
+     3,
+     6
+    ]
+   },
+   "seed": 5098891438304717092,
+   "strings": [
+    "BABBAA",
+    "ABABBA",
+    "AABAAB",
+    "ABAABA",
+    "AABABB",
+    "BAABAB",
+    "ABBAAB",
+    "BBAABA"
+   ],
+   "words": [
+    "BABBAA",
+    "AAB"
+   ],
+   "raw_draws": 8,
+   "id": "repetitive_cyclic_k6_n0008_001",
+   "index": 1,
+   "n_reduced": 8,
+   "total_length": 48
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 8,
+    "mode": "cyclic",
+    "alphabet": "AB",
+    "exact_n": true,
+    "k": 6,
+    "word_length": [
+     3,
+     6
+    ]
+   },
+   "seed": 2921669210720663535,
+   "strings": [
+    "BABBAB",
+    "AABAAA",
+    "ABAAAB",
+    "ABBABA",
+    "BBABAB",
+    "BAAABA",
+    "AAAAAA",
+    "AAABAA"
+   ],
+   "words": [
+    "AAA",
+    "AAAB",
+    "BABBA"
+   ],
+   "raw_draws": 10,
+   "id": "repetitive_cyclic_k6_n0008_002",
+   "index": 2,
+   "n_reduced": 8,
+   "total_length": 48
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 8,
+    "mode": "cyclic",
+    "alphabet": "AB",
+    "exact_n": true,
+    "k": 6,
+    "word_length": [
+     3,
+     6
+    ]
+   },
+   "seed": 1494128699094277684,
+   "strings": [
+    "ABBABA",
+    "AABAAB",
+    "BABBAB",
+    "BBABBA",
+    "BAABAA",
+    "ABBABB",
+    "BBABAB",
+    "ABAABA"
+   ],
+   "words": [
+    "ABB",
+    "AAB",
+    "ABBAB"
+   ],
+   "raw_draws": 8,
+   "id": "repetitive_cyclic_k6_n0008_003",
+   "index": 3,
+   "n_reduced": 8,
+   "total_length": 48
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 8,
+    "mode": "cyclic",
+    "alphabet": "AB",
+    "exact_n": true,
+    "k": 6,
+    "word_length": [
+     3,
+     6
+    ]
+   },
+   "seed": 7287151394523824937,
+   "strings": [
+    "AAABAA",
+    "AABAAA",
+    "ABAAAA",
+    "BAAAAB",
+    "BBBABB",
+    "AAAABA",
+    "BABBBA",
+    "BBABBB"
+   ],
+   "words": [
+    "AAABA",
+    "BBBA"
+   ],
+   "raw_draws": 8,
+   "id": "repetitive_cyclic_k6_n0008_004",
+   "index": 4,
+   "n_reduced": 8,
+   "total_length": 48
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 8,
+    "mode": "cyclic",
+    "alphabet": "AB",
+    "exact_n": true,
+    "k": 6,
+    "word_length": [
+     3,
+     6
+    ]
+   },
+   "seed": 890886685815032691,
+   "strings": [
+    "ABABBA",
+    "AABAAB",
+    "ABBABA",
+    "BAABAA",
+    "ABAABA",
+    "BABABB",
+    "BBABAB",
+    "BABBAB"
+   ],
+   "words": [
+    "BAA",
+    "BBABA"
+   ],
+   "raw_draws": 8,
+   "id": "repetitive_cyclic_k6_n0008_005",
+   "index": 5,
+   "n_reduced": 8,
+   "total_length": 48
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 8,
+    "mode": "cyclic",
+    "alphabet": "AB",
+    "exact_n": true,
+    "k": 6,
+    "word_length": [
+     3,
+     6
+    ]
+   },
+   "seed": 5542031162827992274,
+   "strings": [
+    "ABAABA",
+    "AAABAB",
+    "ABAAAB",
+    "BAABAB",
+    "BABAAB",
+    "AABABA",
+    "ABABAA",
+    "BAAABA"
+   ],
+   "words": [
+    "ABABA",
+    "ABAAAB"
+   ],
+   "raw_draws": 8,
+   "id": "repetitive_cyclic_k6_n0008_006",
+   "index": 6,
+   "n_reduced": 8,
+   "total_length": 48
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 8,
+    "mode": "cyclic",
+    "alphabet": "AB",
+    "exact_n": true,
+    "k": 6,
+    "word_length": [
+     3,
+     6
+    ]
+   },
+   "seed": 7434987857781360895,
+   "strings": [
+    "BAAABB",
+    "BBABBA",
+    "BBAAAB",
+    "AABBAA",
+    "BABBAB",
+    "ABBABB",
+    "ABBAAA",
+    "AAABBA"
+   ],
+   "words": [
+    "ABB",
+    "BBA",
+    "AABBA"
+   ],
+   "raw_draws": 11,
+   "id": "repetitive_cyclic_k6_n0008_007",
+   "index": 7,
+   "n_reduced": 8,
+   "total_length": 48
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 8,
+    "mode": "cyclic",
+    "alphabet": "AB",
+    "exact_n": true,
+    "k": 6,
+    "word_length": [
+     3,
+     6
+    ]
+   },
+   "seed": 111774235150199448,
+   "strings": [
+    "BAABAB",
+    "ABAABB",
+    "BBABAA",
+    "BAABBA",
+    "BABAAB",
+    "ABABAA",
+    "AABABA",
+    "ABAABA"
+   ],
+   "words": [
+    "BAABA",
+    "BBABAA"
+   ],
+   "raw_draws": 9,
+   "id": "repetitive_cyclic_k6_n0008_008",
+   "index": 8,
+   "n_reduced": 8,
+   "total_length": 48
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 8,
+    "mode": "cyclic",
+    "alphabet": "AB",
+    "exact_n": true,
+    "k": 6,
+    "word_length": [
+     3,
+     6
+    ]
+   },
+   "seed": 8828828108197805982,
+   "strings": [
+    "ABABAA",
+    "ABBABB",
+    "BAABAB",
+    "ABAABA",
+    "BABAAB",
+    "AABABA",
+    "BABBAB",
+    "BBABBA"
+   ],
+   "words": [
+    "BAABA",
+    "BAB"
+   ],
+   "raw_draws": 8,
+   "id": "repetitive_cyclic_k6_n0008_009",
+   "index": 9,
+   "n_reduced": 8,
+   "total_length": 48
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 8,
+    "mode": "cyclic",
+    "alphabet": "AB",
+    "exact_n": true,
+    "k": 6,
+    "word_length": [
+     3,
+     6
+    ]
+   },
+   "seed": 4965713037486907632,
+   "strings": [
+    "ABABAB",
+    "ABABAA",
+    "AAABAB",
+    "ABAAAB",
+    "BABAAA",
+    "BAAABA",
+    "BABABA",
+    "AABABA"
+   ],
+   "words": [
+    "AAABAB",
+    "ABAB"
+   ],
+   "raw_draws": 8,
+   "id": "repetitive_cyclic_k6_n0008_010",
+   "index": 10,
+   "n_reduced": 8,
+   "total_length": 48
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 8,
+    "mode": "cyclic",
+    "alphabet": "AB",
+    "exact_n": true,
+    "k": 6,
+    "word_length": [
+     3,
+     6
+    ]
+   },
+   "seed": 2775348040393288621,
+   "strings": [
+    "BBABAB",
+    "AABBAA",
+    "BAABBA",
+    "BABBBA",
+    "ABBBAB",
+    "ABBAAB",
+    "BBBABA",
+    "BBAABB"
+   ],
+   "words": [
+    "BAAB",
+    "BABBBA"
+   ],
+   "raw_draws": 8,
+   "id": "repetitive_cyclic_k6_n0008_011",
+   "index": 11,
+   "n_reduced": 8,
+   "total_length": 48
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 8,
+    "mode": "cyclic",
+    "alphabet": "AB",
+    "exact_n": true,
+    "k": 6,
+    "word_length": [
+     3,
+     6
+    ]
+   },
+   "seed": 8327140856807028645,
+   "strings": [
+    "BAAABA",
+    "BABAAA",
+    "AAABAB",
+    "BAABBB",
+    "AABBBB",
+    "AABABA",
+    "ABAAAB",
+    "ABABAA"
+   ],
+   "words": [
+    "ABAAAB",
+    "BAABBB"
+   ],
+   "raw_draws": 8,
+   "id": "repetitive_cyclic_k6_n0008_012",
+   "index": 12,
+   "n_reduced": 8,
+   "total_length": 48
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 8,
+    "mode": "cyclic",
+    "alphabet": "AB",
+    "exact_n": true,
+    "k": 6,
+    "word_length": [
+     3,
+     6
+    ]
+   },
+   "seed": 2189069254572794317,
+   "strings": [
+    "ABBBAA",
+    "BBBAAB",
+    "BBAABB",
+    "BAABAB",
+    "AABABA",
+    "BAABBB",
+    "BBBBBB",
+    "AABBBA"
+   ],
+   "words": [
+    "BAABB",
+    "BBBB",
+    "BAABA"
+   ],
+   "raw_draws": 11,
+   "id": "repetitive_cyclic_k6_n0008_013",
+   "index": 13,
+   "n_reduced": 8,
+   "total_length": 48
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 8,
+    "mode": "cyclic",
+    "alphabet": "AB",
+    "exact_n": true,
+    "k": 6,
+    "word_length": [
+     3,
+     6
+    ]
+   },
+   "seed": 2247179760478411456,
+   "strings": [
+    "BBABAB",
+    "ABAABA",
+    "ABBABA",
+    "BAABAA",
+    "ABABBA",
+    "AABAAB",
+    "BABABB",
+    "BABBAB"
+   ],
+   "words": [
+    "ABA",
+    "BABBA"
+   ],
+   "raw_draws": 8,
+   "id": "repetitive_cyclic_k6_n0008_014",
+   "index": 14,
+   "n_reduced": 8,
+   "total_length": 48
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 8,
+    "mode": "cyclic",
+    "alphabet": "AB",
+    "exact_n": true,
+    "k": 6,
+    "word_length": [
+     3,
+     6
+    ]
+   },
+   "seed": 8641408478031180341,
+   "strings": [
+    "BABBBA",
+    "BABBAB",
+    "AAAAAA",
+    "ABBABA",
+    "BABABB",
+    "ABABBB",
+    "ABABBA",
+    "BBABAB"
+   ],
+   "words": [
+    "AAA",
+    "BABAB",
+    "BBABAB"
+   ],
+   "raw_draws": 12,
+   "id": "repetitive_cyclic_k6_n0008_015",
+   "index": 15,
+   "n_reduced": 8,
+   "total_length": 48
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 8,
+    "mode": "cyclic",
+    "alphabet": "AB",
+    "exact_n": true,
+    "k": 6,
+    "word_length": [
+     3,
+     6
+    ]
+   },
+   "seed": 891418695904758085,
+   "strings": [
+    "BBBAAA",
+    "BBAABB",
+    "AABBAA",
+    "ABBAAB",
+    "BAABBA",
+    "ABABAB",
+    "BABABA",
+    "BBAAAB"
+   ],
+   "words": [
+    "ABAB",
+    "AABB",
+    "BBBAAA"
+   ],
+   "raw_draws": 10,
+   "id": "repetitive_cyclic_k6_n0008_016",
+   "index": 16,
+   "n_reduced": 8,
+   "total_length": 48
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 8,
+    "mode": "cyclic",
+    "alphabet": "AB",
+    "exact_n": true,
+    "k": 6,
+    "word_length": [
+     3,
+     6
+    ]
+   },
+   "seed": 5179260677331467322,
+   "strings": [
+    "BBAABA",
+    "ABABBA",
+    "BBABAB",
+    "BAABAB",
+    "ABBAAB",
+    "AABABB",
+    "BABBAA",
+    "BABABB"
+   ],
+   "words": [
+    "BAABAB",
+    "BBABA"
+   ],
+   "raw_draws": 8,
+   "id": "repetitive_cyclic_k6_n0008_017",
+   "index": 17,
+   "n_reduced": 8,
+   "total_length": 48
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 8,
+    "mode": "cyclic",
+    "alphabet": "AB",
+    "exact_n": true,
+    "k": 6,
+    "word_length": [
+     3,
+     6
+    ]
+   },
+   "seed": 5630635572416647374,
+   "strings": [
+    "AAABBA",
+    "ABAABA",
+    "BAAABB",
+    "AABAAB",
+    "BBAAAB",
+    "AABBAA",
+    "BAABAA",
+    "ABBAAA"
+   ],
+   "words": [
+    "AABBA",
+    "BAA"
+   ],
+   "raw_draws": 8,
+   "id": "repetitive_cyclic_k6_n0008_018",
+   "index": 18,
+   "n_reduced": 8,
+   "total_length": 48
+  },
+  {
+   "family": "repetitive",
+   "generator": "scs.generators.repetitive",
+   "generator_version": 1,
+   "params": {
+    "n": 8,
+    "mode": "cyclic",
+    "alphabet": "AB",
+    "exact_n": true,
+    "k": 6,
+    "word_length": [
+     3,
+     6
+    ]
+   },
+   "seed": 8787362012178732867,
+   "strings": [
+    "AAABBB",
+    "BBAAAB",
+    "BBBAAA",
+    "ABBBAA",
+    "AABBBA",
+    "BABBAB",
+    "ABBABB",
+    "BAAABB"
+   ],
+   "words": [
+    "BBAAAB",
+    "BAB"
+   ],
+   "raw_draws": 8,
+   "id": "repetitive_cyclic_k6_n0008_019",
+   "index": 19,
+   "n_reduced": 8,
+   "total_length": 48
+  }
+ ]
+}

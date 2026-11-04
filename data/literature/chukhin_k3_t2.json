@@ -1,0 +1,83 @@
+{
+ "format": "scs-instance/1",
+ "id": "chukhin_k3_t2",
+ "family": "literature",
+ "strings": [
+  "AB0",
+  "B0A",
+  "0A0",
+  "A0A",
+  "0AB",
+  "AB1",
+  "B1A",
+  "1A1",
+  "A1A",
+  "1AB"
+ ],
+ "params": {
+  "k": 3,
+  "t": 2
+ },
+ "seed": null,
+ "citation": "Chukhin, Kulikov, Mihajlin, Smal, The Greedy Superstring Algorithm Achieves Ratio 2 for Strings of Length 6 Already, arXiv:2608.20018 (2026), Theorem 4.1",
+ "known": {
+  "opt": 12,
+  "greedy_bad": 18
+ },
+ "tie_priority": [
+  [
+   "A0A",
+   "0A0"
+  ],
+  [
+   "B0A",
+   "0AB"
+  ],
+  [
+   "0AB",
+   "AB0"
+  ],
+  [
+   "A1A",
+   "1A1"
+  ],
+  [
+   "B1A",
+   "1AB"
+  ],
+  [
+   "1AB",
+   "AB1"
+  ]
+ ],
+ "notes": "rho_3 = 9/5 exactly; ratio 9t/(5t+2).",
+ "symbols": {
+  "X_i": [
+   "0",
+   "1"
+  ]
+ },
+ "verified": {
+  "n": 10,
+  "total_length": 30,
+  "opt": 12,
+  "opt_method": "certificate",
+  "opt_superstring": "AB0A0AB1A1AB",
+  "opt_matches_reported": true,
+  "greedy_paper": 18,
+  "greedy_paper_superstring": "B0AB0A0A0B1AB1A1A1",
+  "greedy_matches_reported": true,
+  "greedy_first": 12,
+  "greedy_all_lengths": [
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18
+  ],
+  "greedy_states": 3946,
+  "greedy_worst_superstring": "B0AB0A0A0B1AB1A1A1"
+ }
+}

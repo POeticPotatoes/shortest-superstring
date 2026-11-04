@@ -1,0 +1,216 @@
+{
+ "format": "scs-instance/1",
+ "id": "chukhin_k3_t10",
+ "family": "literature",
+ "strings": [
+  "AB0",
+  "B0A",
+  "0A0",
+  "A0A",
+  "0AB",
+  "AB1",
+  "B1A",
+  "1A1",
+  "A1A",
+  "1AB",
+  "AB2",
+  "B2A",
+  "2A2",
+  "A2A",
+  "2AB",
+  "AB3",
+  "B3A",
+  "3A3",
+  "A3A",
+  "3AB",
+  "AB4",
+  "B4A",
+  "4A4",
+  "A4A",
+  "4AB",
+  "AB5",
+  "B5A",
+  "5A5",
+  "A5A",
+  "5AB",
+  "AB6",
+  "B6A",
+  "6A6",
+  "A6A",
+  "6AB",
+  "AB7",
+  "B7A",
+  "7A7",
+  "A7A",
+  "7AB",
+  "AB8",
+  "B8A",
+  "8A8",
+  "A8A",
+  "8AB",
+  "AB9",
+  "B9A",
+  "9A9",
+  "A9A",
+  "9AB"
+ ],
+ "params": {
+  "k": 3,
+  "t": 10
+ },
+ "seed": null,
+ "citation": "Chukhin, Kulikov, Mihajlin, Smal, The Greedy Superstring Algorithm Achieves Ratio 2 for Strings of Length 6 Already, arXiv:2608.20018 (2026), Theorem 4.1",
+ "known": {
+  "opt": 52,
+  "greedy_bad": 90
+ },
+ "tie_priority": [
+  [
+   "A0A",
+   "0A0"
+  ],
+  [
+   "B0A",
+   "0AB"
+  ],
+  [
+   "0AB",
+   "AB0"
+  ],
+  [
+   "A1A",
+   "1A1"
+  ],
+  [
+   "B1A",
+   "1AB"
+  ],
+  [
+   "1AB",
+   "AB1"
+  ],
+  [
+   "A2A",
+   "2A2"
+  ],
+  [
+   "B2A",
+   "2AB"
+  ],
+  [
+   "2AB",
+   "AB2"
+  ],
+  [
+   "A3A",
+   "3A3"
+  ],
+  [
+   "B3A",
+   "3AB"
+  ],
+  [
+   "3AB",
+   "AB3"
+  ],
+  [
+   "A4A",
+   "4A4"
+  ],
+  [
+   "B4A",
+   "4AB"
+  ],
+  [
+   "4AB",
+   "AB4"
+  ],
+  [
+   "A5A",
+   "5A5"
+  ],
+  [
+   "B5A",
+   "5AB"
+  ],
+  [
+   "5AB",
+   "AB5"
+  ],
+  [
+   "A6A",
+   "6A6"
+  ],
+  [
+   "B6A",
+   "6AB"
+  ],
+  [
+   "6AB",
+   "AB6"
+  ],
+  [
+   "A7A",
+   "7A7"
+  ],
+  [
+   "B7A",
+   "7AB"
+  ],
+  [
+   "7AB",
+   "AB7"
+  ],
+  [
+   "A8A",
+   "8A8"
+  ],
+  [
+   "B8A",
+   "8AB"
+  ],
+  [
+   "8AB",
+   "AB8"
+  ],
+  [
+   "A9A",
+   "9A9"
+  ],
+  [
+   "B9A",
+   "9AB"
+  ],
+  [
+   "9AB",
+   "AB9"
+  ]
+ ],
+ "notes": "rho_3 = 9/5 exactly; ratio 9t/(5t+2).",
+ "symbols": {
+  "X_i": [
+   "0",
+   "1",
+   "2",
+   "3",
+   "4",
+   "5",
+   "6",
+   "7",
+   "8",
+   "9"
+  ]
+ },
+ "verified": {
+  "n": 50,
+  "total_length": 150,
+  "opt": 52,
+  "opt_method": "certificate",
+  "opt_superstring": "AB0A0AB1A1AB2A2AB3A3AB4A4AB5A5AB6A6AB7A7AB8A8AB9A9AB",
+  "opt_matches_reported": true,
+  "greedy_paper": 90,
+  "greedy_paper_superstring": "B0AB0A0A0B1AB1A1A1B2AB2A2A2B3AB3A3A3B4AB4A4A4B5AB5A5A5B6AB6A6A6B7AB7A7A7B8AB8A8A8B9AB9A9A9",
+  "greedy_matches_reported": true,
+  "greedy_first": 52
+ }
+}

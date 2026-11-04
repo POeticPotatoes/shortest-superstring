@@ -1,0 +1,804 @@
+{
+ "format": "scs-batch/1",
+ "name": "random/dna_l5-12@tiny/n=4",
+ "family": "random",
+ "params": {
+  "length": [
+   5,
+   12
+  ],
+  "alphabet": "ACGT",
+  "n": 4
+ },
+ "master_seed": 20261105,
+ "python": "3.14.5",
+ "implementation": "CPython",
+ "platform": "Linux-7.0.6-arch1-1-x86_64-with-glibc2.43",
+ "created": "2026-11-04T17:52:48+00:00",
+ "command": "generate_instances.py --tier tiny --tier small --tier large",
+ "tier": "tiny",
+ "variant": "random/dna_l5-12",
+ "seed_scheme": "derive_seed(master_seed, variant, n, index)",
+ "instances": [
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 4,
+    "length": [
+     5,
+     12
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 3959930031220229428,
+   "strings": [
+    "CATCTCTTTAC",
+    "ATTAGATACCGT",
+    "GGGCTG",
+    "AGTCAGGCTT"
+   ],
+   "raw_draws": 4,
+   "id": "random_dna_l5-12_n0004_000",
+   "index": 0,
+   "n_reduced": 4,
+   "total_length": 39
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 4,
+    "length": [
+     5,
+     12
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 6240884058880751720,
+   "strings": [
+    "AAATACCT",
+    "GCTAT",
+    "AGCCTCAC",
+    "AAGGAGCAAGGT"
+   ],
+   "raw_draws": 4,
+   "id": "random_dna_l5-12_n0004_001",
+   "index": 1,
+   "n_reduced": 4,
+   "total_length": 33
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 4,
+    "length": [
+     5,
+     12
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 7799419592801112205,
+   "strings": [
+    "GTGTTGGG",
+    "CCTGG",
+    "CTCAA",
+    "TGTACAA"
+   ],
+   "raw_draws": 4,
+   "id": "random_dna_l5-12_n0004_002",
+   "index": 2,
+   "n_reduced": 4,
+   "total_length": 25
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 4,
+    "length": [
+     5,
+     12
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 3448862747111742816,
+   "strings": [
+    "ACCCA",
+    "TAACCTAG",
+    "CCAAGG",
+    "TATGGGTCAC"
+   ],
+   "raw_draws": 4,
+   "id": "random_dna_l5-12_n0004_003",
+   "index": 3,
+   "n_reduced": 4,
+   "total_length": 29
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 4,
+    "length": [
+     5,
+     12
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 7614907495812778801,
+   "strings": [
+    "ACATGAGGAC",
+    "TCGTA",
+    "GTGGAGAACGAG",
+    "CTAGCTCTCT"
+   ],
+   "raw_draws": 4,
+   "id": "random_dna_l5-12_n0004_004",
+   "index": 4,
+   "n_reduced": 4,
+   "total_length": 37
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 4,
+    "length": [
+     5,
+     12
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 2958483399363745610,
+   "strings": [
+    "TGACAA",
+    "GTTTCCCGCAGG",
+    "TCCACAG",
+    "GTGGCTC"
+   ],
+   "raw_draws": 4,
+   "id": "random_dna_l5-12_n0004_005",
+   "index": 5,
+   "n_reduced": 4,
+   "total_length": 32
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 4,
+    "length": [
+     5,
+     12
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 8031195400713134629,
+   "strings": [
+    "GACTTAGAA",
+    "GCTAGGTG",
+    "TATGCA",
+    "TACGCCCAAGG"
+   ],
+   "raw_draws": 4,
+   "id": "random_dna_l5-12_n0004_006",
+   "index": 6,
+   "n_reduced": 4,
+   "total_length": 34
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 4,
+    "length": [
+     5,
+     12
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 3741510740811958522,
+   "strings": [
+    "AAGTGTTAGGA",
+    "TCCCTAT",
+    "TCACGCCG",
+    "TACCCGCGTGA"
+   ],
+   "raw_draws": 4,
+   "id": "random_dna_l5-12_n0004_007",
+   "index": 7,
+   "n_reduced": 4,
+   "total_length": 37
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 4,
+    "length": [
+     5,
+     12
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 3082335568455635419,
+   "strings": [
+    "CTCGTCGTTGTT",
+    "TAATTCGGG",
+    "GACGTAAGCTAA",
+    "GGATGTTT"
+   ],
+   "raw_draws": 4,
+   "id": "random_dna_l5-12_n0004_008",
+   "index": 8,
+   "n_reduced": 4,
+   "total_length": 41
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 4,
+    "length": [
+     5,
+     12
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 155194208551547689,
+   "strings": [
+    "CGTCCCCTC",
+    "TTTCGAGGTGC",
+    "AAGCGATA",
+    "GTGGAGTT"
+   ],
+   "raw_draws": 4,
+   "id": "random_dna_l5-12_n0004_009",
+   "index": 9,
+   "n_reduced": 4,
+   "total_length": 36
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 4,
+    "length": [
+     5,
+     12
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 4848396703982509808,
+   "strings": [
+    "AAACGAACGCAA",
+    "TGTGGGAC",
+    "TCATGCAT",
+    "CCGTATCGGA"
+   ],
+   "raw_draws": 4,
+   "id": "random_dna_l5-12_n0004_010",
+   "index": 10,
+   "n_reduced": 4,
+   "total_length": 38
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 4,
+    "length": [
+     5,
+     12
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 4542398134126234674,
+   "strings": [
+    "ATATAA",
+    "CGCAGATGG",
+    "TCAATTGGCAAG",
+    "CCGGA"
+   ],
+   "raw_draws": 4,
+   "id": "random_dna_l5-12_n0004_011",
+   "index": 11,
+   "n_reduced": 4,
+   "total_length": 32
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 4,
+    "length": [
+     5,
+     12
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 7301637680075383068,
+   "strings": [
+    "ATGAGGTGAA",
+    "GTACTTTAATCT",
+    "GAACTCCA",
+    "GGGTTTA"
+   ],
+   "raw_draws": 4,
+   "id": "random_dna_l5-12_n0004_012",
+   "index": 12,
+   "n_reduced": 4,
+   "total_length": 37
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 4,
+    "length": [
+     5,
+     12
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 6023379272108710101,
+   "strings": [
+    "GCAGA",
+    "GGGAT",
+    "GAGAACT",
+    "GGCCGG"
+   ],
+   "raw_draws": 4,
+   "id": "random_dna_l5-12_n0004_013",
+   "index": 13,
+   "n_reduced": 4,
+   "total_length": 23
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 4,
+    "length": [
+     5,
+     12
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 5942969492349659838,
+   "strings": [
+    "TAATGACCGT",
+    "TCTGAAGGCG",
+    "GATGT",
+    "CTGAGATCTCC"
+   ],
+   "raw_draws": 4,
+   "id": "random_dna_l5-12_n0004_014",
+   "index": 14,
+   "n_reduced": 4,
+   "total_length": 36
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 4,
+    "length": [
+     5,
+     12
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 3560462756536474596,
+   "strings": [
+    "AATGAGGAAAA",
+    "CGCGCCA",
+    "AGCCACACTCT",
+    "TAGCTTTGT"
+   ],
+   "raw_draws": 4,
+   "id": "random_dna_l5-12_n0004_015",
+   "index": 15,
+   "n_reduced": 4,
+   "total_length": 38
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 4,
+    "length": [
+     5,
+     12
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 4718312724104527828,
+   "strings": [
+    "GGATTTACCC",
+    "GCTAAACTT",
+    "AGCGTTA",
+    "CAAGATCCGACC"
+   ],
+   "raw_draws": 4,
+   "id": "random_dna_l5-12_n0004_016",
+   "index": 16,
+   "n_reduced": 4,
+   "total_length": 38
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 4,
+    "length": [
+     5,
+     12
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 2103857214055606096,
+   "strings": [
+    "TATAT",
+    "TCGAA",
+    "GAGAGACAATA",
+    "CTGTGTT"
+   ],
+   "raw_draws": 4,
+   "id": "random_dna_l5-12_n0004_017",
+   "index": 17,
+   "n_reduced": 4,
+   "total_length": 28
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 4,
+    "length": [
+     5,
+     12
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 5873348090266484147,
+   "strings": [
+    "GGGCATC",
+    "AACTG",
+    "ATTGTGTGAG",
+    "GTTGGGAGGG"
+   ],
+   "raw_draws": 4,
+   "id": "random_dna_l5-12_n0004_018",
+   "index": 18,
+   "n_reduced": 4,
+   "total_length": 32
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 4,
+    "length": [
+     5,
+     12
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 6865147438634893413,
+   "strings": [
+    "ACCACAG",
+    "ACCTCACCTTAT",
+    "TTACTCGGTCA",
+    "AGGATCATG"
+   ],
+   "raw_draws": 4,
+   "id": "random_dna_l5-12_n0004_019",
+   "index": 19,
+   "n_reduced": 4,
+   "total_length": 39
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 4,
+    "length": [
+     5,
+     12
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 8540663122768100847,
+   "strings": [
+    "CGGATCA",
+    "TTAATGTT",
+    "TTCCTC",
+    "TTGTCCTG"
+   ],
+   "raw_draws": 4,
+   "id": "random_dna_l5-12_n0004_020",
+   "index": 20,
+   "n_reduced": 4,
+   "total_length": 29
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 4,
+    "length": [
+     5,
+     12
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 3151190023511186461,
+   "strings": [
+    "CGTGCCCAA",
+    "CGATCATACGT",
+    "TAGCAAGCCG",
+    "TCGTGTGA"
+   ],
+   "raw_draws": 4,
+   "id": "random_dna_l5-12_n0004_021",
+   "index": 21,
+   "n_reduced": 4,
+   "total_length": 38
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 4,
+    "length": [
+     5,
+     12
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 5002147023931991719,
+   "strings": [
+    "GTTGAATTAGT",
+    "GCGCCCTT",
+    "ACACT",
+    "TCCTTGGTAG"
+   ],
+   "raw_draws": 4,
+   "id": "random_dna_l5-12_n0004_022",
+   "index": 22,
+   "n_reduced": 4,
+   "total_length": 34
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 4,
+    "length": [
+     5,
+     12
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 4792779532257273154,
+   "strings": [
+    "CTGGG",
+    "CAGTCA",
+    "CTTCGCT",
+    "GGCGT"
+   ],
+   "raw_draws": 4,
+   "id": "random_dna_l5-12_n0004_023",
+   "index": 23,
+   "n_reduced": 4,
+   "total_length": 23
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 4,
+    "length": [
+     5,
+     12
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 3709927250180642735,
+   "strings": [
+    "CTCCAAGTC",
+    "GTGCGTGTGA",
+    "TAGGGA",
+    "TACTCCC"
+   ],
+   "raw_draws": 4,
+   "id": "random_dna_l5-12_n0004_024",
+   "index": 24,
+   "n_reduced": 4,
+   "total_length": 32
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 4,
+    "length": [
+     5,
+     12
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 3686669469481670190,
+   "strings": [
+    "CCTAA",
+    "GCAGAGGTA",
+    "CGCATCCAGTGT",
+    "GCAGAAGGC"
+   ],
+   "raw_draws": 4,
+   "id": "random_dna_l5-12_n0004_025",
+   "index": 25,
+   "n_reduced": 4,
+   "total_length": 35
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 4,
+    "length": [
+     5,
+     12
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 677511682144506898,
+   "strings": [
+    "TGATTTT",
+    "CGCACTCG",
+    "CATCCT",
+    "TATCTCAG"
+   ],
+   "raw_draws": 4,
+   "id": "random_dna_l5-12_n0004_026",
+   "index": 26,
+   "n_reduced": 4,
+   "total_length": 29
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 4,
+    "length": [
+     5,
+     12
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 409018209215140758,
+   "strings": [
+    "TCTTTGGCGGG",
+    "AGTCAGTT",
+    "TGAGGAATG",
+    "CGTAGGGCATCT"
+   ],
+   "raw_draws": 4,
+   "id": "random_dna_l5-12_n0004_027",
+   "index": 27,
+   "n_reduced": 4,
+   "total_length": 40
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 4,
+    "length": [
+     5,
+     12
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 5144807845616695189,
+   "strings": [
+    "GCTCC",
+    "GTCTTAAG",
+    "CCGGGTAG",
+    "CGGGAGAACGA"
+   ],
+   "raw_draws": 4,
+   "id": "random_dna_l5-12_n0004_028",
+   "index": 28,
+   "n_reduced": 4,
+   "total_length": 32
+  },
+  {
+   "family": "random",
+   "generator": "scs.generators.random",
+   "generator_version": 1,
+   "params": {
+    "n": 4,
+    "length": [
+     5,
+     12
+    ],
+    "alphabet": "ACGT",
+    "exact_n": true
+   },
+   "seed": 3510840997961836664,
+   "strings": [
+    "AAGGG",
+    "CATGGTCCCTG",
+    "TAGGGGTACGAA",
+    "TCCGCCCC"
+   ],
+   "raw_draws": 4,
+   "id": "random_dna_l5-12_n0004_029",
+   "index": 29,
+   "n_reduced": 4,
+   "total_length": 36
+  }
+ ]
+}

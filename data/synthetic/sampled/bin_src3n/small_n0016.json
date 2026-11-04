@@ -1,0 +1,825 @@
+{
+ "format": "scs-batch/1",
+ "name": "sampled/bin_src3n@small/n=16",
+ "family": "sampled",
+ "params": {
+  "source_length": 48,
+  "fragment_length": [
+   6,
+   12
+  ],
+  "alphabet": "AB",
+  "n": 16
+ },
+ "master_seed": 20261105,
+ "python": "3.14.5",
+ "implementation": "CPython",
+ "platform": "Linux-7.0.6-arch1-1-x86_64-with-glibc2.43",
+ "created": "2026-11-04T17:52:48+00:00",
+ "command": "generate_instances.py --tier tiny --tier small --tier large",
+ "tier": "small",
+ "variant": "sampled/bin_src3n",
+ "seed_scheme": "derive_seed(master_seed, variant, n, index)",
+ "instances": [
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "source_length": 48,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 1917720732090374049,
+   "strings": [
+    "BBBBABABBBB",
+    "BABAAA",
+    "BBBABBA",
+    "BBABABBBBBB",
+    "AABBABBAAAB",
+    "BABBAAABAAA",
+    "ABAAABBBAB",
+    "ABAABBABBAAA",
+    "BAABAABABAAB",
+    "BABBAB",
+    "BBBBBBAA",
+    "BBBAABAABABA",
+    "ABBBBA",
+    "BABAABBA",
+    "BBBBAABAABAB",
+    "BBAAABAAABB"
+   ],
+   "source": "AABBBBABABBBBBBAABAABABAABBABBAAABAAABBBABBABAAA",
+   "raw_draws": 27,
+   "id": "sampled_bin_src3n_n0016_000",
+   "index": 0,
+   "n_reduced": 16,
+   "total_length": 154
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "source_length": 48,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 2222613039157534980,
+   "strings": [
+    "BBAABABBA",
+    "BBAABBAABAB",
+    "BABBAABBBBBB",
+    "BBBBBBBABBBB",
+    "AABABBBBAABB",
+    "BAABABBAAA",
+    "BABABBAABB",
+    "AAABABBBBAA",
+    "ABBAAAAABA",
+    "AABBBBBBBABB",
+    "AAAABABBBB",
+    "ABABABBAA",
+    "ABBABABABB",
+    "BBBAABBABABA",
+    "BAAAAABABB",
+    "ABBBBAABBABA"
+   ],
+   "source": "BBAABBAABABBAAAAABABBBBAABBABABABBAABBBBBBBABBBB",
+   "raw_draws": 44,
+   "id": "sampled_bin_src3n_n0016_001",
+   "index": 1,
+   "n_reduced": 16,
+   "total_length": 172
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "source_length": 48,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 6862507704911965275,
+   "strings": [
+    "ABABBAAABA",
+    "AAABBABAAAB",
+    "BBABABAAB",
+    "BBAABBBBBBB",
+    "ABAAAAAABAB",
+    "BABBAAABBABA",
+    "BABAAABABB",
+    "ABAAABABBA",
+    "BBABAAABAB",
+    "BABABAABAAAA",
+    "AAAAABABBAAA",
+    "ABAABAAAAAA",
+    "BBBBBBBABA",
+    "AABBBBBBBAB",
+    "AAAAAABABB",
+    "AAABABBAAAB"
+   ],
+   "source": "ABBAABBBBBBBABABAABAAAAAABABBAAABBABAAABABBAAABA",
+   "raw_draws": 46,
+   "id": "sampled_bin_src3n_n0016_002",
+   "index": 2,
+   "n_reduced": 16,
+   "total_length": 171
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "source_length": 48,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 8145695220772587496,
+   "strings": [
+    "BAABBBBABB",
+    "AAABAAAABA",
+    "AABBABAAA",
+    "ABAAABAABB",
+    "BABBBBABAAB",
+    "BBABAAABAA",
+    "BABBBABBBBA",
+    "AAAABAAAAB",
+    "BBBABBABB",
+    "AABAABBBBAB",
+    "ABAAAABAAAAA",
+    "BAABAAAABAAA",
+    "BABBABBBAB",
+    "BABAABAAAABA",
+    "BBBBABAABA",
+    "ABBBABBBBABA"
+   ],
+   "source": "AABBABAAABAABBBBABBABBBABBBBABAABAAAABAAAABAAAAA",
+   "raw_draws": 42,
+   "id": "sampled_bin_src3n_n0016_003",
+   "index": 3,
+   "n_reduced": 16,
+   "total_length": 169
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "source_length": 48,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 1813636902036388825,
+   "strings": [
+    "BAAABBABBAA",
+    "AABABAABABBB",
+    "AAAABAABABAA",
+    "BABAABABBBB",
+    "BBAABAAABBAA",
+    "AAABBABBAABA",
+    "BAABABAABAB",
+    "BAABABAAABBA",
+    "BBABBAABAAAB",
+    "ABAABABAAABB",
+    "BAAAABAABABA",
+    "AABAAAABAABA",
+    "AABAABABAAAB",
+    "BAABAAAABAAB",
+    "AABBAABAAAA",
+    "ABBBBA"
+   ],
+   "source": "AAAABAABABAAABBABBAABAAABBAABAAAABAABABAABABBBBA",
+   "raw_draws": 57,
+   "id": "sampled_bin_src3n_n0016_004",
+   "index": 4,
+   "n_reduced": 16,
+   "total_length": 182
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "source_length": 48,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 2510983051837928727,
+   "strings": [
+    "BAAABBBBAABB",
+    "BABBBBAAABBB",
+    "BAABBABBBBAA",
+    "BAAABBBBBBAB",
+    "BBBBBABBAAA",
+    "BABBAAAAABB",
+    "BBBAAABBBBBB",
+    "AABBBBBBABBA",
+    "BBABBAAABBBB",
+    "BBBABBAAAAAB",
+    "BBAAABBBBAA",
+    "BBAABBABBB",
+    "BBABBBBAAAB",
+    "ABBABBBBBBA",
+    "AABBBBAABBAB",
+    "BBBABBAAABBB"
+   ],
+   "source": "ABBABBBBBBABBAAABBBBAABBABBBBAAABBBBBBABBAAAAABB",
+   "raw_draws": 94,
+   "id": "sampled_bin_src3n_n0016_005",
+   "index": 5,
+   "n_reduced": 16,
+   "total_length": 185
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "source_length": 48,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 7292215724245172372,
+   "strings": [
+    "AAAAAAAAB",
+    "AABBAAAAAAAA",
+    "ABAAABBAAAAA",
+    "BBABBABAABA",
+    "BABBBBBABBBA",
+    "AAABAAABBAA",
+    "ABBBABBABAA",
+    "AAABAABABAB",
+    "BBBBBABBBABB",
+    "AAAAABAABABA",
+    "BBABAABABA",
+    "BBABBBABBAB",
+    "AABABABBBBBA",
+    "ABAABABABBBB",
+    "BABBABAABAB",
+    "AAAAAAABAAB"
+   ],
+   "source": "ABAAAABAAABBAAAAAAAAABAABABABBBBBABBBABBABAABABA",
+   "raw_draws": 84,
+   "id": "sampled_bin_src3n_n0016_006",
+   "index": 6,
+   "n_reduced": 16,
+   "total_length": 180
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "source_length": 48,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 2703296638703910211,
+   "strings": [
+    "BBABAABBBABA",
+    "BBABBAAAABB",
+    "BBBBBBBABBAA",
+    "BABAABBAAAAB",
+    "BBABABBBBBBB",
+    "BABABAABBAAA",
+    "BBBABABBBB",
+    "ABBABAABBBAB",
+    "AABBAAAABBA",
+    "BBBABBAAA",
+    "BBBBBBBBBAB",
+    "ABABABAABBA",
+    "AAABABABAAB",
+    "BAABBBABABB",
+    "BABAABBBABAB",
+    "ABABBBBBBBBB"
+   ],
+   "source": "AAABABABAABBAAAABBABAABBBABABBBBBBBBBBBABBAAAABB",
+   "raw_draws": 46,
+   "id": "sampled_bin_src3n_n0016_007",
+   "index": 7,
+   "n_reduced": 16,
+   "total_length": 181
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "source_length": 48,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 6104609611927743543,
+   "strings": [
+    "BAAAAAAAABBA",
+    "BBBBABBAAAA",
+    "ABBAABBBBAB",
+    "BABBBBBBAAAB",
+    "BBBAAABAABB",
+    "BBABBAAAAAAA",
+    "AAAABBAA",
+    "BBBBABBBBB",
+    "BBAABBBBABB",
+    "BAABBBBBABBA",
+    "BBBBAAABAAB",
+    "BBAAAAAAAABB",
+    "BBBABBBBBBAA",
+    "BBBBBABBAAA",
+    "AAABAABBBBBA",
+    "AABBBBABBB"
+   ],
+   "source": "AAAABBAABBBBABBBBBBAAABAABBBBBABBAAAAAAAABBAABBB",
+   "raw_draws": 54,
+   "id": "sampled_bin_src3n_n0016_008",
+   "index": 8,
+   "n_reduced": 16,
+   "total_length": 178
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "source_length": 48,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 8522869453503987145,
+   "strings": [
+    "ABBABBABBBAA",
+    "ABABAAABABBA",
+    "AABABBAB",
+    "AAABABAAAAAB",
+    "BAABAAAABAB",
+    "BABAABAAAAB",
+    "BAAAABABA",
+    "ABABAAAAABAB",
+    "AAABABABAAAB",
+    "ABBAABABA",
+    "BBAABABAABA",
+    "BAAABBAAB",
+    "AAAAABABABAA",
+    "AAABBAABAB",
+    "ABABABAAABAB",
+    "AABABAABAAA"
+   ],
+   "source": "BAAABBAABABAABAAAABABAAAAABABABAAABABBABBABBBAAA",
+   "raw_draws": 54,
+   "id": "sampled_bin_src3n_n0016_009",
+   "index": 9,
+   "n_reduced": 16,
+   "total_length": 173
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "source_length": 48,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 217627599081955726,
+   "strings": [
+    "BBAABBBBBBB",
+    "BBABAABBABAB",
+    "BBBBBBABABB",
+    "AABABABAAA",
+    "BBBBBBBBABA",
+    "BAABBBBBBBB",
+    "BBABABBAABB",
+    "BBBABABBABAA",
+    "BAAAABBABBBA",
+    "ABABABAAAABB",
+    "AABBABBBAABB",
+    "AAAABBABBBAA",
+    "BABAAAABBABB",
+    "ABBBAABBBBBB",
+    "AABBABABBAAB",
+    "BABBABAAB"
+   ],
+   "source": "AABABABAAAABBABBBAABBBBBBBBABABBABAABBABABBAABBB",
+   "raw_draws": 67,
+   "id": "sampled_bin_src3n_n0016_010",
+   "index": 10,
+   "n_reduced": 16,
+   "total_length": 182
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "source_length": 48,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 7374744005661806336,
+   "strings": [
+    "BBBAABBAAAA",
+    "BABBBAABBB",
+    "BBBBBAABB",
+    "BBBABAAABABA",
+    "BAABBBBB",
+    "ABABAAAABB",
+    "ABAAAABBA",
+    "AAABBABBA",
+    "BBAABABB",
+    "BAAAABBAB",
+    "ABBABBAABAB",
+    "BAABABBBAAB",
+    "AABBABBAA",
+    "AAABABAAAAB",
+    "BBBBAABBA",
+    "BBBBBBAAB"
+   ],
+   "source": "BBBBABAAABABAAAABBABBAABABBBAABBBBBBAABBAAAAABAB",
+   "raw_draws": 38,
+   "id": "sampled_bin_src3n_n0016_011",
+   "index": 11,
+   "n_reduced": 16,
+   "total_length": 155
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "source_length": 48,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 4460981559269853342,
+   "strings": [
+    "BBABAAABABB",
+    "BBAABAAAA",
+    "AAAAAABBBBB",
+    "AABBBAABAAA",
+    "BBBBBBBBAAA",
+    "BBBBBAAAAAAA",
+    "ABBAABAAA",
+    "BBBBBBBAAAAA",
+    "BBBBBBAB",
+    "ABABBAABAA",
+    "BAAABABBAAB",
+    "BBAAAAAAABB",
+    "AABAAABBBBBB",
+    "ABAAABABBA",
+    "BAAAAAAABBBB",
+    "AAAAABBBBBB"
+   ],
+   "source": "AABBBAABAAABBBBBBBBAAAAAAABBBBBBABAAABABBAABAAAA",
+   "raw_draws": 63,
+   "id": "sampled_bin_src3n_n0016_012",
+   "index": 12,
+   "n_reduced": 16,
+   "total_length": 171
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "source_length": 48,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 1088120861893789582,
+   "strings": [
+    "AABAABBBBBBA",
+    "BBBBBABBBBA",
+    "AAAABAABBBBB",
+    "BBBBABBBBAAB",
+    "BAAAAABAABB",
+    "BBBAABAAABA",
+    "BAABBBBBBABB",
+    "BAABAAABAAB",
+    "AABABAABBBAB",
+    "BBAAAAAABABA",
+    "ABAABBBABBA",
+    "BBABBAAAAABA",
+    "BBBABBBBAABA",
+    "AAAABABAABBB",
+    "BBBABBAAAAAB",
+    "BABBBBAABAA"
+   ],
+   "source": "BBAAAAAABABAABBBABBAAAAABAABBBBBBABBBBAABAAABAAB",
+   "raw_draws": 66,
+   "id": "sampled_bin_src3n_n0016_013",
+   "index": 13,
+   "n_reduced": 16,
+   "total_length": 186
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "source_length": 48,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 3602045871636079037,
+   "strings": [
+    "AAABAABBBAA",
+    "BAABAAAABAAB",
+    "ABBBAABAAAAB",
+    "BABABAAABBBA",
+    "AAAAABAAABB",
+    "BAABBBAAAA",
+    "AABBBABABAAA",
+    "ABBAABBBA",
+    "BBAABBBABA",
+    "AABAAABBAA",
+    "AAABBBAABAA",
+    "ABABAAABBBAB",
+    "AAAAAABAAA",
+    "AAABBAABB",
+    "ABBBAAAAAA",
+    "BBAABAAAABA"
+   ],
+   "source": "AAABBBAABAAAABAABBBAAAAAABAAABBAABBBABABAAABBBAB",
+   "raw_draws": 60,
+   "id": "sampled_bin_src3n_n0016_014",
+   "index": 14,
+   "n_reduced": 16,
+   "total_length": 172
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "source_length": 48,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 5292759965448048911,
+   "strings": [
+    "AABBABBBAA",
+    "BBBAAAAABA",
+    "ABBBBABAABAB",
+    "BAAABBBBABAA",
+    "BABABBBABAAA",
+    "BBABBBAAAAA",
+    "ABBABBBAAA",
+    "BBABBABABBBA",
+    "ABAABABBBABB",
+    "BABBBABBAB",
+    "AAABBABB",
+    "AAAAABAAA",
+    "BBABABBBABAA",
+    "ABBBABAAAB",
+    "BBABAAABBB",
+    "AAAABAAABBBB"
+   ],
+   "source": "AAABBABBBAAAAABAAABBBBABAABABBBABBABABBBABAAABBB",
+   "raw_draws": 48,
+   "id": "sampled_bin_src3n_n0016_015",
+   "index": 15,
+   "n_reduced": 16,
+   "total_length": 172
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "source_length": 48,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 8580563483054991677,
+   "strings": [
+    "BABBABBBBB",
+    "ABAABABBAB",
+    "ABBABAABABB",
+    "BBBAAABBB",
+    "ABBBABBAAAB",
+    "AAABBAAAABA",
+    "ABBAAABBAAA",
+    "AABAABBABAA",
+    "AAABABBABBB",
+    "AAABBBABBAA",
+    "BABBBBBBA",
+    "BBBBAAABB",
+    "BAAABABBABB",
+    "BBABBAAABBA",
+    "BBBBBAAAB",
+    "BBABAABABBA"
+   ],
+   "source": "BAAABABBABBBBBBAAABBBABBAAABBAAAABAABBABAABABBAB",
+   "raw_draws": 46,
+   "id": "sampled_bin_src3n_n0016_016",
+   "index": 16,
+   "n_reduced": 16,
+   "total_length": 166
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "source_length": 48,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 2722682992153142900,
+   "strings": [
+    "BABBAAAAABAA",
+    "BBBABAAAAABA",
+    "ABBBAABABB",
+    "AAABABBAAA",
+    "BBAAAABBB",
+    "ABBBBAAAABB",
+    "AABBBBABAAAA",
+    "BBBAABABBBAB",
+    "BABAAAAABAB",
+    "AAAABAABBB",
+    "BAAAAABAAB",
+    "BAABBBBAAAAB",
+    "AAABAABBBBAA",
+    "BAAAABBBAA",
+    "AABABBAAAA",
+    "ABABBAAAAAB"
+   ],
+   "source": "BABAABBBBABAAAAABABBAAAAABAABBBBAAAABBBAABABBBAB",
+   "raw_draws": 57,
+   "id": "sampled_bin_src3n_n0016_017",
+   "index": 17,
+   "n_reduced": 16,
+   "total_length": 174
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "source_length": 48,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 5898461006932778373,
+   "strings": [
+    "BBBAAAAAAAB",
+    "AAAABBBBBAAA",
+    "BBBAAAABBBB",
+    "BAAAAAAABABB",
+    "ABABBABBAABB",
+    "BABBAABBB",
+    "BAAABABBBAB",
+    "AAABBBBBAAAA",
+    "BBBBBAAAAAAA",
+    "AABABBABBAAB",
+    "AAAAAAABABBA",
+    "BBAABBBBAA",
+    "ABBBABBAA",
+    "BBBABBAABB",
+    "AAAABABBABBA",
+    "AABBBBAAAAB"
+   ],
+   "source": "ABBAAABABBBABBAABBBBAAAABBBBBAAAAAAABABBABBAABBA",
+   "raw_draws": 40,
+   "id": "sampled_bin_src3n_n0016_018",
+   "index": 18,
+   "n_reduced": 16,
+   "total_length": 178
+  },
+  {
+   "family": "sampled",
+   "generator": "scs.generators.sampled",
+   "generator_version": 1,
+   "params": {
+    "n": 16,
+    "source_length": 48,
+    "fragment_length": [
+     6,
+     12
+    ],
+    "alphabet": "AB",
+    "exact_n": true
+   },
+   "seed": 8933978787429820218,
+   "strings": [
+    "AAABBBBBBABA",
+    "BABABABABBB",
+    "ABABABABBBA",
+    "BBBBAA",
+    "BBBBABABBBAB",
+    "BBBABAAABAA",
+    "AAABAABABA",
+    "BBABABBBABAA",
+    "BBBAAABBBBBB",
+    "ABABABABABB",
+    "ABAABABABA",
+    "BAABBBBA",
+    "ABABBBABAB",
+    "BBBABABA",
+    "ABBBABAAA",
+    "ABAAABAABA"
+   ],
+   "source": "ABAABBBBAAABBBBBBABABBBABAAABAABABABABABBBABABAA",
+   "raw_draws": 41,
+   "id": "sampled_bin_src3n_n0016_019",
+   "index": 19,
+   "n_reduced": 16,
+   "total_length": 163
+  }
+ ]
+}

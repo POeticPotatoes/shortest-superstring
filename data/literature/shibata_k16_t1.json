@@ -1,0 +1,203 @@
+{
+ "format": "scs-instance/1",
+ "id": "shibata_k16_t1",
+ "family": "literature",
+ "strings": [
+  "xaxyxyx0xaxyxyxy",
+  "axyxyx0xaxyxyxyx",
+  "xyxyx0xaxyxyxyxa",
+  "yxyx0xaxyxyxyxax",
+  "xyx0xaxyxyxyxaxy",
+  "yx0xaxyxyxyxaxyx",
+  "x0xaxyxyxyxaxyxy",
+  "0xaxyxyxyxaxyxyx",
+  "xaxyxyxyxaxyxyx0",
+  "axyxyxyxaxyxyx0x",
+  "xyxyxyxaxyxyx0xa",
+  "yxyxyxaxyxyx0xax",
+  "xyxyxaxyxyx0xaxy",
+  "yxyxaxyxyx0xaxyx",
+  "xyxaxyxyx0xaxyxy",
+  "yxaxyxyx0xaxyxyx",
+  "xaxyxyx0xaxyxyx0",
+  "axyxyx0xaxyxyx0x",
+  "xyxyx0xaxyxyx0xa",
+  "yxyx0xaxyxyx0xax",
+  "xyx0xaxyxyx0xaxy",
+  "yx0xaxyxyx0xaxyx",
+  "x0xaxyxyx0xaxyxy",
+  "0xaxyxyx0xaxyxyx",
+  "xaxyxyxyx0xaxyxy",
+  "axyxyxyx0xaxyxyx",
+  "xyxyxyx0xaxyxyxy",
+  "yxyxyx0xaxyxyxyx",
+  "xyxyx0xaxyxyxyx0",
+  "yxyx0xaxyxyxyx0x",
+  "xyx0xaxyxyxyx0xa",
+  "yx0xaxyxyxyx0xax",
+  "x0xaxyxyxyx0xaxy",
+  "0xaxyxyxyx0xaxyx"
+ ],
+ "params": {
+  "k": 16,
+  "t": 1
+ },
+ "seed": null,
+ "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026)",
+ "known": {
+  "opt": 49,
+  "greedy_bad": 74
+ },
+ "tie_priority": [
+  [
+   "yxyx0xaxyxyxyxax",
+   "xyx0xaxyxyxyxaxy"
+  ],
+  [
+   "xyx0xaxyxyxyxaxy",
+   "yx0xaxyxyxyxaxyx"
+  ],
+  [
+   "yx0xaxyxyxyxaxyx",
+   "x0xaxyxyxyxaxyxy"
+  ],
+  [
+   "x0xaxyxyxyxaxyxy",
+   "0xaxyxyxyxaxyxyx"
+  ],
+  [
+   "0xaxyxyxyxaxyxyx",
+   "xaxyxyxyxaxyxyx0"
+  ],
+  [
+   "xaxyxyxyxaxyxyx0",
+   "axyxyxyxaxyxyx0x"
+  ],
+  [
+   "axyxyxyxaxyxyx0x",
+   "xyxyxyxaxyxyx0xa"
+  ],
+  [
+   "xyxyxyxaxyxyx0xa",
+   "yxyxyxaxyxyx0xax"
+  ],
+  [
+   "yxyxyxaxyxyx0xax",
+   "xyxyxaxyxyx0xaxy"
+  ],
+  [
+   "xyxyxaxyxyx0xaxy",
+   "yxyxaxyxyx0xaxyx"
+  ],
+  [
+   "yxyxaxyxyx0xaxyx",
+   "xyxaxyxyx0xaxyxy"
+  ],
+  [
+   "xyxaxyxyx0xaxyxy",
+   "yxaxyxyx0xaxyxyx"
+  ],
+  [
+   "yxaxyxyx0xaxyxyx",
+   "xaxyxyx0xaxyxyxy"
+  ],
+  [
+   "xaxyxyx0xaxyxyxy",
+   "axyxyx0xaxyxyxyx"
+  ],
+  [
+   "axyxyx0xaxyxyxyx",
+   "xyxyx0xaxyxyxyxa"
+  ],
+  [
+   "axyxyx0xaxyxyx0x",
+   "xyxyx0xaxyxyx0xa"
+  ],
+  [
+   "xyxyx0xaxyxyx0xa",
+   "yxyx0xaxyxyx0xax"
+  ],
+  [
+   "yxyx0xaxyxyx0xax",
+   "xyx0xaxyxyx0xaxy"
+  ],
+  [
+   "xyx0xaxyxyx0xaxy",
+   "yx0xaxyxyx0xaxyx"
+  ],
+  [
+   "yx0xaxyxyx0xaxyx",
+   "x0xaxyxyx0xaxyxy"
+  ],
+  [
+   "x0xaxyxyx0xaxyxy",
+   "0xaxyxyx0xaxyxyx"
+  ],
+  [
+   "0xaxyxyx0xaxyxyx",
+   "xaxyxyx0xaxyxyx0"
+  ],
+  [
+   "yxyx0xaxyxyxyx0x",
+   "xyx0xaxyxyxyx0xa"
+  ],
+  [
+   "xyx0xaxyxyxyx0xa",
+   "yx0xaxyxyxyx0xax"
+  ],
+  [
+   "yx0xaxyxyxyx0xax",
+   "x0xaxyxyxyx0xaxy"
+  ],
+  [
+   "x0xaxyxyxyx0xaxy",
+   "0xaxyxyxyx0xaxyx"
+  ],
+  [
+   "0xaxyxyxyx0xaxyx",
+   "xaxyxyxyx0xaxyxy"
+  ],
+  [
+   "xaxyxyxyx0xaxyxy",
+   "axyxyxyx0xaxyxyx"
+  ],
+  [
+   "axyxyxyx0xaxyxyx",
+   "xyxyxyx0xaxyxyxy"
+  ],
+  [
+   "xyxyxyx0xaxyxyxy",
+   "yxyxyx0xaxyxyxyx"
+  ],
+  [
+   "yxyxyx0xaxyxyxyx",
+   "xyxyx0xaxyxyxyx0"
+  ],
+  [
+   "xaxyxyx0xaxyxyx0",
+   "yxyx0xaxyxyxyxax"
+  ],
+  [
+   "xyxyx0xaxyxyxyxa",
+   "yxyx0xaxyxyxyx0x"
+  ]
+ ],
+ "notes": "Ratio (t(9s+1)+1)/(t(4s+2)+k-1) -> (9k+2)/(4k+4) as t -> inf; -> 9/4 as k -> inf.",
+ "symbols": {
+  "b_i": [
+   "0"
+  ]
+ },
+ "verified": {
+  "n": 34,
+  "total_length": 544,
+  "opt": 49,
+  "opt_method": "certificate",
+  "opt_superstring": "xaxyxyx0xaxyxyxyx0xaxyxyxyxaxyxyx0xaxyxyx0xaxyxyx",
+  "opt_matches_reported": true,
+  "greedy_paper": 74,
+  "greedy_paper_superstring": "axyxyx0xaxyxyx0xaxyxyx0xaxyxyxyxaxyxyx0xaxyxyxyxayxyx0xaxyxyxyx0xaxyxyxyx0",
+  "greedy_matches_reported": true,
+  "greedy_first": 57
+ }
+}

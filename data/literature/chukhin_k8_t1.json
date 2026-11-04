@@ -1,0 +1,99 @@
+{
+ "format": "scs-instance/1",
+ "id": "chukhin_k8_t1",
+ "family": "literature",
+ "strings": [
+  "ABAABX01",
+  "BAABX01A",
+  "AABX01AB",
+  "ABX01ABA",
+  "BX01ABAA",
+  "X01ABAAB",
+  "01ABAABX",
+  "1ABAABX0",
+  "ABX01ABX",
+  "BX01ABX0",
+  "X01ABX01",
+  "01ABX01A",
+  "1ABX01AB"
+ ],
+ "params": {
+  "k": 8,
+  "t": 1
+ },
+ "seed": null,
+ "citation": "Chukhin, Kulikov, Mihajlin, Smal, The Greedy Superstring Algorithm Achieves Ratio 2 for Strings of Length 6 Already, arXiv:2608.20018 (2026), Section 3",
+ "known": {
+  "opt": 20,
+  "greedy_bad": 26
+ },
+ "tie_priority": [
+  [
+   "X01ABAAB",
+   "01ABAABX"
+  ],
+  [
+   "01ABAABX",
+   "1ABAABX0"
+  ],
+  [
+   "1ABAABX0",
+   "ABAABX01"
+  ],
+  [
+   "ABAABX01",
+   "BAABX01A"
+  ],
+  [
+   "BAABX01A",
+   "AABX01AB"
+  ],
+  [
+   "AABX01AB",
+   "ABX01ABA"
+  ],
+  [
+   "ABX01ABA",
+   "BX01ABAA"
+  ],
+  [
+   "BX01ABX0",
+   "X01ABX01"
+  ],
+  [
+   "X01ABX01",
+   "01ABX01A"
+  ],
+  [
+   "01ABX01A",
+   "1ABX01AB"
+  ],
+  [
+   "1ABX01AB",
+   "ABX01ABX"
+  ],
+  [
+   "ABX01ABX",
+   "X01ABAAB"
+  ]
+ ],
+ "notes": "Shows rho_k >= 2 for k >= 6; ratio (4k-6)t/((2k-3)t+k-1).",
+ "symbols": {
+  "X_i": [
+   "X"
+  ],
+  "y": "01"
+ },
+ "verified": {
+  "n": 13,
+  "total_length": 104,
+  "opt": 20,
+  "opt_method": "certificate",
+  "opt_superstring": "ABAABX01ABX01ABAABX0",
+  "opt_matches_reported": true,
+  "greedy_paper": 26,
+  "greedy_paper_superstring": "BX01ABX01ABX01ABAABX01ABAA",
+  "greedy_matches_reported": true,
+  "greedy_first": 23
+ }
+}

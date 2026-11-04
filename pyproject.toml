@@ -1,0 +1,12 @@
+[project]
+name = "scs-greedy-study"
+version = "0.1.0"
+description = "Shortest common superstring: maximum-overlap greedy vs exact subset DP"
+requires-python = ">=3.10"
+dependencies = []  # standard library only
+
+[tool.setuptools]
+packages = ["scs"]
+
+[tool.pyright]
+extraPaths = [".", "scripts"]

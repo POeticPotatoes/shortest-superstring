@@ -1,0 +1,18 @@
+{
+ "python": "3.14.5",
+ "implementation": "CPython",
+ "platform": "Linux-7.0.6-arch1-1-x86_64-with-glibc2.43",
+ "created": "2026-11-04T18:01:41+00:00",
+ "command": "bench_scaling.py --out results/scaling",
+ "args": {
+  "out": "results/scaling",
+  "families": "random,sampled,repetitive",
+  "dp_sizes": "4,6,8,10,12,14,16,18",
+  "greedy_sizes": "100,200,500,1000,2000,5000",
+  "rules": "first,random:0,lex",
+  "reps": 3,
+  "repeats": 3,
+  "master_seed": 20261105
+ },
+ "seed_scheme": "derive_seed(master_seed, 'scaling', family, n, rep)"
+}

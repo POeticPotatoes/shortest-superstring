@@ -1,0 +1,163 @@
+{
+ "format": "scs-instance/1",
+ "id": "shibata_k12_t1",
+ "family": "literature",
+ "strings": [
+  "xaxyx0xaxyxy",
+  "axyx0xaxyxyx",
+  "xyx0xaxyxyxa",
+  "yx0xaxyxyxax",
+  "x0xaxyxyxaxy",
+  "0xaxyxyxaxyx",
+  "xaxyxyxaxyx0",
+  "axyxyxaxyx0x",
+  "xyxyxaxyx0xa",
+  "yxyxaxyx0xax",
+  "xyxaxyx0xaxy",
+  "yxaxyx0xaxyx",
+  "xaxyx0xaxyx0",
+  "axyx0xaxyx0x",
+  "xyx0xaxyx0xa",
+  "yx0xaxyx0xax",
+  "x0xaxyx0xaxy",
+  "0xaxyx0xaxyx",
+  "xaxyxyx0xaxy",
+  "axyxyx0xaxyx",
+  "xyxyx0xaxyxy",
+  "yxyx0xaxyxyx",
+  "xyx0xaxyxyx0",
+  "yx0xaxyxyx0x",
+  "x0xaxyxyx0xa",
+  "0xaxyxyx0xax"
+ ],
+ "params": {
+  "k": 12,
+  "t": 1
+ },
+ "seed": null,
+ "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026)",
+ "known": {
+  "opt": 37,
+  "greedy_bad": 56
+ },
+ "tie_priority": [
+  [
+   "yx0xaxyxyxax",
+   "x0xaxyxyxaxy"
+  ],
+  [
+   "x0xaxyxyxaxy",
+   "0xaxyxyxaxyx"
+  ],
+  [
+   "0xaxyxyxaxyx",
+   "xaxyxyxaxyx0"
+  ],
+  [
+   "xaxyxyxaxyx0",
+   "axyxyxaxyx0x"
+  ],
+  [
+   "axyxyxaxyx0x",
+   "xyxyxaxyx0xa"
+  ],
+  [
+   "xyxyxaxyx0xa",
+   "yxyxaxyx0xax"
+  ],
+  [
+   "yxyxaxyx0xax",
+   "xyxaxyx0xaxy"
+  ],
+  [
+   "xyxaxyx0xaxy",
+   "yxaxyx0xaxyx"
+  ],
+  [
+   "yxaxyx0xaxyx",
+   "xaxyx0xaxyxy"
+  ],
+  [
+   "xaxyx0xaxyxy",
+   "axyx0xaxyxyx"
+  ],
+  [
+   "axyx0xaxyxyx",
+   "xyx0xaxyxyxa"
+  ],
+  [
+   "axyx0xaxyx0x",
+   "xyx0xaxyx0xa"
+  ],
+  [
+   "xyx0xaxyx0xa",
+   "yx0xaxyx0xax"
+  ],
+  [
+   "yx0xaxyx0xax",
+   "x0xaxyx0xaxy"
+  ],
+  [
+   "x0xaxyx0xaxy",
+   "0xaxyx0xaxyx"
+  ],
+  [
+   "0xaxyx0xaxyx",
+   "xaxyx0xaxyx0"
+  ],
+  [
+   "yx0xaxyxyx0x",
+   "x0xaxyxyx0xa"
+  ],
+  [
+   "x0xaxyxyx0xa",
+   "0xaxyxyx0xax"
+  ],
+  [
+   "0xaxyxyx0xax",
+   "xaxyxyx0xaxy"
+  ],
+  [
+   "xaxyxyx0xaxy",
+   "axyxyx0xaxyx"
+  ],
+  [
+   "axyxyx0xaxyx",
+   "xyxyx0xaxyxy"
+  ],
+  [
+   "xyxyx0xaxyxy",
+   "yxyx0xaxyxyx"
+  ],
+  [
+   "yxyx0xaxyxyx",
+   "xyx0xaxyxyx0"
+  ],
+  [
+   "xaxyx0xaxyx0",
+   "yx0xaxyxyxax"
+  ],
+  [
+   "xyx0xaxyxyxa",
+   "yx0xaxyxyx0x"
+  ]
+ ],
+ "notes": "Ratio (t(9s+1)+1)/(t(4s+2)+k-1) -> (9k+2)/(4k+4) as t -> inf; -> 9/4 as k -> inf.",
+ "symbols": {
+  "b_i": [
+   "0"
+  ]
+ },
+ "verified": {
+  "n": 26,
+  "total_length": 312,
+  "opt": 37,
+  "opt_method": "certificate",
+  "opt_superstring": "xaxyx0xaxyxyx0xaxyxyxaxyx0xaxyx0xaxyx",
+  "opt_matches_reported": true,
+  "greedy_paper": 56,
+  "greedy_paper_superstring": "axyx0xaxyx0xaxyx0xaxyxyxaxyx0xaxyxyxayx0xaxyxyx0xaxyxyx0",
+  "greedy_matches_reported": true,
+  "greedy_first": 43
+ }
+}

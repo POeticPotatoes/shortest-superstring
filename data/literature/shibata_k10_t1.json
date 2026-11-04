@@ -1,0 +1,143 @@
+{
+ "format": "scs-instance/1",
+ "id": "shibata_k10_t1",
+ "family": "literature",
+ "strings": [
+  "xayx0xayxy",
+  "ayx0xayxyx",
+  "yx0xayxyxa",
+  "x0xayxyxay",
+  "0xayxyxayx",
+  "xayxyxayx0",
+  "ayxyxayx0x",
+  "yxyxayx0xa",
+  "xyxayx0xay",
+  "yxayx0xayx",
+  "xayx0xayx0",
+  "ayx0xayx0x",
+  "yx0xayx0xa",
+  "x0xayx0xay",
+  "0xayx0xayx",
+  "xayxyx0xay",
+  "ayxyx0xayx",
+  "yxyx0xayxy",
+  "xyx0xayxyx",
+  "yx0xayxyx0",
+  "x0xayxyx0x",
+  "0xayxyx0xa"
+ ],
+ "params": {
+  "k": 10,
+  "t": 1
+ },
+ "seed": null,
+ "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026)",
+ "known": {
+  "opt": 31,
+  "greedy_bad": 47
+ },
+ "tie_priority": [
+  [
+   "x0xayxyxay",
+   "0xayxyxayx"
+  ],
+  [
+   "0xayxyxayx",
+   "xayxyxayx0"
+  ],
+  [
+   "xayxyxayx0",
+   "ayxyxayx0x"
+  ],
+  [
+   "ayxyxayx0x",
+   "yxyxayx0xa"
+  ],
+  [
+   "yxyxayx0xa",
+   "xyxayx0xay"
+  ],
+  [
+   "xyxayx0xay",
+   "yxayx0xayx"
+  ],
+  [
+   "yxayx0xayx",
+   "xayx0xayxy"
+  ],
+  [
+   "xayx0xayxy",
+   "ayx0xayxyx"
+  ],
+  [
+   "ayx0xayxyx",
+   "yx0xayxyxa"
+  ],
+  [
+   "ayx0xayx0x",
+   "yx0xayx0xa"
+  ],
+  [
+   "yx0xayx0xa",
+   "x0xayx0xay"
+  ],
+  [
+   "x0xayx0xay",
+   "0xayx0xayx"
+  ],
+  [
+   "0xayx0xayx",
+   "xayx0xayx0"
+  ],
+  [
+   "x0xayxyx0x",
+   "0xayxyx0xa"
+  ],
+  [
+   "0xayxyx0xa",
+   "xayxyx0xay"
+  ],
+  [
+   "xayxyx0xay",
+   "ayxyx0xayx"
+  ],
+  [
+   "ayxyx0xayx",
+   "yxyx0xayxy"
+  ],
+  [
+   "yxyx0xayxy",
+   "xyx0xayxyx"
+  ],
+  [
+   "xyx0xayxyx",
+   "yx0xayxyx0"
+  ],
+  [
+   "xayx0xayx0",
+   "x0xayxyxay"
+  ],
+  [
+   "yx0xayxyxa",
+   "x0xayxyx0x"
+  ]
+ ],
+ "notes": "Ratio (t(9s+1)+1)/(t(4s+2)+k-1) -> (9k+2)/(4k+4) as t -> inf; -> 9/4 as k -> inf.",
+ "symbols": {
+  "b_i": [
+   "0"
+  ]
+ },
+ "verified": {
+  "n": 22,
+  "total_length": 220,
+  "opt": 31,
+  "opt_method": "certificate",
+  "opt_superstring": "xayx0xayxyx0xayxyxayx0xayx0xayx",
+  "opt_matches_reported": true,
+  "greedy_paper": 47,
+  "greedy_paper_superstring": "ayx0xayx0xayx0xayxyxayx0xayxyxax0xayxyx0xayxyx0",
+  "greedy_matches_reported": true,
+  "greedy_first": 36
+ }
+}
