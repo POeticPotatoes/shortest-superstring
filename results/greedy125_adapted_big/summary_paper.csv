@@ -1,0 +1,3 @@
+instance,n,basis,ref,opt,opt_upper,greedy_paper,ratio_paper,ratio_first,ratio_random_mean,ratio_random_max,random_hits_paper
+greedy125adapted_n70,345,G/|H| (lower bound),1773659,,1773659,4190439,2.362600,2.362600,1.519640,1.592430,0
+greedy125adapted_n100,495,G/|H| (lower bound),5119799,,5119799,12152844,2.373700,2.373700,1.513820,1.548800,0

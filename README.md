@@ -29,7 +29,8 @@ python3 scripts/import_literature.py
 
 # experiments
 python3 scripts/run_benchmark.py data/synthetic --tier small --out results/small
-python3 scripts/run_benchmark.py data/literature --out results/literature --random-ties 100 --explore-max-n 12
+python3 scripts/run_benchmark.py data/literature --out results/literature --random-ties 100 --explore-max-n 12 --dp-max-n 20
+python3 scripts/experiment_12_5.py --out results/greedy125          # the 12/5 lower bound (paper §5.5)
 python3 scripts/run_benchmark.py data/synthetic --tier large --out results/large --dp-max-n 0 --explore-max-n 0
 python3 scripts/summarize_results.py results/small results/large
 python3 scripts/summarize_results.py results/literature --by-instance
@@ -60,9 +61,64 @@ the k-mer family.
   seed. `manifest.json` lists all parameters and seeds (master seed 20261105).
 * `data/literature/*.json`: the slide examples; Tarhio & Ukkonen (1988) Ex. 7;
   Chukhin, Kulikov, Mihajlin, Smal (arXiv:2608.20018) for k = 3, 6, 7, 8, 10;
-  Shibata (arXiv:2609.01365), the 9/4 counterexample family, with greedy
-  > 2·OPT reproduced at k=10, t ≥ 10; and the Kulikov et al. repository
-  examples. Each file stores the reported OPT and greedy length, the paper's
-  tie choices (`tie_priority`), and our verified values.
+  **the 12/5 construction** of Chukhin, Gajjala, Harviainen, Kulikov, Mihajlin,
+  Shibata, Smal, "The Greedy Superstring Conjecture Is False"
+  (arXiv:2609.01365v2, Theorem 4.1), stored for r ≤ 20; Shibata's earlier
+  9/4 family (arXiv:2609.01365v1); and the Kulikov et al. repository examples.
+  Each file stores the reported OPT (or, for the 12/5 family, the explicit
+  superstring H ≥ OPT), the reported greedy length, the paper's tie choices
+  (`tie_priority`), and our verified values.
+
+## Real-world data: genome sequencing
+
+Shortest superstring is the classic model of *de novo* genome assembly. `data/real/` turns
+public sequencing data into SCS instances:
+
+* **Reference genomes** from NCBI RefSeq: phiX174 (NC_001422.1, 5,386 bp, circular),
+  SARS-CoV-2 (NC_045512.2, 29,903 bp) and lambda phage (NC_001416.1, 48,502 bp).
+* **Real Illumina reads** of phiX174 from ENA run ERR098007 (23,332 reads of ~76 bp). The raw
+  FASTQ is downloaded and MD5-checked by `scripts/fetch_real_data.py` and is not tracked by git.
+
+`scripts/generate_real_instances.py` builds instance batches from these:
+
+* **Real reads, exact and oriented:** real reads that match the genome exactly (about 50%),
+  with reverse-strand reads flipped.
+* **Real reads, raw:** the reads as sequenced, with errors and both strands.
+* **Simulated reads:** error-free reads from all three genomes, and phiX174 reads with 1%
+  errors.
+
+Small windows (n ≤ 16) get the exact optimum. Whole-genome instances use the genome stretch
+as a certified bound and report assembly metrics: does greedy rebuild the genome, and does it
+join reads incorrectly?
+
+```bash
+python3 scripts/fetch_real_data.py          # needs network; verifies checksums
+python3 scripts/generate_real_instances.py
+python3 scripts/run_benchmark.py data/real/instances --tier small --out results/real_small
+python3 scripts/run_benchmark.py data/real/instances --tier large --out results/real_large --dp-max-n 0 --explore-max-n 0 --random-ties 10 --trace-max-n 0
+```
+
+On error-free reads greedy matches OPT on every small window. With full coverage it rebuilds
+all three genomes exactly. Sequencing errors and mixed strands break the SCS model: raw reads
+give an output 3.6–11.4× the genome length. Pure SCS also ignores reverse complements and read
+quality, which is why real assemblers are not SCS solvers.
+
+## The 12/5 lower bound
+
+`scripts/experiment_12_5.py` generates the Theorem 4.1 family for any r (P = r²
+by default, also P = r − 1), replays the paper's greedy execution, and compares
+it with fixed rules, seeded random ties and shuffled-input-order `first`. It
+uses the exact DP for r ≤ 4. For larger r it reports the certified lower
+bound G/|H| ≤ G/OPT, kept separate from exact ratios (`ref_kind` column).
+
+| r | P | n | \|H\| (≥ OPT) | G (paper execution) | G/\|H\| |
+|---:|---:|---:|---:|---:|---:|
+| 4 | 16 | 20 | 893 (OPT 890) | 1702 | 1.906 (G/OPT 1.912) |
+| 10 | 100 | 50 | 8291 | 17785 | 2.145 |
+| 20 | 400 | 100 | 52781 | 119070 | **2.256 > 9/4** |
+| 50 | 2500 | 250 | 703451 | 1643925 | **2.337 > 7/3** |
+| 100 | 10⁴ | 500 | 5311901 | 12575350 | 2.367 |
+
+The ratio tends to 12/5 = 2.4 as r → ∞. Random tie-breaking stays near 1.4.
 
 See `AGENTS.md` for design notes, conventions and gotchas.

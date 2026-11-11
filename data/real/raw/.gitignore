@@ -1,0 +1,3 @@
+# Raw downloads are fetched by scripts/fetch_real_data.py (MD5-verified).
+*
+!.gitignore

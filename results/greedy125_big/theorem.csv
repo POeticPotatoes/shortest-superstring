@@ -1,0 +1,3 @@
+instance,r,P,n,H_len,H_formula,H_is_superstring,greedy_paper,greedy_formula,opt,H_minus_opt,ratio_paper_vs_H,ratio_paper_vs_opt,exceeds_9_4,exceeds_7_3,exceeds_19_8
+greedy125_r70_P4900,70,4900,350,1868231,1868231,1,4397995,4397995,,,2.3541,,1,1,0
+greedy125_r100_P10000,100,10000,500,5311901,5311901,1,12575350,12575350,,,2.36739,,1,1,0

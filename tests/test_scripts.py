@@ -89,7 +89,7 @@ class TestPipeline(unittest.TestCase):
     def test_literature_and_tools(self):
         with tempfile.TemporaryDirectory(dir=ROOT / "tests", prefix="_tmp") as tmp:
             tmp = Path(tmp)
-            out = run("import_literature.py", "--out", tmp / "lit", "--explore-max-n", 6)
+            out = run("import_literature.py", "--out", tmp / "lit", "--explore-max-n", 6, "--dp-max-n", 16)
             self.assertIn("all reported values reproduced", out)
             run("run_benchmark.py", tmp / "lit" / "shibata_k10_t1.json", tmp / "lit" / "chukhin_k6_t1.json",
                 "--out", tmp / "res", "--random-ties", 2)
@@ -104,6 +104,34 @@ class TestPipeline(unittest.TestCase):
             self.assertEqual(report["stats"]["compression_bound_violations"], 0)
             self.assertLessEqual(report["worst_ratio"], 9 / 5)
             self.assertIn("Shibata", run("demo.py"))
+
+    @unittest.skipUnless((ROOT / "data" / "real" / "sources.json").exists(), "real data not fetched")
+    def test_generate_real_instances(self):
+        with tempfile.TemporaryDirectory(dir=ROOT / "tests", prefix="_tmp") as tmp:
+            tmp = Path(tmp)
+            args = ["--out", tmp / "real", "--count", 2]
+            if not (ROOT / "data" / "real" / "raw" / "ERR098007.fastq.gz").exists():
+                args.append("--skip-reads")
+            run("generate_real_instances.py", *args)
+            manifest = json.loads((tmp / "real" / "manifest.json").read_text())
+            self.assertIn("sim_sars2_errfree/large_len100_cov5.json", manifest["batches"])
+            run("run_benchmark.py", tmp / "real" / "sim_phix_errfree", "--out", tmp / "res", "--tier", "small",
+                "--random-ties", 2)
+            rows = read_csv(tmp / "res" / "instances.csv")
+            self.assertTrue(rows and all(r["opt_method"] == "dp" for r in rows))
+
+    def test_experiment_12_5(self):
+        with tempfile.TemporaryDirectory(dir=ROOT / "tests", prefix="_tmp") as tmp:
+            tmp = Path(tmp)
+            run("experiment_12_5.py", "--out", tmp, "--r", "1,2,6", "--small-p-r", "2", "--random-ties", 3)
+            rows = {r["instance"]: r for r in read_csv(tmp / "theorem.csv")}
+            self.assertEqual(rows["greedy125_r2_P1"]["greedy_paper"], rows["greedy125_r2_P1"]["greedy_formula"])
+            self.assertEqual(rows["greedy125_r2_P4"]["opt"], "202")
+            insts = {r["instance"]: r for r in read_csv(tmp / "instances.csv")}
+            self.assertEqual(insts["greedy125_r2_P4"]["ref_kind"], "exact")
+            self.assertEqual(insts["greedy125_r6_P36"]["ref_kind"], "upper_bound")
+            self.assertEqual(insts["greedy125_r6_P36"]["ref"], insts["greedy125_r6_P36"]["opt_upper"])
+            self.assertIn("G/|H| (lower bound)", (tmp / "summary.md").read_text())
 
 
 if __name__ == "__main__":

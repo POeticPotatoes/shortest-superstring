@@ -1,0 +1,89 @@
+{
+ "python": "3.14.5",
+ "implementation": "CPython",
+ "platform": "Linux-7.0.6-arch1-1-x86_64-with-glibc2.43",
+ "created": "2026-11-11T15:10:17+00:00",
+ "command": "experiment_12_5.py --out results/greedy125",
+ "args": {
+  "out": "results/greedy125",
+  "r": "1,2,3,4,5,6,8,10,15,20,30,50",
+  "small_p_r": "1,2,3,4",
+  "rules": "first,last,lex,revlex",
+  "random_ties": 50,
+  "shuffle_orders": 20,
+  "tie_seed": 0,
+  "dp_max_n": 20,
+  "explore_max_n": 10,
+  "explore_max_states": 200000
+ },
+ "configs": [
+  [
+   1,
+   0
+  ],
+  [
+   1,
+   1
+  ],
+  [
+   2,
+   1
+  ],
+  [
+   2,
+   4
+  ],
+  [
+   3,
+   2
+  ],
+  [
+   3,
+   9
+  ],
+  [
+   4,
+   3
+  ],
+  [
+   4,
+   16
+  ],
+  [
+   5,
+   25
+  ],
+  [
+   6,
+   36
+  ],
+  [
+   8,
+   64
+  ],
+  [
+   10,
+   100
+  ],
+  [
+   15,
+   225
+  ],
+  [
+   20,
+   400
+  ],
+  [
+   30,
+   900
+  ],
+  [
+   50,
+   2500
+  ]
+ ],
+ "random_tie_seed_scheme": "derive_seed(tie_seed, instance_id, r)",
+ "shuffle_seed_scheme": "derive_seed(tie_seed, 'shuffle', instance_id, j)",
+ "source": "arXiv:2609.01365v2 Theorem 4.1 (scs.constructions.greedy_12_5)",
+ "elapsed_s": 29.11075831799826
+}

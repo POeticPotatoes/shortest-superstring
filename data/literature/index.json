@@ -2,7 +2,7 @@
  "python": "3.14.5",
  "implementation": "CPython",
  "platform": "Linux-7.0.6-arch1-1-x86_64-with-glibc2.43",
- "created": "2026-11-04T17:51:30+00:00",
+ "created": "2026-11-11T15:41:55+00:00",
  "command": "import_literature.py",
  "instances": [
   {
@@ -12,8 +12,10 @@
    "opt_method": "certificate",
    "greedy_bad": 5,
    "greedy_paper": null,
+   "opt_upper": null,
    "greedy_first": 5,
    "ratio_bad": 1.0,
+   "ratio_basis": "G/OPT",
    "verified": true,
    "citation": "Project proposal slides"
   },
@@ -24,8 +26,10 @@
    "opt_method": "certificate",
    "greedy_bad": 5,
    "greedy_paper": null,
+   "opt_upper": null,
    "greedy_first": 5,
    "ratio_bad": 1.0,
+   "ratio_basis": "G/OPT",
    "verified": true,
    "citation": "Project proposal slides"
   },
@@ -36,8 +40,10 @@
    "opt_method": "dp",
    "greedy_bad": 8,
    "greedy_paper": 8,
+   "opt_upper": null,
    "greedy_first": 8,
    "ratio_bad": 1.1428571428571428,
+   "ratio_basis": "G/OPT",
    "verified": true,
    "citation": "Project proposal slides"
   },
@@ -48,8 +54,10 @@
    "opt_method": "dp",
    "greedy_bad": null,
    "greedy_paper": null,
+   "opt_upper": null,
    "greedy_first": 14,
    "ratio_bad": 1.1666666666666667,
+   "ratio_basis": "G/OPT",
    "verified": true,
    "citation": "github.com/alexanderskulikov/greedy-superstring-conjecture (README, counterexample added 2025-07-08)"
   },
@@ -60,8 +68,10 @@
    "opt_method": "dp",
    "greedy_bad": null,
    "greedy_paper": null,
+   "opt_upper": null,
    "greedy_first": 49,
    "ratio_bad": 1.3243243243243243,
+   "ratio_basis": "G/OPT",
    "verified": true,
    "citation": "github.com/alexanderskulikov/greedy-superstring-conjecture (README, counterexample added 2025-07-08)"
   },
@@ -72,8 +82,10 @@
    "opt_method": "certificate",
    "greedy_bad": 5,
    "greedy_paper": 5,
+   "opt_upper": null,
    "greedy_first": 4,
    "ratio_bad": 1.25,
+   "ratio_basis": "G/OPT",
    "verified": true,
    "citation": "Tarhio & Ukkonen, A greedy approximation algorithm for constructing shortest common superstrings, TCS 57 (1988) 131-145, Example 7"
   },
@@ -84,8 +96,10 @@
    "opt_method": "certificate",
    "greedy_bad": 7,
    "greedy_paper": 7,
+   "opt_upper": null,
    "greedy_first": 5,
    "ratio_bad": 1.4,
+   "ratio_basis": "G/OPT",
    "verified": true,
    "citation": "Tarhio & Ukkonen, A greedy approximation algorithm for constructing shortest common superstrings, TCS 57 (1988) 131-145, Example 7"
   },
@@ -96,8 +110,10 @@
    "opt_method": "certificate",
    "greedy_bad": 9,
    "greedy_paper": 9,
+   "opt_upper": null,
    "greedy_first": 6,
    "ratio_bad": 1.5,
+   "ratio_basis": "G/OPT",
    "verified": true,
    "citation": "Tarhio & Ukkonen, A greedy approximation algorithm for constructing shortest common superstrings, TCS 57 (1988) 131-145, Example 7"
   },
@@ -108,8 +124,10 @@
    "opt_method": "certificate",
    "greedy_bad": 13,
    "greedy_paper": 13,
+   "opt_upper": null,
    "greedy_first": 8,
    "ratio_bad": 1.625,
+   "ratio_basis": "G/OPT",
    "verified": true,
    "citation": "Tarhio & Ukkonen, A greedy approximation algorithm for constructing shortest common superstrings, TCS 57 (1988) 131-145, Example 7"
   },
@@ -120,8 +138,10 @@
    "opt_method": "certificate",
    "greedy_bad": 23,
    "greedy_paper": 23,
+   "opt_upper": null,
    "greedy_first": 13,
    "ratio_bad": 1.7692307692307692,
+   "ratio_basis": "G/OPT",
    "verified": true,
    "citation": "Tarhio & Ukkonen, A greedy approximation algorithm for constructing shortest common superstrings, TCS 57 (1988) 131-145, Example 7"
   },
@@ -132,8 +152,10 @@
    "opt_method": "certificate",
    "greedy_bad": 43,
    "greedy_paper": 43,
+   "opt_upper": null,
    "greedy_first": 23,
    "ratio_bad": 1.8695652173913044,
+   "ratio_basis": "G/OPT",
    "verified": true,
    "citation": "Tarhio & Ukkonen, A greedy approximation algorithm for constructing shortest common superstrings, TCS 57 (1988) 131-145, Example 7"
   },
@@ -144,8 +166,10 @@
    "opt_method": "certificate",
    "greedy_bad": 9,
    "greedy_paper": 9,
+   "opt_upper": null,
    "greedy_first": 7,
    "ratio_bad": 1.2857142857142858,
+   "ratio_basis": "G/OPT",
    "verified": true,
    "citation": "Chukhin, Kulikov, Mihajlin, Smal, The Greedy Superstring Algorithm Achieves Ratio 2 for Strings of Length 6 Already, arXiv:2608.20018 (2026), Theorem 4.1"
   },
@@ -156,8 +180,10 @@
    "opt_method": "certificate",
    "greedy_bad": 18,
    "greedy_paper": 18,
+   "opt_upper": null,
    "greedy_first": 12,
    "ratio_bad": 1.5,
+   "ratio_basis": "G/OPT",
    "verified": true,
    "citation": "Chukhin, Kulikov, Mihajlin, Smal, The Greedy Superstring Algorithm Achieves Ratio 2 for Strings of Length 6 Already, arXiv:2608.20018 (2026), Theorem 4.1"
   },
@@ -168,8 +194,10 @@
    "opt_method": "certificate",
    "greedy_bad": 27,
    "greedy_paper": 27,
+   "opt_upper": null,
    "greedy_first": 17,
    "ratio_bad": 1.588235294117647,
+   "ratio_basis": "G/OPT",
    "verified": true,
    "citation": "Chukhin, Kulikov, Mihajlin, Smal, The Greedy Superstring Algorithm Achieves Ratio 2 for Strings of Length 6 Already, arXiv:2608.20018 (2026), Theorem 4.1"
   },
@@ -180,8 +208,10 @@
    "opt_method": "certificate",
    "greedy_bad": 45,
    "greedy_paper": 45,
+   "opt_upper": null,
    "greedy_first": 27,
    "ratio_bad": 1.6666666666666667,
+   "ratio_basis": "G/OPT",
    "verified": true,
    "citation": "Chukhin, Kulikov, Mihajlin, Smal, The Greedy Superstring Algorithm Achieves Ratio 2 for Strings of Length 6 Already, arXiv:2608.20018 (2026), Theorem 4.1"
   },
@@ -192,8 +222,10 @@
    "opt_method": "certificate",
    "greedy_bad": 90,
    "greedy_paper": 90,
+   "opt_upper": null,
    "greedy_first": 52,
    "ratio_bad": 1.7307692307692308,
+   "ratio_basis": "G/OPT",
    "verified": true,
    "citation": "Chukhin, Kulikov, Mihajlin, Smal, The Greedy Superstring Algorithm Achieves Ratio 2 for Strings of Length 6 Already, arXiv:2608.20018 (2026), Theorem 4.1"
   },
@@ -204,8 +236,10 @@
    "opt_method": "certificate",
    "greedy_bad": 180,
    "greedy_paper": 180,
+   "opt_upper": null,
    "greedy_first": 102,
    "ratio_bad": 1.7647058823529411,
+   "ratio_basis": "G/OPT",
    "verified": true,
    "citation": "Chukhin, Kulikov, Mihajlin, Smal, The Greedy Superstring Algorithm Achieves Ratio 2 for Strings of Length 6 Already, arXiv:2608.20018 (2026), Theorem 4.1"
   },
@@ -216,8 +250,10 @@
    "opt_method": "certificate",
    "greedy_bad": 18,
    "greedy_paper": 18,
+   "opt_upper": null,
    "greedy_first": 17,
    "ratio_bad": 1.2857142857142858,
+   "ratio_basis": "G/OPT",
    "verified": true,
    "citation": "Chukhin, Kulikov, Mihajlin, Smal, The Greedy Superstring Algorithm Achieves Ratio 2 for Strings of Length 6 Already, arXiv:2608.20018 (2026), Section 3"
   },
@@ -228,8 +264,10 @@
    "opt_method": "certificate",
    "greedy_bad": 36,
    "greedy_paper": 36,
+   "opt_upper": null,
    "greedy_first": 29,
    "ratio_bad": 1.565217391304348,
+   "ratio_basis": "G/OPT",
    "verified": true,
    "citation": "Chukhin, Kulikov, Mihajlin, Smal, The Greedy Superstring Algorithm Achieves Ratio 2 for Strings of Length 6 Already, arXiv:2608.20018 (2026), Section 3"
   },
@@ -240,8 +278,10 @@
    "opt_method": "certificate",
    "greedy_bad": 54,
    "greedy_paper": 54,
+   "opt_upper": null,
    "greedy_first": 41,
    "ratio_bad": 1.6875,
+   "ratio_basis": "G/OPT",
    "verified": true,
    "citation": "Chukhin, Kulikov, Mihajlin, Smal, The Greedy Superstring Algorithm Achieves Ratio 2 for Strings of Length 6 Already, arXiv:2608.20018 (2026), Section 3"
   },
@@ -252,8 +292,10 @@
    "opt_method": "certificate",
    "greedy_bad": 90,
    "greedy_paper": 90,
+   "opt_upper": null,
    "greedy_first": 65,
    "ratio_bad": 1.8,
+   "ratio_basis": "G/OPT",
    "verified": true,
    "citation": "Chukhin, Kulikov, Mihajlin, Smal, The Greedy Superstring Algorithm Achieves Ratio 2 for Strings of Length 6 Already, arXiv:2608.20018 (2026), Section 3"
   },
@@ -264,8 +306,10 @@
    "opt_method": "certificate",
    "greedy_bad": 180,
    "greedy_paper": 180,
+   "opt_upper": null,
    "greedy_first": 125,
    "ratio_bad": 1.894736842105263,
+   "ratio_basis": "G/OPT",
    "verified": true,
    "citation": "Chukhin, Kulikov, Mihajlin, Smal, The Greedy Superstring Algorithm Achieves Ratio 2 for Strings of Length 6 Already, arXiv:2608.20018 (2026), Section 3"
   },
@@ -276,8 +320,10 @@
    "opt_method": "certificate",
    "greedy_bad": 22,
    "greedy_paper": 22,
+   "opt_upper": null,
    "greedy_first": 20,
    "ratio_bad": 1.2941176470588236,
+   "ratio_basis": "G/OPT",
    "verified": true,
    "citation": "Chukhin, Kulikov, Mihajlin, Smal, The Greedy Superstring Algorithm Achieves Ratio 2 for Strings of Length 6 Already, arXiv:2608.20018 (2026), Section 3"
   },
@@ -288,8 +334,10 @@
    "opt_method": "certificate",
    "greedy_bad": 26,
    "greedy_paper": 26,
+   "opt_upper": null,
    "greedy_first": 23,
    "ratio_bad": 1.3,
+   "ratio_basis": "G/OPT",
    "verified": true,
    "citation": "Chukhin, Kulikov, Mihajlin, Smal, The Greedy Superstring Algorithm Achieves Ratio 2 for Strings of Length 6 Already, arXiv:2608.20018 (2026), Section 3"
   },
@@ -300,8 +348,10 @@
    "opt_method": "certificate",
    "greedy_bad": 34,
    "greedy_paper": 34,
+   "opt_upper": null,
    "greedy_first": 29,
    "ratio_bad": 1.3076923076923077,
+   "ratio_basis": "G/OPT",
    "verified": true,
    "citation": "Chukhin, Kulikov, Mihajlin, Smal, The Greedy Superstring Algorithm Achieves Ratio 2 for Strings of Length 6 Already, arXiv:2608.20018 (2026), Section 3"
   },
@@ -312,8 +362,10 @@
    "opt_method": "certificate",
    "greedy_bad": 52,
    "greedy_paper": 52,
+   "opt_upper": null,
    "greedy_first": 44,
    "ratio_bad": 1.5757575757575757,
+   "ratio_basis": "G/OPT",
    "verified": true,
    "citation": "Chukhin, Kulikov, Mihajlin, Smal, The Greedy Superstring Algorithm Achieves Ratio 2 for Strings of Length 6 Already, arXiv:2608.20018 (2026), Section 3"
   },
@@ -324,8 +376,10 @@
    "opt_method": "certificate",
    "greedy_bad": 130,
    "greedy_paper": 130,
+   "opt_upper": null,
    "greedy_first": 107,
    "ratio_bad": 1.8055555555555556,
+   "ratio_basis": "G/OPT",
    "verified": true,
    "citation": "Chukhin, Kulikov, Mihajlin, Smal, The Greedy Superstring Algorithm Achieves Ratio 2 for Strings of Length 6 Already, arXiv:2608.20018 (2026), Section 3"
   },
@@ -336,10 +390,12 @@
    "opt_method": "certificate",
    "greedy_bad": 47,
    "greedy_paper": 47,
+   "opt_upper": null,
    "greedy_first": 36,
    "ratio_bad": 1.5161290322580645,
+   "ratio_basis": "G/OPT",
    "verified": true,
-   "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026)"
+   "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026; superseded by v2)"
   },
   {
    "id": "shibata_k10_t2",
@@ -348,10 +404,12 @@
    "opt_method": "certificate",
    "greedy_bad": 93,
    "greedy_paper": 93,
+   "opt_upper": null,
    "greedy_first": 70,
    "ratio_bad": 1.7547169811320755,
+   "ratio_basis": "G/OPT",
    "verified": true,
-   "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026)"
+   "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026; superseded by v2)"
   },
   {
    "id": "shibata_k10_t3",
@@ -360,10 +418,12 @@
    "opt_method": "certificate",
    "greedy_bad": 139,
    "greedy_paper": 139,
+   "opt_upper": null,
    "greedy_first": 104,
    "ratio_bad": 1.8533333333333333,
+   "ratio_basis": "G/OPT",
    "verified": true,
-   "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026)"
+   "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026; superseded by v2)"
   },
   {
    "id": "shibata_k10_t5",
@@ -372,10 +432,12 @@
    "opt_method": "certificate",
    "greedy_bad": 231,
    "greedy_paper": 231,
+   "opt_upper": null,
    "greedy_first": 172,
    "ratio_bad": 1.9411764705882353,
+   "ratio_basis": "G/OPT",
    "verified": true,
-   "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026)"
+   "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026; superseded by v2)"
   },
   {
    "id": "shibata_k10_t10",
@@ -384,10 +446,12 @@
    "opt_method": "certificate",
    "greedy_bad": 461,
    "greedy_paper": 461,
+   "opt_upper": null,
    "greedy_first": 342,
    "ratio_bad": 2.013100436681223,
+   "ratio_basis": "G/OPT",
    "verified": true,
-   "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026)"
+   "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026; superseded by v2)"
   },
   {
    "id": "shibata_k10_t20",
@@ -396,10 +460,12 @@
    "opt_method": "certificate",
    "greedy_bad": 921,
    "greedy_paper": 921,
+   "opt_upper": null,
    "greedy_first": 682,
    "ratio_bad": 2.0512249443207127,
+   "ratio_basis": "G/OPT",
    "verified": true,
-   "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026)"
+   "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026; superseded by v2)"
   },
   {
    "id": "shibata_k10_t50",
@@ -408,10 +474,12 @@
    "opt_method": "certificate",
    "greedy_bad": 2301,
    "greedy_paper": 2301,
+   "opt_upper": null,
    "greedy_first": 1702,
    "ratio_bad": 2.074842200180343,
+   "ratio_basis": "G/OPT",
    "verified": true,
-   "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026)"
+   "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026; superseded by v2)"
   },
   {
    "id": "shibata_k12_t1",
@@ -420,10 +488,12 @@
    "opt_method": "certificate",
    "greedy_bad": 56,
    "greedy_paper": 56,
+   "opt_upper": null,
    "greedy_first": 43,
    "ratio_bad": 1.5135135135135136,
+   "ratio_basis": "G/OPT",
    "verified": true,
-   "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026)"
+   "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026; superseded by v2)"
   },
   {
    "id": "shibata_k12_t5",
@@ -432,10 +502,12 @@
    "opt_method": "certificate",
    "greedy_bad": 276,
    "greedy_paper": 276,
+   "opt_upper": null,
    "greedy_first": 203,
    "ratio_bad": 1.9574468085106382,
+   "ratio_basis": "G/OPT",
    "verified": true,
-   "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026)"
+   "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026; superseded by v2)"
   },
   {
    "id": "shibata_k12_t20",
@@ -444,10 +516,12 @@
    "opt_method": "certificate",
    "greedy_bad": 1101,
    "greedy_paper": 1101,
+   "opt_upper": null,
    "greedy_first": 803,
    "ratio_bad": 2.073446327683616,
+   "ratio_basis": "G/OPT",
    "verified": true,
-   "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026)"
+   "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026; superseded by v2)"
   },
   {
    "id": "shibata_k16_t1",
@@ -456,10 +530,12 @@
    "opt_method": "certificate",
    "greedy_bad": 74,
    "greedy_paper": 74,
+   "opt_upper": null,
    "greedy_first": 57,
    "ratio_bad": 1.510204081632653,
+   "ratio_basis": "G/OPT",
    "verified": true,
-   "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026)"
+   "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026; superseded by v2)"
   },
   {
    "id": "shibata_k16_t5",
@@ -468,10 +544,12 @@
    "opt_method": "certificate",
    "greedy_bad": 366,
    "greedy_paper": 366,
+   "opt_upper": null,
    "greedy_first": 265,
    "ratio_bad": 1.9783783783783784,
+   "ratio_basis": "G/OPT",
    "verified": true,
-   "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026)"
+   "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026; superseded by v2)"
   },
   {
    "id": "shibata_k16_t20",
@@ -480,10 +558,12 @@
    "opt_method": "certificate",
    "greedy_bad": 1461,
    "greedy_paper": 1461,
+   "opt_upper": null,
    "greedy_first": 1045,
    "ratio_bad": 2.102158273381295,
+   "ratio_basis": "G/OPT",
    "verified": true,
-   "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026)"
+   "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026; superseded by v2)"
   },
   {
    "id": "shibata_k20_t1",
@@ -492,10 +572,12 @@
    "opt_method": "certificate",
    "greedy_bad": 92,
    "greedy_paper": 92,
+   "opt_upper": null,
    "greedy_first": 71,
    "ratio_bad": 1.5081967213114753,
+   "ratio_basis": "G/OPT",
    "verified": true,
-   "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026)"
+   "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026; superseded by v2)"
   },
   {
    "id": "shibata_k20_t5",
@@ -504,10 +586,12 @@
    "opt_method": "certificate",
    "greedy_bad": 456,
    "greedy_paper": 456,
+   "opt_upper": null,
    "greedy_first": 327,
    "ratio_bad": 1.9912663755458515,
+   "ratio_basis": "G/OPT",
    "verified": true,
-   "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026)"
+   "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026; superseded by v2)"
   },
   {
    "id": "shibata_k20_t20",
@@ -516,10 +600,250 @@
    "opt_method": "certificate",
    "greedy_bad": 1821,
    "greedy_paper": 1821,
+   "opt_upper": null,
    "greedy_first": 1287,
    "ratio_bad": 2.119906868451688,
+   "ratio_basis": "G/OPT",
    "verified": true,
-   "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026)"
+   "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026; superseded by v2)"
+  },
+  {
+   "id": "greedy125_r1_P0",
+   "n": 5,
+   "opt": 47,
+   "opt_method": "dp",
+   "greedy_bad": 61,
+   "greedy_paper": 61,
+   "opt_upper": 47,
+   "greedy_first": 61,
+   "ratio_bad": 1.297872340425532,
+   "ratio_basis": "G/OPT",
+   "verified": true,
+   "citation": "Chukhin, Gajjala, Harviainen, Kulikov, Mihajlin, Shibata, Smal, The Greedy Superstring Conjecture Is False, arXiv:2609.01365v2 (2026), Theorem 4.1"
+  },
+  {
+   "id": "greedy125_r2_P1",
+   "n": 10,
+   "opt": 160,
+   "opt_method": "dp",
+   "greedy_bad": 261,
+   "greedy_paper": 261,
+   "opt_upper": 161,
+   "greedy_first": 261,
+   "ratio_bad": 1.63125,
+   "ratio_basis": "G/OPT",
+   "verified": true,
+   "citation": "Chukhin, Gajjala, Harviainen, Kulikov, Mihajlin, Shibata, Smal, The Greedy Superstring Conjecture Is False, arXiv:2609.01365v2 (2026), Theorem 4.1"
+  },
+  {
+   "id": "greedy125_r3_P2",
+   "n": 15,
+   "opt": 337,
+   "opt_method": "dp",
+   "greedy_bad": 600,
+   "greedy_paper": 600,
+   "opt_upper": 339,
+   "greedy_first": 600,
+   "ratio_bad": 1.7804154302670623,
+   "ratio_basis": "G/OPT",
+   "verified": true,
+   "citation": "Chukhin, Gajjala, Harviainen, Kulikov, Mihajlin, Shibata, Smal, The Greedy Superstring Conjecture Is False, arXiv:2609.01365v2 (2026), Theorem 4.1"
+  },
+  {
+   "id": "greedy125_r4_P3",
+   "n": 20,
+   "opt": 578,
+   "opt_method": "dp",
+   "greedy_bad": 1078,
+   "greedy_paper": 1078,
+   "opt_upper": 581,
+   "greedy_first": 1078,
+   "ratio_bad": 1.8650519031141868,
+   "ratio_basis": "G/OPT",
+   "verified": true,
+   "citation": "Chukhin, Gajjala, Harviainen, Kulikov, Mihajlin, Shibata, Smal, The Greedy Superstring Conjecture Is False, arXiv:2609.01365v2 (2026), Theorem 4.1"
+  },
+  {
+   "id": "greedy125_r1_P1",
+   "n": 5,
+   "opt": 56,
+   "opt_method": "dp",
+   "greedy_bad": 73,
+   "greedy_paper": 73,
+   "opt_upper": 56,
+   "greedy_first": 73,
+   "ratio_bad": 1.3035714285714286,
+   "ratio_basis": "G/OPT",
+   "verified": true,
+   "citation": "Chukhin, Gajjala, Harviainen, Kulikov, Mihajlin, Shibata, Smal, The Greedy Superstring Conjecture Is False, arXiv:2609.01365v2 (2026), Theorem 4.1"
+  },
+  {
+   "id": "greedy125_r2_P4",
+   "n": 10,
+   "opt": 202,
+   "opt_method": "dp",
+   "greedy_bad": 333,
+   "greedy_paper": 333,
+   "opt_upper": 203,
+   "greedy_first": 333,
+   "ratio_bad": 1.6485148514851484,
+   "ratio_basis": "G/OPT",
+   "verified": true,
+   "citation": "Chukhin, Gajjala, Harviainen, Kulikov, Mihajlin, Shibata, Smal, The Greedy Superstring Conjecture Is False, arXiv:2609.01365v2 (2026), Theorem 4.1"
+  },
+  {
+   "id": "greedy125_r3_P9",
+   "n": 15,
+   "opt": 470,
+   "opt_method": "dp",
+   "greedy_bad": 852,
+   "greedy_paper": 852,
+   "opt_upper": 472,
+   "greedy_first": 852,
+   "ratio_bad": 1.8127659574468085,
+   "ratio_basis": "G/OPT",
+   "verified": true,
+   "citation": "Chukhin, Gajjala, Harviainen, Kulikov, Mihajlin, Shibata, Smal, The Greedy Superstring Conjecture Is False, arXiv:2609.01365v2 (2026), Theorem 4.1"
+  },
+  {
+   "id": "greedy125_r4_P16",
+   "n": 20,
+   "opt": 890,
+   "opt_method": "dp",
+   "greedy_bad": 1702,
+   "greedy_paper": 1702,
+   "opt_upper": 893,
+   "greedy_first": 1702,
+   "ratio_bad": 1.9123595505617978,
+   "ratio_basis": "G/OPT",
+   "verified": true,
+   "citation": "Chukhin, Gajjala, Harviainen, Kulikov, Mihajlin, Shibata, Smal, The Greedy Superstring Conjecture Is False, arXiv:2609.01365v2 (2026), Theorem 4.1"
+  },
+  {
+   "id": "greedy125_r6_P36",
+   "n": 30,
+   "opt": null,
+   "opt_method": null,
+   "greedy_bad": 4683,
+   "greedy_paper": 4683,
+   "opt_upper": 2311,
+   "greedy_first": 4683,
+   "ratio_bad": 2.0263954997836433,
+   "ratio_basis": "G/|H|",
+   "verified": true,
+   "citation": "Chukhin, Gajjala, Harviainen, Kulikov, Mihajlin, Shibata, Smal, The Greedy Superstring Conjecture Is False, arXiv:2609.01365v2 (2026), Theorem 4.1"
+  },
+  {
+   "id": "greedy125_r10_P100",
+   "n": 50,
+   "opt": null,
+   "opt_method": null,
+   "greedy_bad": 17785,
+   "greedy_paper": 17785,
+   "opt_upper": 8291,
+   "greedy_first": 17785,
+   "ratio_bad": 2.145097093233627,
+   "ratio_basis": "G/|H|",
+   "verified": true,
+   "citation": "Chukhin, Gajjala, Harviainen, Kulikov, Mihajlin, Shibata, Smal, The Greedy Superstring Conjecture Is False, arXiv:2609.01365v2 (2026), Theorem 4.1"
+  },
+  {
+   "id": "greedy125_r20_P400",
+   "n": 100,
+   "opt": null,
+   "opt_method": null,
+   "greedy_bad": 119070,
+   "greedy_paper": 119070,
+   "opt_upper": 52781,
+   "greedy_first": 119070,
+   "ratio_bad": 2.2559254277107295,
+   "ratio_basis": "G/|H|",
+   "verified": true,
+   "citation": "Chukhin, Gajjala, Harviainen, Kulikov, Mihajlin, Shibata, Smal, The Greedy Superstring Conjecture Is False, arXiv:2609.01365v2 (2026), Theorem 4.1"
+  },
+  {
+   "id": "greedy125adapted_n2",
+   "n": 5,
+   "opt": 83,
+   "opt_method": "dp",
+   "greedy_bad": 109,
+   "greedy_paper": 109,
+   "opt_upper": 83,
+   "greedy_first": 109,
+   "ratio_bad": 1.3132530120481927,
+   "ratio_basis": "G/OPT",
+   "verified": true,
+   "citation": "Team report, Section 4.4: single-parameter adaptation of Chukhin, Gajjala, Harviainen, Kulikov, Mihajlin, Shibata, Smal, The Greedy Superstring Conjecture Is False, arXiv:2609.01365v2 (2026), Theorem 4.1"
+  },
+  {
+   "id": "greedy125adapted_n3",
+   "n": 10,
+   "opt": 236,
+   "opt_method": "dp",
+   "greedy_bad": 393,
+   "greedy_paper": 393,
+   "opt_upper": 236,
+   "greedy_first": 393,
+   "ratio_bad": 1.6652542372881356,
+   "ratio_basis": "G/OPT",
+   "verified": true,
+   "citation": "Team report, Section 4.4: single-parameter adaptation of Chukhin, Gajjala, Harviainen, Kulikov, Mihajlin, Shibata, Smal, The Greedy Superstring Conjecture Is False, arXiv:2609.01365v2 (2026), Theorem 4.1"
+  },
+  {
+   "id": "greedy125adapted_n4",
+   "n": 15,
+   "opt": 503,
+   "opt_method": "dp",
+   "greedy_bad": 924,
+   "greedy_paper": 924,
+   "opt_upper": 503,
+   "greedy_first": 924,
+   "ratio_bad": 1.8369781312127236,
+   "ratio_basis": "G/OPT",
+   "verified": true,
+   "citation": "Team report, Section 4.4: single-parameter adaptation of Chukhin, Gajjala, Harviainen, Kulikov, Mihajlin, Shibata, Smal, The Greedy Superstring Conjecture Is False, arXiv:2609.01365v2 (2026), Theorem 4.1"
+  },
+  {
+   "id": "greedy125adapted_n5",
+   "n": 20,
+   "opt": 914,
+   "opt_method": "dp",
+   "greedy_bad": 1774,
+   "greedy_paper": 1774,
+   "opt_upper": 914,
+   "greedy_first": 1774,
+   "ratio_bad": 1.9409190371991247,
+   "ratio_basis": "G/OPT",
+   "verified": true,
+   "citation": "Team report, Section 4.4: single-parameter adaptation of Chukhin, Gajjala, Harviainen, Kulikov, Mihajlin, Shibata, Smal, The Greedy Superstring Conjecture Is False, arXiv:2609.01365v2 (2026), Theorem 4.1"
+  },
+  {
+   "id": "greedy125adapted_n6",
+   "n": 25,
+   "opt": null,
+   "opt_method": null,
+   "greedy_bad": 3015,
+   "greedy_paper": 3015,
+   "opt_upper": 1499,
+   "greedy_first": 3015,
+   "ratio_bad": 2.0113408939292863,
+   "ratio_basis": "G/|H|",
+   "verified": true,
+   "citation": "Team report, Section 4.4: single-parameter adaptation of Chukhin, Gajjala, Harviainen, Kulikov, Mihajlin, Shibata, Smal, The Greedy Superstring Conjecture Is False, arXiv:2609.01365v2 (2026), Theorem 4.1"
+  },
+  {
+   "id": "greedy125adapted_n10",
+   "n": 45,
+   "opt": null,
+   "opt_method": null,
+   "greedy_bad": 13329,
+   "greedy_paper": 13329,
+   "opt_upper": 6179,
+   "greedy_first": 13329,
+   "ratio_bad": 2.157145169121217,
+   "ratio_basis": "G/|H|",
+   "verified": true,
+   "citation": "Team report, Section 4.4: single-parameter adaptation of Chukhin, Gajjala, Harviainen, Kulikov, Mihajlin, Shibata, Smal, The Greedy Superstring Conjecture Is False, arXiv:2609.01365v2 (2026), Theorem 4.1"
   }
  ]
 }

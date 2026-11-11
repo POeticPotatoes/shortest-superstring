@@ -5,6 +5,10 @@ For each instance it records:
 
 * **OPT**: from subset DP when ``n <= --dp-max-n``, else from a k-spectrum
   certificate, else from a value reported in the literature (``known.opt``).
+  Ratios use the reference ``ref``: the exact OPT when one is available
+  (``ref_kind=exact``).  Otherwise it is the length of a known common superstring
+  (``known.opt_upper``, e.g. H of the 12/5 construction; ``ref_kind=upper_bound``),
+  in which case the ratio is a certified *lower bound* G/|H| <= G/OPT.
   When both DP and a certificate exist, they are cross-checked.  Brute force
   cross-checks the DP when ``n <= --bf-check-max-n``.
 * **Greedy** under each fixed tie rule (``--rules``), under the paper's
@@ -44,13 +48,16 @@ from scs import ExplorationBudgetExceeded, Priority, brute_force_exact, dp_exact
 from scs.generators import derive_seed
 from scs.instance_io import environment_info, load_instances
 
-RUN_FIELDS = ["instance", "family", "batch", "n", "L", "opt", "opt_method", "algo", "rule", "tie_seed",
+RUN_FIELDS = ["instance", "family", "batch", "n", "L", "opt", "opt_method", "ref", "ref_kind", "algo", "rule",
+              "tie_seed",
               "length", "time_s", "ratio", "compression_ratio", "optimal"]
 INSTANCE_FIELDS = ["instance", "family", "batch", "path", "seed", "n_raw", "n", "L", "max_len", "alphabet",
-                   "opt", "opt_method", "dp_time_s", "greedy_first", "greedy_min_observed", "greedy_max_observed",
+                   "opt", "opt_method", "opt_upper", "ref", "ref_kind", "dp_time_s", "greedy_first", "greedy_min_observed", "greedy_max_observed",
                    "random_distinct", "random_optimal_frac", "explore_min", "explore_max", "explore_distinct",
                    "explore_states", "tie_steps_first", "ratio_first", "ratio_worst_observed", "ratio_worst_explored",
-                   "tie_sensitive", "known_greedy_bad"]
+                   "tie_sensitive", "known_greedy_bad", "greedy_paper", "ratio_paper", "ratio_random_mean",
+                   "ratio_random_max", "ratio_worst_vs_upper", "g_first_over_reference",
+                   "first_reconstructs_upper", "first_misjoin_free"]
 
 
 def timed(fn, repeats: int = 1):
@@ -110,13 +117,24 @@ def benchmark_instance(inst: dict, args) -> tuple[list[dict], dict]:
             opt, method = len(cert), "certificate"
         runs.append({**base, "algo": "certificate", "rule": "", "tie_seed": "", "length": len(cert),
                      "time_s": cert_time})
-    known_opt = (inst.get("known") or {}).get("opt")
-    if opt is None and known_opt is not None:
-        opt, method = known_opt, "known"
-    summary.update(opt=opt, opt_method=method, dp_time_s=dp_time)
-    base.update(opt=opt, opt_method=method)
+    known = inst.get("known") or {}
+    if opt is None and known.get("opt") is not None:
+        opt, method = known["opt"], "known"
+    # A known common superstring (e.g. H in the 12/5 construction) bounds OPT from above,
+    # so G/|H| <= G/OPT is a certified *lower* bound on the ratio.  Such ratios are
+    # tagged ref_kind=upper_bound and never mixed with exact ratios.
+    upper = known.get("opt_upper")
+    if inst.get("upper_superstring") is not None:
+        if not is_superstring(inst["upper_superstring"], reduced):
+            raise AssertionError(f"{iid}: stored upper_superstring is not a superstring")
+        upper = len(inst["upper_superstring"]) if upper is None else upper
+    if opt is not None and upper is not None and upper < opt:
+        raise AssertionError(f"{iid}: upper bound {upper} < OPT {opt}")
+    ref, ref_kind = (opt, "exact") if opt is not None else (upper, "upper_bound" if upper is not None else "")
+    summary.update(opt=opt, opt_method=method, dp_time_s=dp_time, opt_upper=upper, ref=ref, ref_kind=ref_kind)
+    base.update(opt=opt, opt_method=method, ref=ref, ref_kind=ref_kind)
     for r in runs:
-        r.update(opt=opt, opt_method=method)
+        r.update(opt=opt, opt_method=method, ref=ref, ref_kind=ref_kind)
 
     # ---- greedy runs (time_s excludes the shared overlap-graph build, recorded as algo=overlap_graph)
     graph, graph_time = timed(lambda: overlap_graph(reduced))
@@ -132,12 +150,16 @@ def benchmark_instance(inst: dict, args) -> tuple[list[dict], dict]:
 
     lengths = []
     first = None
+    first_sup = None
     for rule in args.rules:
         res = run_greedy(rule, rule)
+        first_sup = first_sup if first_sup is not None else res.superstring
         lengths.append(res.length)
         first = first if first is not None else res.length
+    paper_len = None
     if inst.get("tie_priority"):
-        lengths.append(run_greedy("paper", Priority(inst["tie_priority"])).length)
+        paper_len = run_greedy("paper", Priority(inst["tie_priority"])).length
+        lengths.append(paper_len)
     rand_lengths = []
     for r in range(args.random_ties):
         seed = derive_seed(args.tie_seed, iid, r)
@@ -154,7 +176,7 @@ def benchmark_instance(inst: dict, args) -> tuple[list[dict], dict]:
             ex, t = timed(lambda: greedy_outcomes(reduced, preprocess=False, max_states=args.explore_max_states))
             summary.update(explore_min=ex.min_length, explore_max=ex.max_length,
                            explore_distinct=len(ex.lengths), explore_states=ex.states,
-                           ratio_worst_explored=ratio(ex.max_length, opt))
+                           ratio_worst_explored=ratio(ex.max_length, ref))
             for algo, length in (("greedy_best_tie", ex.min_length), ("greedy_worst_tie", ex.max_length)):
                 runs.append({**base, "algo": algo, "rule": "explore", "tie_seed": "", "length": length, "time_s": t})
         except ExplorationBudgetExceeded:
@@ -163,7 +185,7 @@ def benchmark_instance(inst: dict, args) -> tuple[list[dict], dict]:
     for r in runs:
         if not isinstance(r["length"], int):
             continue
-        r["ratio"] = ratio(r["length"], opt)
+        r["ratio"] = ratio(r["length"], ref)
         r["compression_ratio"] = compression_ratio(r["length"], opt, L)
         r["optimal"] = None if opt is None else int(r["length"] == opt)
 
@@ -173,9 +195,29 @@ def benchmark_instance(inst: dict, args) -> tuple[list[dict], dict]:
         greedy_max_observed=max(lengths) if lengths else None,
         random_distinct=len(set(rand_lengths)) if rand_lengths else None,
         random_optimal_frac=(sum(x == opt for x in rand_lengths) / len(rand_lengths)) if rand_lengths and opt else None,
-        ratio_first=ratio(first, opt),
-        ratio_worst_observed=ratio(max(lengths), opt) if lengths else None,
+        ratio_first=ratio(first, ref),
+        ratio_worst_observed=ratio(max(lengths), ref) if lengths else None,
+        ratio_paper=ratio(paper_len, ref),
+        ratio_random_mean=ratio(sum(rand_lengths) / len(rand_lengths), ref) if rand_lengths else None,
+        ratio_random_max=ratio(max(rand_lengths), ref) if rand_lengths else None,
+        greedy_paper=paper_len,
+        ratio_worst_vs_upper=ratio(max(lengths), upper) if lengths else None,
     )
+    # Assembly-style metrics (genome instances): G / genome length is descriptive only.  For gapless
+    # error-free reads the stored superstring is the true genome stretch.  "Misjoin-free" then means the
+    # greedy output is a contiguous piece of it, and "reconstructs" means it equals it exactly.
+    if inst.get("reference_length") and first is not None:
+        summary["g_first_over_reference"] = first / inst["reference_length"]
+    if inst.get("gapless") and inst.get("upper_superstring") is not None and first_sup is not None:
+        circle = inst.get("circular_reference")
+        if circle:
+            # A circular genome has no start, so the output may be any rotation.  Compare with the circle.
+            misjoin_free = first_sup in circle * 3
+            summary["first_reconstructs_upper"] = int(misjoin_free and len(first_sup) >= len(circle))
+        else:
+            misjoin_free = first_sup in inst["upper_superstring"]
+            summary["first_reconstructs_upper"] = int(first_sup == inst["upper_superstring"])
+        summary["first_misjoin_free"] = int(misjoin_free)
     lo = min([x for x in (summary["greedy_min_observed"], summary.get("explore_min")) if x is not None], default=None)
     hi = max([x for x in (summary["greedy_max_observed"], summary.get("explore_max")) if x is not None], default=None)
     summary["tie_sensitive"] = None if lo is None else int(lo != hi)

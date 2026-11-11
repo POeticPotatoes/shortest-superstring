@@ -1,0 +1,63 @@
+{
+ "retrieved": "2026-11-11T15:20:32+00:00",
+ "genomes": {
+  "NC_001422.1": {
+   "accession": "NC_001422.1",
+   "title": "Escherichia phage phiX174, complete genome",
+   "length": 5386,
+   "name": "phiX174",
+   "circular": true,
+   "path": "data/real/reference/NC_001422.1.fasta",
+   "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NC_001422.1&rettype=fasta&retmode=text",
+   "sha256": "caa155c83967cc080f4f188f14f1f28c18d77448e87c3d00d3579ed348f4de2a",
+   "bytes": 5520,
+   "source": "NCBI RefSeq via E-utilities efetch"
+  },
+  "NC_045512.2": {
+   "accession": "NC_045512.2",
+   "title": "Severe acute respiratory syndrome coronavirus 2 isolate Wuhan-Hu-1, complete genome",
+   "length": 29903,
+   "name": "SARS-CoV-2 Wuhan-Hu-1",
+   "circular": false,
+   "path": "data/real/reference/NC_045512.2.fasta",
+   "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NC_045512.2&rettype=fasta&retmode=text",
+   "sha256": "0891c00cc2d503f58e0c600ce5ee64e9c64b939525c70d5486bc46cbc7cb073e",
+   "bytes": 30429,
+   "source": "NCBI RefSeq via E-utilities efetch"
+  },
+  "NC_001416.1": {
+   "accession": "NC_001416.1",
+   "title": "Enterobacteria phage lambda, complete genome",
+   "length": 48502,
+   "name": "lambda phage",
+   "circular": false,
+   "path": "data/real/reference/NC_001416.1.fasta",
+   "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NC_001416.1&rettype=fasta&retmode=text",
+   "sha256": "78a78913d3585570fa28b7cec05e4fcf067c1aaa3740d37a377f2babda70618c",
+   "bytes": 49254,
+   "source": "NCBI RefSeq via E-utilities efetch"
+  }
+ },
+ "reads": {
+  "ERR098007": {
+   "run_accession": "ERR098007",
+   "study_accession": "PRJEB2910",
+   "sample_accession": "SAMEA1094997",
+   "instrument_model": "Illumina Genome Analyzer IIx",
+   "library_layout": "SINGLE",
+   "read_count": "23332",
+   "base_count": "1770687",
+   "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/ERR098/ERR098007/ERR098007.fastq.gz",
+   "fastq_md5": "6929c1176a8ca06fe303f4d1c9fbb16e",
+   "fastq_bytes": "1836971",
+   "first_public": "2012-02-28",
+   "organism": "phiX174",
+   "reference": "NC_001422.1",
+   "path": "data/real/raw/ERR098007.fastq.gz",
+   "url": "https://ftp.sra.ebi.ac.uk/vol1/fastq/ERR098/ERR098007/ERR098007.fastq.gz",
+   "sha256": "636e948fb6680148e4fb030257e74c8421687d4effbd49d207570e893dbae01e",
+   "bytes": 1836971,
+   "source": "ENA (European Nucleotide Archive)"
+  }
+ }
+}

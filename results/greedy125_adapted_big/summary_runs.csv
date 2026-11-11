@@ -1,0 +1,17 @@
+group,n,basis,algo,runs,instances,mean_ratio,max_ratio,min_compression_ratio,optimal_rate,mean_time_s,max_time_s
+greedy125adapted_n100,495,G/|H| (lower bound),greedy[first@shuffled],5,1,1.553890,1.605260,,,0.058498,0.061807
+greedy125adapted_n100,495,G/|H| (lower bound),greedy[first],1,1,2.373700,2.373700,,,0.056189,0.056189
+greedy125adapted_n100,495,G/|H| (lower bound),greedy[last],1,1,1.779150,1.779150,,,0.039702,0.039702
+greedy125adapted_n100,495,G/|H| (lower bound),greedy[lex],1,1,1.000000,1,,,0.024359,0.024359
+greedy125adapted_n100,495,G/|H| (lower bound),greedy[paper],1,1,2.373700,2.373700,,,0.048590,0.048590
+greedy125adapted_n100,495,G/|H| (lower bound),greedy[random],5,1,1.513824,1.548800,,,0.045376,0.052646
+greedy125adapted_n100,495,G/|H| (lower bound),greedy[revlex],1,1,1.590520,1.590520,,,0.048915,0.048915
+greedy125adapted_n100,495,G/|H| (lower bound),overlap_graph,1,1,,,,,34.414500,34.414500
+greedy125adapted_n70,345,G/|H| (lower bound),greedy[first@shuffled],5,1,1.571698,1.618550,,,0.024867,0.026402
+greedy125adapted_n70,345,G/|H| (lower bound),greedy[first],1,1,2.362600,2.362600,,,0.023391,0.023391
+greedy125adapted_n70,345,G/|H| (lower bound),greedy[last],1,1,1.770420,1.770420,,,0.020267,0.020267
+greedy125adapted_n70,345,G/|H| (lower bound),greedy[lex],1,1,1.000000,1,,,0.013012,0.013012
+greedy125adapted_n70,345,G/|H| (lower bound),greedy[paper],1,1,2.362600,2.362600,,,0.022930,0.022930
+greedy125adapted_n70,345,G/|H| (lower bound),greedy[random],5,1,1.519638,1.592430,,,0.019295,0.021218
+greedy125adapted_n70,345,G/|H| (lower bound),greedy[revlex],1,1,1.586410,1.586410,,,0.019210,0.019210
+greedy125adapted_n70,345,G/|H| (lower bound),overlap_graph,1,1,,,,,8.393630,8.393630

@@ -7,7 +7,7 @@
 import _common  # noqa: F401
 from scs import (Priority, dp_exact, greedy, greedy_outcomes, kspectrum_certificate, make_tiebreaker, overlap,
                  preprocess)
-from scs.constructions import chukhin_k, shibata, tarhio_ukkonen_example7
+from scs.constructions import chukhin_k, greedy_12_5, shibata, tarhio_ukkonen_example7
 from scs.generators import random_strings, repetitive_strings, sampled_fragments
 
 
@@ -51,12 +51,23 @@ print("strings:", inst["strings"])
 print("paper execution:", r.superstring, r.length, "  OPT certificate:", kspectrum_certificate(inst["strings"]))
 print("all tie outcomes:", greedy_outcomes(inst["strings"]).lengths)
 
-section("Shibata 2026: greedy > 2 OPT (k = 10, t = 10)")
+section("Shibata v1 (9/4 family, superseded by v2): greedy > 2 OPT (k = 10, t = 10)")
 inst = shibata(10, 10)
 r = greedy(inst["strings"], Priority(inst["tie_priority"]))
 cert = kspectrum_certificate(inst["strings"])
 print(f"n = {len(inst['strings'])}, greedy (paper ties) = {r.length}, OPT = {len(cert)}, ratio = {r.length / len(cert):.4f}")
 print(f"greedy with 'first' ties = {greedy(inst['strings'], 'first').length}")
+
+section("arXiv:2609.01365v2 Theorem 4.1: the 12/5 construction (binary gap words)")
+for r in (2, 10, 20):
+    inst = greedy_12_5(r)                               # P = r^2
+    S, H = inst["strings"], inst["upper_superstring"]
+    g = greedy(S, Priority(inst["tie_priority"]))
+    print(f"r={r:2d}: n={len(S)}, paper execution G={g.length}, |H|={len(H)} >= OPT, "
+          f"certified G/|H| = {g.length / len(H):.4f}")
+inst = greedy_12_5(2)
+print(f"r=2 exact OPT = {dp_exact(inst['strings']).length} (|H| = {len(inst['upper_superstring'])}), "
+      f"X_1 = {inst['strings'][0]}")
 
 section("Generators (seeded, reproducible)")
 for inst in [random_strings(6, (4, 8), "AB", seed=1), sampled_fragments(6, 30, (5, 9), "ACGT", seed=2),

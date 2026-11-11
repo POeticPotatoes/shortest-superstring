@@ -1,0 +1,19 @@
+group,n,basis,instances,opt_methods,tie_sensitive_frac,mean_random_distinct,mean_random_optimal_frac,mean_tie_steps_first,mean_ratio_first,max_ratio_observed,max_ratio_explored,mean_g_over_reference,reconstructs_frac,misjoin_free_frac
+real/phix_err098007_exact,cov10 (n≈571),G/|H| (lower bound),3,none,1.000000,2.666667,,,0.939443,0.948457,,0.944857,,
+real/phix_err098007_exact,cov20 (n≈951),G/|H| (lower bound),3,none,0.333333,1.333333,,,0.977754,0.980851,,0.982238,,
+real/phix_err098007_exact,cov5 (n≈314),G/|H| (lower bound),3,none,0.333333,1.333333,,,0.838464,0.892202,,0.839894,,
+real/phix_err098007_exact,cov50 (n≈1668),G/|H| (lower bound),3,none,0.333333,1.333333,,,0.982691,0.984754,,0.994306,,
+real/phix_err098007_exact,covall (n≈3050),G/|H| (lower bound),1,none,0.000000,1.000000,,,0.985157,0.985157,,0.998143,,
+real/phix_err098007_raw,n1000 (n≈903),no OPT,3,none,0.333333,1.333333,,,,,,6.223420,,
+real/phix_err098007_raw,n2000 (n≈1681),no OPT,3,none,1.000000,2.000000,,,,,,11.396967,,
+real/phix_err098007_raw,n500 (n≈472),no OPT,3,none,0.666667,2.333333,,,,,,3.578907,,
+real/sim_lambda_errfree,len100_cov10 (n≈4594),G/|H| (lower bound),1,none,0.000000,1.000000,,,1.000000,1,,0.999938,1.000000,1.000000
+real/sim_lambda_errfree,len100_cov5 (n≈2362),G/|H| (lower bound),1,none,0.000000,1.000000,,,0.989201,0.989201,,0.987774,,
+real/sim_phix_err1pct,len100_cov10 (n≈534),no OPT,2,none,1.000000,1.500000,,,,,,5.916915,,
+real/sim_phix_errfree,len100_cov10 (n≈514),G/|H| (lower bound),2,none,0.000000,1.000000,,,0.988305,0.991592,,1.004085,1.000000,1.000000
+real/sim_phix_errfree,len100_cov20 (n≈968),G/|H| (lower bound),2,none,0.000000,1.000000,,,0.995985,0.997440,,1.012625,1.000000,1.000000
+real/sim_phix_errfree,len100_cov5 (n≈264),G/|H| (lower bound),2,none,0.000000,1.000000,,,0.981897,0.987548,,0.996658,1.000000,1.000000
+real/sim_phix_errfree,len100_cov50 (n≈2104),G/|H| (lower bound),1,none,0.000000,1.000000,,,0.997082,0.997082,,1.015220,1.000000,1.000000
+real/sim_phix_errfree,len50_cov10 (n≈966),G/|H| (lower bound),2,none,0.000000,1.000000,,,0.991626,0.993007,,1.000373,1.000000,1.000000
+real/sim_sars2_errfree,len100_cov10 (n≈2846),G/|H| (lower bound),2,none,0.000000,1.000000,,,1.000000,1,,0.999281,1.000000,1.000000
+real/sim_sars2_errfree,len100_cov5 (n≈1458),G/|H| (lower bound),2,none,1.000000,2.500000,,,0.991646,0.993009,,0.990620,,

@@ -2,8 +2,8 @@
  "python": "3.14.5",
  "implementation": "CPython",
  "platform": "Linux-7.0.6-arch1-1-x86_64-with-glibc2.43",
- "created": "2026-11-04T17:53:08+00:00",
- "command": "run_benchmark.py data/literature --out results/literature --random-ties 100 --explore-max-n 12",
+ "created": "2026-11-11T15:12:22+00:00",
+ "command": "run_benchmark.py data/literature --out results/literature --random-ties 100 --explore-max-n 12 --dp-max-n 20",
  "args": {
   "inputs": [
    "data/literature"
@@ -21,7 +21,7 @@
   ],
   "random_ties": 100,
   "tie_seed": 0,
-  "dp_max_n": 16,
+  "dp_max_n": 20,
   "bf_check_max_n": 7,
   "explore_max_n": 12,
   "explore_max_states": 50000,
@@ -29,6 +29,6 @@
   "timing_repeats": 1
  },
  "random_tie_seed_scheme": "derive_seed(tie_seed, instance_id, r)",
- "instances": 43,
- "elapsed_s": 29.036236759005988
+ "instances": 54,
+ "elapsed_s": 45.82430000900058
 }

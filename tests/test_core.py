@@ -27,6 +27,24 @@ class TestOverlap(unittest.TestCase):
                 self.assertLess(k, min(len(S[u]), len(S[v])))
 
 
+class TestOverlapMethods(unittest.TestCase):
+    def test_anchored_matches_prefix_index(self):
+        import random
+        rng = random.Random(5)
+        for _ in range(500):
+            alphabet = rng.choice(["AB", "ABC", "A", "01", "AAB"])
+            S = preprocess("".join(rng.choice(alphabet) for _ in range(rng.randint(1, 10)))
+                           for _ in range(rng.randint(2, 8)))
+            self.assertEqual(overlap_graph(S, "prefix"), overlap_graph(S, "anchored"), S)
+
+    def test_auto_matches_explicit_method(self):
+        from scs.constructions import greedy_12_5
+        S = greedy_12_5(4)["strings"]
+        self.assertEqual(overlap_graph(S), overlap_graph(S, "prefix"))
+        with self.assertRaises(ValueError):
+            overlap_graph(S, "nope")
+
+
 class TestPreprocess(unittest.TestCase):
     def test_slide2(self):
         self.assertEqual(preprocess(["ATT", "TT", "TTA", "ATT", "TAC"]), ["ATT", "TTA", "TAC"])

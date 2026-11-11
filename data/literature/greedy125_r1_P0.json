@@ -1,0 +1,69 @@
+{
+ "format": "scs-instance/1",
+ "id": "greedy125_r1_P0",
+ "family": "literature",
+ "strings": [
+  "00101000000010100000001",
+  "1000000010100000001010000",
+  "100000001000000010100000001",
+  "1000000010100000001000000010",
+  "01000000010000000101"
+ ],
+ "params": {
+  "r": 1,
+  "P": 0,
+  "M": 8
+ },
+ "seed": null,
+ "citation": "Chukhin, Gajjala, Harviainen, Kulikov, Mihajlin, Shibata, Smal, The Greedy Superstring Conjecture Is False, arXiv:2609.01365v2 (2026), Theorem 4.1",
+ "known": {
+  "opt": null,
+  "greedy_bad": 61,
+  "opt_upper": 47
+ },
+ "tie_priority": [
+  [
+   "00101000000010100000001",
+   "1000000010100000001010000"
+  ],
+  [
+   "100000001000000010100000001",
+   "1000000010100000001000000010"
+  ],
+  [
+   "1000000010100000001000000010",
+   "01000000010000000101"
+  ],
+  [
+   "1000000010100000001010000",
+   "100000001000000010100000001"
+  ]
+ ],
+ "notes": "OPT <= |H| only; G/|H| is a certified lower bound on G/OPT. Ratio (12Pr+(115r^2+7r)/2)/(5Pr+27r^2+4P+19r+1) -> 12/5 for P=r^2.",
+ "symbols": {},
+ "upper_superstring": "01000000010000000101000000010100000001000000010",
+ "verified": {
+  "n": 5,
+  "total_length": 123,
+  "opt": 47,
+  "opt_method": "dp",
+  "opt_superstring": "10000000101000000010000000101000000010100000001",
+  "upper_is_superstring": true,
+  "upper_matches_reported": true,
+  "upper_minus_opt": 0,
+  "greedy_paper": 61,
+  "greedy_paper_superstring": "0010100000001010000000101000000010000000101000000010000000101",
+  "greedy_matches_reported": true,
+  "greedy_first": 61,
+  "greedy_all_lengths": [
+   47,
+   51,
+   55,
+   56,
+   60,
+   61
+  ],
+  "greedy_states": 51,
+  "greedy_worst_superstring": "0010100000001010000000101000000010000000101000000010000000101"
+ }
+}

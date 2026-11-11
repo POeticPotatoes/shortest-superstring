@@ -85,14 +85,29 @@ def total_length(strings: Iterable[str]) -> int:
     return sum(len(s) for s in strings)
 
 
-def overlap_graph(strings: Sequence[str]) -> list[dict[int, int]]:
+# Above this many prefix characters (sum of len(s)^2 / 2), overlap_graph
+# switches from the prefix index to the pairwise anchored search.
+PREFIX_INDEX_LIMIT = 20_000_000
+
+
+def overlap_graph(strings: Sequence[str], method: str = "auto") -> list[dict[int, int]]:
     """Sparse overlap graph: ``g[u][v] = ov(strings[u], strings[v]) > 0`` for ``u != v``.
 
     Pairs with overlap 0 are omitted.  The strings must be substring-free.
-    Runs in time proportional to the total length of the strings times their
-    maximum length plus the number of (pair, overlap-length) matches, using a
-    hash map from prefixes to string indices.
+
+    ``method="prefix"`` indexes every proper prefix in a hash map.  It is fast for
+    many short strings but needs about ``sum(len(s)^2) / 2`` characters of memory.
+    ``method="anchored"`` checks every ordered pair with C-level string
+    searches (see :func:`_anchored_overlap`), which suits long strings such as
+    the gap words of the 12/5 construction.  ``"auto"`` picks between them
+    using :data:`PREFIX_INDEX_LIMIT`.
     """
+    if method == "auto":
+        method = "prefix" if sum(len(s) ** 2 for s in strings) // 2 <= PREFIX_INDEX_LIMIT else "anchored"
+    if method == "anchored":
+        return _overlap_graph_anchored(strings)
+    if method != "prefix":
+        raise ValueError(f"unknown overlap_graph method {method!r}")
     prefixes: dict[str, list[int]] = {}
     for v, s in enumerate(strings):
         for k in range(1, len(s)):
@@ -105,6 +120,53 @@ def overlap_graph(strings: Sequence[str]) -> list[dict[int, int]]:
         for k in range(1, len(s)):
             for v in prefixes.get(s[-k:], ()):
                 if v != u:
+                    row[v] = k
+    return graph
+
+
+def _leading_run(s: str) -> int:
+    """Length of the run of ``s[0]`` at the start of ``s``."""
+    return len(s) - len(s.lstrip(s[0]))
+
+
+def _trailing_run(s: str, c: str) -> int:
+    """Number of trailing copies of ``c`` in ``s``."""
+    return len(s) - len(s.rstrip(c))
+
+
+def _anchored_overlap(u: str, v: str, run: int) -> int:
+    """``ov(u, v)`` for distinct, mutually non-contained ``u`` and ``v``.
+
+    ``run`` is the length of the leading run of ``v[0]`` in ``v``.  An overlap
+    of length ``k <= run`` is ``v[0] * k``, so it exists iff ``u`` ends with that
+    many copies.  A longer overlap must start with the anchor
+    ``v[:run + 1]``.  We find its occurrences in ``u`` from the left and take
+    the first one where the rest of ``u`` is a prefix of ``v``.  The
+    leftmost match gives the longest overlap.
+    """
+    cap = min(len(u), len(v)) - 1
+    best = min(_trailing_run(u, v[0]), run, cap)
+    if run >= len(v):
+        return best
+    anchor = v[:run + 1]
+    j = u.find(anchor, 1)
+    while j != -1:
+        k = len(u) - j
+        if k <= cap and u.startswith(v[:k], j):
+            return max(best, k)
+        j = u.find(anchor, j + 1)
+    return best
+
+
+def _overlap_graph_anchored(strings: Sequence[str]) -> list[dict[int, int]]:
+    runs = [_leading_run(s) if s else 0 for s in strings]
+    graph: list[dict[int, int]] = [dict() for _ in strings]
+    for u, su in enumerate(strings):
+        row = graph[u]
+        for v, sv in enumerate(strings):
+            if v != u:
+                k = _anchored_overlap(su, sv, runs[v])
+                if k:
                     row[v] = k
     return graph
 

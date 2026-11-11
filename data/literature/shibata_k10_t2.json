@@ -53,7 +53,7 @@
   "t": 2
  },
  "seed": null,
- "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026)",
+ "citation": "Shibata, Disproving the Greedy Superstring Conjecture, arXiv:2609.01365v1 (2026; superseded by v2)",
  "known": {
   "opt": 53,
   "greedy_bad": 93

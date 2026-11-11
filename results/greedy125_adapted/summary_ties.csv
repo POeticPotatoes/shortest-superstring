@@ -1,0 +1,12 @@
+group,n,basis,instances,opt_methods,tie_sensitive_frac,mean_random_distinct,mean_random_optimal_frac,mean_tie_steps_first,mean_ratio_first,max_ratio_observed,max_ratio_explored,mean_g_over_reference,reconstructs_frac,misjoin_free_frac
+greedy125adapted_n10,45,G/|H| (lower bound),1,none,1.000000,50.000000,,,2.157150,2.157150,,,,
+greedy125adapted_n15,70,G/|H| (lower bound),1,none,1.000000,50.000000,,,2.233880,2.233880,,,,
+greedy125adapted_n2,5,G/OPT,1,dp,1.000000,5.000000,0.460000,,1.313250,1.313250,1.313250,,,
+greedy125adapted_n20,95,G/|H| (lower bound),1,none,1.000000,50.000000,,,2.273600,2.273600,,,,
+greedy125adapted_n3,10,G/OPT,1,dp,1.000000,12.000000,0.100000,,1.665250,1.665250,1.665250,,,
+greedy125adapted_n30,145,G/|H| (lower bound),1,none,1.000000,50.000000,,,2.314400,2.314400,,,,
+greedy125adapted_n4,15,G/OPT,1,dp,1.000000,30.000000,0.080000,,1.836980,1.836980,,,,
+greedy125adapted_n5,20,G/OPT,1,dp,1.000000,39.000000,0.000000,,1.940920,1.940920,,,,
+greedy125adapted_n50,245,G/|H| (lower bound),1,none,1.000000,50.000000,,,2.347950,2.347950,,,,
+greedy125adapted_n6,25,G/|H| (lower bound),1,none,1.000000,48.000000,,,2.011340,2.011340,,,,
+greedy125adapted_n8,35,G/|H| (lower bound),1,none,1.000000,49.000000,,,2.101480,2.101480,,,,

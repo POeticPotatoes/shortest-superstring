@@ -1,0 +1,109 @@
+group,n,basis,algo,runs,instances,mean_ratio,max_ratio,min_compression_ratio,optimal_rate,mean_time_s,max_time_s
+real/phix_err098007_exact,cov10 (n≈571),G/|H| (lower bound),greedy[first],3,3,0.939443,0.948457,,,0.015185,0.015835
+real/phix_err098007_exact,cov10 (n≈571),G/|H| (lower bound),greedy[last],3,3,0.939321,0.948273,,,0.015120,0.017363
+real/phix_err098007_exact,cov10 (n≈571),G/|H| (lower bound),greedy[lex],3,3,0.939321,0.948273,,,0.014327,0.015046
+real/phix_err098007_exact,cov10 (n≈571),G/|H| (lower bound),greedy[random],30,3,0.939296,0.948457,,,0.014666,0.018320
+real/phix_err098007_exact,cov10 (n≈571),G/|H| (lower bound),greedy[revlex],3,3,0.939321,0.948273,,,0.014449,0.015418
+real/phix_err098007_exact,cov10 (n≈571),G/|H| (lower bound),overlap_graph,3,3,,,,,0.019992,0.024472
+real/phix_err098007_exact,cov20 (n≈951),G/|H| (lower bound),greedy[first],3,3,0.977754,0.980851,,,0.047927,0.048726
+real/phix_err098007_exact,cov20 (n≈951),G/|H| (lower bound),greedy[last],3,3,0.977754,0.980851,,,0.041326,0.041993
+real/phix_err098007_exact,cov20 (n≈951),G/|H| (lower bound),greedy[lex],3,3,0.977754,0.980851,,,0.041119,0.043197
+real/phix_err098007_exact,cov20 (n≈951),G/|H| (lower bound),greedy[random],30,3,0.977766,0.980851,,,0.043379,0.053530
+real/phix_err098007_exact,cov20 (n≈951),G/|H| (lower bound),greedy[revlex],3,3,0.977754,0.980851,,,0.041663,0.043092
+real/phix_err098007_exact,cov20 (n≈951),G/|H| (lower bound),overlap_graph,3,3,,,,,0.038676,0.043246
+real/phix_err098007_exact,cov5 (n≈314),G/|H| (lower bound),greedy[first],3,3,0.838464,0.892202,,,0.004557,0.004666
+real/phix_err098007_exact,cov5 (n≈314),G/|H| (lower bound),greedy[last],3,3,0.838464,0.892202,,,0.004291,0.004390
+real/phix_err098007_exact,cov5 (n≈314),G/|H| (lower bound),greedy[lex],3,3,0.838464,0.892202,,,0.004298,0.004309
+real/phix_err098007_exact,cov5 (n≈314),G/|H| (lower bound),greedy[random],30,3,0.838439,0.892202,,,0.004476,0.006153
+real/phix_err098007_exact,cov5 (n≈314),G/|H| (lower bound),greedy[revlex],3,3,0.838402,0.892017,,,0.004394,0.004524
+real/phix_err098007_exact,cov5 (n≈314),G/|H| (lower bound),overlap_graph,3,3,,,,,0.008635,0.009801
+real/phix_err098007_exact,cov50 (n≈1668),G/|H| (lower bound),greedy[first],3,3,0.982691,0.984754,,,0.146306,0.151489
+real/phix_err098007_exact,cov50 (n≈1668),G/|H| (lower bound),greedy[last],3,3,0.982691,0.984754,,,0.131629,0.136428
+real/phix_err098007_exact,cov50 (n≈1668),G/|H| (lower bound),greedy[lex],3,3,0.982691,0.984754,,,0.132894,0.135825
+real/phix_err098007_exact,cov50 (n≈1668),G/|H| (lower bound),greedy[random],30,3,0.982715,0.984754,,,0.134016,0.139384
+real/phix_err098007_exact,cov50 (n≈1668),G/|H| (lower bound),greedy[revlex],3,3,0.982752,0.984754,,,0.133861,0.138187
+real/phix_err098007_exact,cov50 (n≈1668),G/|H| (lower bound),overlap_graph,3,3,,,,,0.080319,0.081449
+real/phix_err098007_exact,covall (n≈3050),G/|H| (lower bound),greedy[first],1,1,0.985157,0.985157,,,0.470754,0.470754
+real/phix_err098007_exact,covall (n≈3050),G/|H| (lower bound),greedy[last],1,1,0.985157,0.985157,,,0.436411,0.436411
+real/phix_err098007_exact,covall (n≈3050),G/|H| (lower bound),greedy[lex],1,1,0.985157,0.985157,,,0.441289,0.441289
+real/phix_err098007_exact,covall (n≈3050),G/|H| (lower bound),greedy[random],10,1,0.985157,0.985157,,,0.440469,0.446237
+real/phix_err098007_exact,covall (n≈3050),G/|H| (lower bound),greedy[revlex],1,1,0.985157,0.985157,,,0.439249,0.439249
+real/phix_err098007_exact,covall (n≈3050),G/|H| (lower bound),overlap_graph,1,1,,,,,0.226155,0.226155
+real/phix_err098007_raw,n1000 (n≈903),no OPT,greedy[first],3,3,,,,,0.040189,0.041290
+real/phix_err098007_raw,n1000 (n≈903),no OPT,greedy[last],3,3,,,,,0.035091,0.037039
+real/phix_err098007_raw,n1000 (n≈903),no OPT,greedy[lex],3,3,,,,,0.034510,0.034882
+real/phix_err098007_raw,n1000 (n≈903),no OPT,greedy[random],30,3,,,,,0.036426,0.038555
+real/phix_err098007_raw,n1000 (n≈903),no OPT,greedy[revlex],3,3,,,,,0.035840,0.036396
+real/phix_err098007_raw,n1000 (n≈903),no OPT,overlap_graph,3,3,,,,,0.030446,0.030895
+real/phix_err098007_raw,n2000 (n≈1681),no OPT,greedy[first],3,3,,,,,0.140357,0.142019
+real/phix_err098007_raw,n2000 (n≈1681),no OPT,greedy[last],3,3,,,,,0.127202,0.128706
+real/phix_err098007_raw,n2000 (n≈1681),no OPT,greedy[lex],3,3,,,,,0.127103,0.129339
+real/phix_err098007_raw,n2000 (n≈1681),no OPT,greedy[random],30,3,,,,,0.131131,0.141910
+real/phix_err098007_raw,n2000 (n≈1681),no OPT,greedy[revlex],3,3,,,,,0.128043,0.129065
+real/phix_err098007_raw,n2000 (n≈1681),no OPT,overlap_graph,3,3,,,,,0.072365,0.072803
+real/phix_err098007_raw,n500 (n≈472),no OPT,greedy[first],3,3,,,,,0.009602,0.009659
+real/phix_err098007_raw,n500 (n≈472),no OPT,greedy[last],3,3,,,,,0.009229,0.009447
+real/phix_err098007_raw,n500 (n≈472),no OPT,greedy[lex],3,3,,,,,0.009188,0.009361
+real/phix_err098007_raw,n500 (n≈472),no OPT,greedy[random],30,3,,,,,0.009597,0.010074
+real/phix_err098007_raw,n500 (n≈472),no OPT,greedy[revlex],3,3,,,,,0.009326,0.009385
+real/phix_err098007_raw,n500 (n≈472),no OPT,overlap_graph,3,3,,,,,0.013971,0.014685
+real/sim_lambda_errfree,len100_cov10 (n≈4594),G/|H| (lower bound),greedy[first],1,1,1.000000,1,,,0.602911,0.602911
+real/sim_lambda_errfree,len100_cov10 (n≈4594),G/|H| (lower bound),greedy[last],1,1,1.000000,1,,,0.549824,0.549824
+real/sim_lambda_errfree,len100_cov10 (n≈4594),G/|H| (lower bound),greedy[lex],1,1,1.000000,1,,,0.553194,0.553194
+real/sim_lambda_errfree,len100_cov10 (n≈4594),G/|H| (lower bound),greedy[random],10,1,1.000000,1,,,0.558149,0.657381
+real/sim_lambda_errfree,len100_cov10 (n≈4594),G/|H| (lower bound),greedy[revlex],1,1,1.000000,1,,,0.557070,0.557070
+real/sim_lambda_errfree,len100_cov10 (n≈4594),G/|H| (lower bound),overlap_graph,1,1,,,,,14.827900,14.827900
+real/sim_lambda_errfree,len100_cov5 (n≈2362),G/|H| (lower bound),greedy[first],1,1,0.989201,0.989201,,,0.244596,0.244596
+real/sim_lambda_errfree,len100_cov5 (n≈2362),G/|H| (lower bound),greedy[last],1,1,0.989201,0.989201,,,0.234081,0.234081
+real/sim_lambda_errfree,len100_cov5 (n≈2362),G/|H| (lower bound),greedy[lex],1,1,0.989201,0.989201,,,0.233905,0.233905
+real/sim_lambda_errfree,len100_cov5 (n≈2362),G/|H| (lower bound),greedy[random],10,1,0.989201,0.989201,,,0.237937,0.242707
+real/sim_lambda_errfree,len100_cov5 (n≈2362),G/|H| (lower bound),greedy[revlex],1,1,0.989201,0.989201,,,0.234561,0.234561
+real/sim_lambda_errfree,len100_cov5 (n≈2362),G/|H| (lower bound),overlap_graph,1,1,,,,,0.140796,0.140796
+real/sim_phix_err1pct,len100_cov10 (n≈534),no OPT,greedy[first],2,2,,,,,0.012316,0.012335
+real/sim_phix_err1pct,len100_cov10 (n≈534),no OPT,greedy[last],2,2,,,,,0.012017,0.012119
+real/sim_phix_err1pct,len100_cov10 (n≈534),no OPT,greedy[lex],2,2,,,,,0.014186,0.014245
+real/sim_phix_err1pct,len100_cov10 (n≈534),no OPT,greedy[random],20,2,,,,,0.012286,0.012530
+real/sim_phix_err1pct,len100_cov10 (n≈534),no OPT,greedy[revlex],2,2,,,,,0.012055,0.012138
+real/sim_phix_err1pct,len100_cov10 (n≈534),no OPT,overlap_graph,2,2,,,,,0.019382,0.019514
+real/sim_phix_errfree,len100_cov10 (n≈514),G/|H| (lower bound),greedy[first],2,2,0.988305,0.991592,,,0.006422,0.006589
+real/sim_phix_errfree,len100_cov10 (n≈514),G/|H| (lower bound),greedy[last],2,2,0.988305,0.991592,,,0.005697,0.005874
+real/sim_phix_errfree,len100_cov10 (n≈514),G/|H| (lower bound),greedy[lex],2,2,0.988305,0.991592,,,0.008237,0.008557
+real/sim_phix_errfree,len100_cov10 (n≈514),G/|H| (lower bound),greedy[random],20,2,0.988305,0.991592,,,0.005991,0.006369
+real/sim_phix_errfree,len100_cov10 (n≈514),G/|H| (lower bound),greedy[revlex],2,2,0.988305,0.991592,,,0.005896,0.006017
+real/sim_phix_errfree,len100_cov10 (n≈514),G/|H| (lower bound),overlap_graph,2,2,,,,,0.018710,0.019195
+real/sim_phix_errfree,len100_cov20 (n≈968),G/|H| (lower bound),greedy[first],2,2,0.995985,0.997440,,,0.028247,0.029799
+real/sim_phix_errfree,len100_cov20 (n≈968),G/|H| (lower bound),greedy[last],2,2,0.995985,0.997440,,,0.021211,0.021423
+real/sim_phix_errfree,len100_cov20 (n≈968),G/|H| (lower bound),greedy[lex],2,2,0.995985,0.997440,,,0.021799,0.022390
+real/sim_phix_errfree,len100_cov20 (n≈968),G/|H| (lower bound),greedy[random],20,2,0.995984,0.997440,,,0.021963,0.023357
+real/sim_phix_errfree,len100_cov20 (n≈968),G/|H| (lower bound),greedy[revlex],2,2,0.995985,0.997440,,,0.021162,0.021730
+real/sim_phix_errfree,len100_cov20 (n≈968),G/|H| (lower bound),overlap_graph,2,2,,,,,0.044078,0.045391
+real/sim_phix_errfree,len100_cov5 (n≈264),G/|H| (lower bound),greedy[first],2,2,0.981897,0.987548,,,0.002612,0.003458
+real/sim_phix_errfree,len100_cov5 (n≈264),G/|H| (lower bound),greedy[last],2,2,0.981897,0.987548,,,0.002232,0.002943
+real/sim_phix_errfree,len100_cov5 (n≈264),G/|H| (lower bound),greedy[lex],2,2,0.981897,0.987548,,,0.002241,0.002953
+real/sim_phix_errfree,len100_cov5 (n≈264),G/|H| (lower bound),greedy[random],20,2,0.981897,0.987548,,,0.002351,0.003099
+real/sim_phix_errfree,len100_cov5 (n≈264),G/|H| (lower bound),greedy[revlex],2,2,0.981897,0.987548,,,0.002315,0.003039
+real/sim_phix_errfree,len100_cov5 (n≈264),G/|H| (lower bound),overlap_graph,2,2,,,,,0.008420,0.010000
+real/sim_phix_errfree,len100_cov50 (n≈2104),G/|H| (lower bound),greedy[first],1,1,0.997082,0.997082,,,0.126835,0.126835
+real/sim_phix_errfree,len100_cov50 (n≈2104),G/|H| (lower bound),greedy[last],1,1,0.997082,0.997082,,,0.107391,0.107391
+real/sim_phix_errfree,len100_cov50 (n≈2104),G/|H| (lower bound),greedy[lex],1,1,0.997082,0.997082,,,0.110631,0.110631
+real/sim_phix_errfree,len100_cov50 (n≈2104),G/|H| (lower bound),greedy[random],10,1,0.997082,0.997082,,,0.111572,0.113502
+real/sim_phix_errfree,len100_cov50 (n≈2104),G/|H| (lower bound),greedy[revlex],1,1,0.997082,0.997082,,,0.110241,0.110241
+real/sim_phix_errfree,len100_cov50 (n≈2104),G/|H| (lower bound),overlap_graph,1,1,,,,,0.138850,0.138850
+real/sim_phix_errfree,len50_cov10 (n≈966),G/|H| (lower bound),greedy[first],2,2,0.991626,0.993007,,,0.023344,0.023511
+real/sim_phix_errfree,len50_cov10 (n≈966),G/|H| (lower bound),greedy[last],2,2,0.991626,0.993007,,,0.020316,0.020323
+real/sim_phix_errfree,len50_cov10 (n≈966),G/|H| (lower bound),greedy[lex],2,2,0.991626,0.993007,,,0.020870,0.021498
+real/sim_phix_errfree,len50_cov10 (n≈966),G/|H| (lower bound),greedy[random],20,2,0.991626,0.993007,,,0.021150,0.022289
+real/sim_phix_errfree,len50_cov10 (n≈966),G/|H| (lower bound),greedy[revlex],2,2,0.991626,0.993007,,,0.021672,0.022295
+real/sim_phix_errfree,len50_cov10 (n≈966),G/|H| (lower bound),overlap_graph,2,2,,,,,0.024422,0.024563
+real/sim_sars2_errfree,len100_cov10 (n≈2846),G/|H| (lower bound),greedy[first],2,2,1.000000,1,,,0.240057,0.243410
+real/sim_sars2_errfree,len100_cov10 (n≈2846),G/|H| (lower bound),greedy[last],2,2,1.000000,1,,,0.210834,0.217977
+real/sim_sars2_errfree,len100_cov10 (n≈2846),G/|H| (lower bound),greedy[lex],2,2,1.000000,1,,,0.205733,0.206195
+real/sim_sars2_errfree,len100_cov10 (n≈2846),G/|H| (lower bound),greedy[random],20,2,1.000000,1,,,0.208059,0.223067
+real/sim_sars2_errfree,len100_cov10 (n≈2846),G/|H| (lower bound),greedy[revlex],2,2,1.000000,1,,,0.209531,0.215042
+real/sim_sars2_errfree,len100_cov10 (n≈2846),G/|H| (lower bound),overlap_graph,2,2,,,,,0.236449,0.268156
+real/sim_sars2_errfree,len100_cov5 (n≈1458),G/|H| (lower bound),greedy[first],2,2,0.991646,0.992976,,,0.104723,0.104831
+real/sim_sars2_errfree,len100_cov5 (n≈1458),G/|H| (lower bound),greedy[last],2,2,0.991646,0.992976,,,0.096774,0.097510
+real/sim_sars2_errfree,len100_cov5 (n≈1458),G/|H| (lower bound),greedy[lex],2,2,0.991714,0.993009,,,0.097363,0.098538
+real/sim_sars2_errfree,len100_cov5 (n≈1458),G/|H| (lower bound),greedy[random],20,2,0.991663,0.993009,,,0.099476,0.102035
+real/sim_sars2_errfree,len100_cov5 (n≈1458),G/|H| (lower bound),greedy[revlex],2,2,0.991646,0.992976,,,0.096176,0.097206
+real/sim_sars2_errfree,len100_cov5 (n≈1458),G/|H| (lower bound),overlap_graph,2,2,,,,,0.076164,0.077931
